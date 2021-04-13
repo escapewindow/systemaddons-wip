@@ -1,0 +1,28 @@
+- priority: 5000
+  rule_id: 619
+  channel: nightly
+  mapping: SystemAddons-no-update
+  version: <56.0
+- priority: 4999
+  rule_id: 620
+  channel: nightly
+  mapping: SystemAddons-no-update
+  version: <57.0
+- priority: 4998
+  rule_id: 657
+  channel: nightly
+  mapping: SystemAddons-no-update
+  version: <58.0a1
+  comment: Nightly 57.*
+- priority: 4997
+  rule_id: 658
+  channel: nightly
+  mapping: SystemAddons-no-update
+  version: <59.0a1
+  comment: Nightly 58.*
+- priority: 4996
+  rule_id: 716
+  channel: nightly
+  mapping: No-Update
+  version: <60.0a1
+  comment: Nightly 59.*

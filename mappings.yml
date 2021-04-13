@@ -1,0 +1,697 @@
+No-Update:
+  hashFunction: sha512
+  name: No-Update
+  platforms:
+    Darwin_x86-gcc3-u-i386-x86_64:
+      alias: Darwin_x86_64-gcc3
+    Darwin_x86_64-gcc3:
+      locales: {}
+    Darwin_x86_64-gcc3-u-i386-x86_64:
+      alias: Darwin_x86_64-gcc3
+    Linux_x86-gcc3:
+      locales: {}
+    Linux_x86_64-gcc3:
+      locales: {}
+    WINNT_x86-msvc:
+      locales: {}
+    WINNT_x86_64-msvc:
+      locales: {}
+  product: None
+  schema_version: 1
+Superblob-0699da3cf293c2238f784defb2bbb0ae5ff02e38e3cce158f53ad9c4469f77db:
+  blobs:
+  - Asyncrendering-2.0
+  - Websensehelper-2.0
+  - baidu-code-update@mozillaonline.com-1.66
+  - google-code-correction@mozilla.org-0.9
+  - telemetry-coverage-bug1487578@mozilla.org-8.0
+  - timecop@mozilla.com-1.0
+  name: Superblob-0699da3cf293c2238f784defb2bbb0ae5ff02e38e3cce158f53ad9c4469f77db
+  schema_version: 4000
+Superblob-0c0c9c4617d142ea64e5380384c451ed5d95ba9b1f8de2307923924447923409:
+  blobs:
+  - fxmonitor@mozilla.org-2.8
+  - hotfix-update-xpi-intermediate@mozilla.com-1.0.5
+  - webcompat@mozilla.org-3.0.1
+  name: Superblob-0c0c9c4617d142ea64e5380384c451ed5d95ba9b1f8de2307923924447923409
+  schema_version: 4000
+Superblob-0f6910e3d56baeb923740a4037798fb454248630f569aa67187c8a2977974cc1:
+  blobs:
+  - jaws-esr@mozilla.org-1.1
+  name: Superblob-0f6910e3d56baeb923740a4037798fb454248630f569aa67187c8a2977974cc1
+  schema_version: 4000
+Superblob-132153416ddd192104340edb45165bdb4fddabdbc5d45903ab33cb2cf0844c32:
+  blobs:
+  - Shield-recipe-client-1.0.0
+  - disable-crash-autosubmit@mozilla.org-2.1
+  - e10srollout-1.85
+  - followonsearch-0.9.1
+  - hotfix-bug-1548973@mozilla.org-1.1.4-2
+  - timecop@mozilla.com-1.0
+  name: Superblob-132153416ddd192104340edb45165bdb4fddabdbc5d45903ab33cb2cf0844c32
+  schema_version: 4000
+Superblob-1507dda845e3d49b5576a9625c41a7af688ffff33937980e400c9f9890850cbf:
+  blobs:
+  - Aushelper-1.5
+  - Diagnostics-1.0
+  - Disablesha1rollout-1.3
+  - E10srollout-1.12
+  - Hsts-priming-1.0
+  - google-code-correction@mozilla.org-0.9
+  - telemetry-coverage-bug1487578@mozilla.org-8.0
+  - timecop@mozilla.com-1.0
+  name: Superblob-1507dda845e3d49b5576a9625c41a7af688ffff33937980e400c9f9890850cbf
+  schema_version: 4000
+Superblob-1645e71839948df71c03d7e3dc4b460354e928bfc97c2e8b6772bd97011eed6c:
+  blobs:
+  - google-code-correction@mozilla.org-0.9
+  name: Superblob-1645e71839948df71c03d7e3dc4b460354e928bfc97c2e8b6772bd97011eed6c
+  schema_version: 4000
+Superblob-1736f63ea1f59bf10f0ac45c9336818a20f27a753c72070bdc507418971f19ef:
+  blobs:
+  - acer-locale-fix@mozilla.org-1.0
+  name: Superblob-1736f63ea1f59bf10f0ac45c9336818a20f27a753c72070bdc507418971f19ef
+  schema_version: 4000
+Superblob-1fa9e1da398e319ad8bd92f7f2517cc751100ed4ce8ab8d65b26efdf0c6ecd09:
+  blobs:
+  - Aushelper-1.5
+  - google-code-correction@mozilla.org-0.9
+  - telemetry-coverage-bug1487578@mozilla.org-8.0
+  - timecop@mozilla.com-1.0
+  name: Superblob-1fa9e1da398e319ad8bd92f7f2517cc751100ed4ce8ab8d65b26efdf0c6ecd09
+  schema_version: 4000
+Superblob-26b1ac78303807dfeebb87f39cbdfd1a8a095d7fedc5d449ac6c409962a6cec8:
+  blobs:
+  - fxmonitor@mozilla.org-2.8
+  name: Superblob-26b1ac78303807dfeebb87f39cbdfd1a8a095d7fedc5d449ac6c409962a6cec8
+  schema_version: 4000
+Superblob-2c6864e7922f83e2bd5460eecb06fc1e6ef3dea5dd953dcfcca4908a8761f1bb:
+  blobs:
+  - Loop-3.1.0
+  - google-code-correction@mozilla.org-0.9
+  - telemetry-coverage-bug1487578@mozilla.org-8.0
+  name: Superblob-2c6864e7922f83e2bd5460eecb06fc1e6ef3dea5dd953dcfcca4908a8761f1bb
+  schema_version: 4000
+Superblob-2f80cc3290e59ecad6e8f22cf6a8d58ad0a4851e6f7de2b32940d5eced2b418e:
+  blobs:
+  - E10srollout-ff46-1.0
+  - Loop-3.0.0
+  - Pocket-ff46-1.0
+  - google-code-correction@mozilla.org-0.9
+  - telemetry-coverage-bug1487578@mozilla.org-8.0
+  - timecop@mozilla.com-1.0
+  name: Superblob-2f80cc3290e59ecad6e8f22cf6a8d58ad0a4851e6f7de2b32940d5eced2b418e
+  schema_version: 4000
+Superblob-339804aa420b9bb73bbfe40bbc0a12527bac9ec80e03bd4a319b783d5f158a19:
+  blobs:
+  - Asyncrendering-2.0
+  - Websensehelper-2.0
+  - google-code-correction@mozilla.org-0.9
+  - telemetry-coverage-bug1487578@mozilla.org-8.0
+  - timecop@mozilla.com-1.0
+  name: Superblob-339804aa420b9bb73bbfe40bbc0a12527bac9ec80e03bd4a319b783d5f158a19
+  schema_version: 4000
+Superblob-37912b088ccf25c56cbad0738032c05a82657692b93c07eab67006206065087c:
+  blobs:
+  - baidu-code-update@mozillaonline.com-2.66
+  - telemetry-coverage-bug1487578@mozilla.org-7.0
+  name: Superblob-37912b088ccf25c56cbad0738032c05a82657692b93c07eab67006206065087c
+  schema_version: 4000
+Superblob-40069c47a0125d5f051ae84e4059e0f04a779958640ac9a26df5d1202e4e5e62:
+  blobs:
+  - E10srollout-ff47-ff47-1.0b-1.0
+  - Loop-3.0.0
+  - Pocket-ff47-1.0.2
+  - Websensehelper-2.0
+  - google-code-correction@mozilla.org-0.9
+  - telemetry-coverage-bug1487578@mozilla.org-8.0
+  - timecop@mozilla.com-1.0
+  name: Superblob-40069c47a0125d5f051ae84e4059e0f04a779958640ac9a26df5d1202e4e5e62
+  schema_version: 4000
+Superblob-4520d1d09d75ee643fc050f7d8787604ac693e3a4fd29c7a736a47fa4e75adb9:
+  blobs:
+  - baidu-code-update@mozillaonline.com-2.66
+  - fxmonitor@mozilla.org-2.8
+  name: Superblob-4520d1d09d75ee643fc050f7d8787604ac693e3a4fd29c7a736a47fa4e75adb9
+  schema_version: 4000
+Superblob-481ac03580e4c15c3abebe35ed5c170d482e6096efa762682855555ad141ab6d:
+  blobs:
+  - disable-crash-autosubmit@mozilla.org-2.1
+  - disable-js-shared-memory@mozilla.org-2.0
+  - disable-media-wmf-nv12@mozilla.org-1.1
+  - searchvolmodelextra@mozilla.com-0.0.2
+  name: Superblob-481ac03580e4c15c3abebe35ed5c170d482e6096efa762682855555ad141ab6d
+  schema_version: 4000
+Superblob-49719945629cd7ecc1cc42e9f55709a32658abacf4285e3da66aaefddb2df39a:
+  blobs:
+  - Followonsearch-0.8.0
+  - Shield-recipe-client-1.0.0
+  - disable-crash-autosubmit@mozilla.org-2.1
+  - hotfix-bug-1548973@mozilla.org-1.1.4-2
+  - timecop@mozilla.com-1.0
+  name: Superblob-49719945629cd7ecc1cc42e9f55709a32658abacf4285e3da66aaefddb2df39a
+  schema_version: 4000
+Superblob-5a05f8893705bb20b2ffa30abce774a83d26e392c1a5d0d22c307bc6fd3087d2:
+  blobs:
+  - Aushelper-1.5
+  - baidu-code-update@mozillaonline.com-1.66
+  - google-code-correction@mozilla.org-0.9
+  - telemetry-coverage-bug1487578@mozilla.org-8.0
+  - timecop@mozilla.com-1.0
+  name: Superblob-5a05f8893705bb20b2ffa30abce774a83d26e392c1a5d0d22c307bc6fd3087d2
+  schema_version: 4000
+Superblob-5e65c137d657cb5e07ae1e336218006dabebacdbb0484976c4d29d8fe7b44023:
+  blobs:
+  - disable-crash-autosubmit@mozilla.org-2.1
+  - disable-js-shared-memory@mozilla.org-2.0
+  - followonsearch@mozilla.com-0.9.6
+  - hotfix-bug-1548973@mozilla.org-1.1.4-2
+  - shield-recipe-client@mozilla.org-65.1
+  - timecop@mozilla.com-1.0
+  name: Superblob-5e65c137d657cb5e07ae1e336218006dabebacdbb0484976c4d29d8fe7b44023
+  schema_version: 4000
+Superblob-5e92b9714b373a5af4f9155236f7e07a06a564a28f9d3b410057729e4ab0e0d3:
+  blobs:
+  - clicktoplay-rollout@mozilla.org-1.4
+  - disable-crash-autosubmit@mozilla.org-2.1
+  - disable-js-shared-memory@mozilla.org-2.0
+  - e10srollout@mozilla.org-2.05
+  - followonsearch@mozilla.com-0.9.4
+  - hotfix-bug-1548973@mozilla.org-1.1.4-2
+  - onboarding@mozilla.org-0.1
+  - screenshots@mozilla.org-10.12.0
+  - timecop@mozilla.com-1.0
+  name: Superblob-5e92b9714b373a5af4f9155236f7e07a06a564a28f9d3b410057729e4ab0e0d3
+  schema_version: 4000
+Superblob-5edeb9097dc363f46f99fb9791a6f6751fac1679ccce1bab8ea3cc2ac6a957fe:
+  blobs:
+  - disable-crash-autosubmit@mozilla.org-2.1
+  - disable-js-shared-memory@mozilla.org-2.0
+  - followonsearch@mozilla.com-0.9.6
+  - searchvolmodelextra@mozilla.com-0.0.2
+  - shield-recipe-client@mozilla.org-65.1
+  - timecop@mozilla.com-1.0
+  name: Superblob-5edeb9097dc363f46f99fb9791a6f6751fac1679ccce1bab8ea3cc2ac6a957fe
+  schema_version: 4000
+Superblob-605c24051b161630036adb6f5532f9fa47d38865234f368ecb1f128dbe00f1bc:
+  blobs:
+  - Loop-3.1.0
+  - Malware-remediation-1.1
+  - baidu-code-update@mozillaonline.com-1.66
+  - google-code-correction@mozilla.org-0.9
+  name: Superblob-605c24051b161630036adb6f5532f9fa47d38865234f368ecb1f128dbe00f1bc
+  schema_version: 4000
+Superblob-63c85879eb49222d2177c46c46440b91367995fdc2e4782b78c890e0050a4e3b:
+  blobs:
+  - tls13-version-fallback-rollout-bug1448176@mozilla.org-2.0
+  name: Superblob-63c85879eb49222d2177c46c46440b91367995fdc2e4782b78c890e0050a4e3b
+  schema_version: 4000
+Superblob-6605aecc7d2d5a37def7e7f00c637d85d71cb4f820a5714e68836a3dbb062ebb:
+  blobs:
+  - webcompat@mozilla.org-6.1.0
+  name: Superblob-6605aecc7d2d5a37def7e7f00c637d85d71cb4f820a5714e68836a3dbb062ebb
+  schema_version: 4000
+Superblob-698cc975f20140c911e62b7ed69cfd71c48cc1b587f679ecdd01328fd5fec0d1:
+  blobs:
+  - disable-js-shared-memory@mozilla.org-2.0
+  name: Superblob-698cc975f20140c911e62b7ed69cfd71c48cc1b587f679ecdd01328fd5fec0d1
+  schema_version: 4000
+Superblob-77665a8645a05ebc85a6526aec93337334b6c04a95510839e8427232b43edd57:
+  blobs:
+  - Asyncrendering-2.0
+  - D3d9fallback-1.0
+  - E10srollout-ff48-ff48-49-1.3
+  - Websensehelper-2.0
+  - baidu-code-update@mozillaonline.com-1.66
+  - google-code-correction@mozilla.org-0.9
+  - telemetry-coverage-bug1487578@mozilla.org-8.0
+  - timecop@mozilla.com-1.0
+  name: Superblob-77665a8645a05ebc85a6526aec93337334b6c04a95510839e8427232b43edd57
+  schema_version: 4000
+Superblob-7f23c702a564390a200a3ddaadaaadf8541a1b894f44b553d03e6aeb9100c8da:
+  blobs:
+  - E10srollout-ff46-1.0
+  - Loop-3.0.0
+  - Malware-remediation-1.2
+  - Pocket-ff46-1.0
+  - baidu-code-update@mozillaonline.com-1.66
+  - google-code-correction@mozilla.org-0.9
+  - telemetry-coverage-bug1487578@mozilla.org-8.0
+  - timecop@mozilla.com-1.0
+  name: Superblob-7f23c702a564390a200a3ddaadaaadf8541a1b894f44b553d03e6aeb9100c8da
+  schema_version: 4000
+Superblob-82f294102b7242788222db3ee985df0f887b4fdc3d69928d6b4340e9bd32f4da:
+  blobs:
+  - Aushelper-1.5
+  - Diagnostics-1.0
+  - Disablesha1rollout-1.3
+  - E10srollout-1.12
+  - Hsts-priming-1.0
+  - baidu-code-update@mozillaonline.com-1.66
+  - google-code-correction@mozilla.org-0.9
+  - telemetry-coverage-bug1487578@mozilla.org-8.0
+  - timecop@mozilla.com-1.0
+  name: Superblob-82f294102b7242788222db3ee985df0f887b4fdc3d69928d6b4340e9bd32f4da
+  schema_version: 4000
+Superblob-8738c77a488b6cccd2c2b87adb99e68f6cf23cd807692201e34625f642312143:
+  blobs:
+  - E10srollout-ff48-ff48-49-1.3
+  - Loop-3.0.0
+  - Pocket-ff48-1.0.4
+  - Websensehelper-2.0
+  - baidu-code-update@mozillaonline.com-1.66
+  - google-code-correction@mozilla.org-0.9
+  - telemetry-coverage-bug1487578@mozilla.org-8.0
+  - timecop@mozilla.com-1.0
+  name: Superblob-8738c77a488b6cccd2c2b87adb99e68f6cf23cd807692201e34625f642312143
+  schema_version: 4000
+Superblob-8861895d2bcbf3bc8348a49e2ca7e91a3760b5df8385b2f8e700e7adceb05c6d:
+  blobs:
+  - Disable-cert-transparency-1.0
+  - Disable-prefetch-1.0
+  - E10srollout-1.12
+  - disable-crash-autosubmit@mozilla.org-2.1
+  - hotfix-bug-1548973@mozilla.org-1.1.4-2
+  - timecop@mozilla.com-1.0
+  name: Superblob-8861895d2bcbf3bc8348a49e2ca7e91a3760b5df8385b2f8e700e7adceb05c6d
+  schema_version: 4000
+Superblob-92f0ab5fe70373ce8c2dc026c3d0c6c86cedde120db93756c4e93218985b788d:
+  blobs:
+  - hotfix-bug-1548973@mozilla.org-1.1.4-2
+  name: Superblob-92f0ab5fe70373ce8c2dc026c3d0c6c86cedde120db93756c4e93218985b788d
+  schema_version: 4000
+Superblob-954e9a534cdeabaf9f5e2c2f2b442d59d19e5df0490e00d439c9884afa1bbefc:
+  blobs:
+  - disable-js-shared-memory@mozilla.org-2.0
+  - disable-media-wmf-nv12@mozilla.org-1.1
+  - searchvolmodelextra@mozilla.com-0.0.2
+  name: Superblob-954e9a534cdeabaf9f5e2c2f2b442d59d19e5df0490e00d439c9884afa1bbefc
+  schema_version: 4000
+Superblob-97627148fbf14c7573bc6d52dbc494598a853807fbed81c8f738993fc0838975:
+  blobs:
+  - Asyncrendering-2.0
+  - D3d9fallback-1.0
+  - E10srollout-ff48-ff48-49-1.3
+  - Websensehelper-2.0
+  - google-code-correction@mozilla.org-0.9
+  - telemetry-coverage-bug1487578@mozilla.org-8.0
+  - timecop@mozilla.com-1.0
+  name: Superblob-97627148fbf14c7573bc6d52dbc494598a853807fbed81c8f738993fc0838975
+  schema_version: 4000
+Superblob-aade24461c0e906e0c96d57620370348450cd06785d90d299995eb1223afb2c0:
+  blobs:
+  - hotfix-update-xpi-intermediate@mozilla.com-1.0.5
+  - telemetry-coverage-bug1487578@mozilla.org-7.0
+  name: Superblob-aade24461c0e906e0c96d57620370348450cd06785d90d299995eb1223afb2c0
+  schema_version: 4000
+Superblob-b155c44e6ff151e36e259108abd91153f9c0f389b34e2e084d4d86572cd53000:
+  blobs:
+  - Loop-3.1.0
+  - google-code-correction@mozilla.org-0.9
+  name: Superblob-b155c44e6ff151e36e259108abd91153f9c0f389b34e2e084d4d86572cd53000
+  schema_version: 4000
+Superblob-b4d887834a792e8fe69ebe2dec29de86c211439aa1205045526dd923c1153f0d:
+  blobs:
+  - fxmonitor@mozilla.org-2.8
+  - hotfix-update-xpi-intermediate@mozilla.com-1.0.5
+  name: Superblob-b4d887834a792e8fe69ebe2dec29de86c211439aa1205045526dd923c1153f0d
+  schema_version: 4000
+Superblob-b58e09da2d9cef28041a6f3ee883a13c74f17c30370036bc5872f119e9f65a2f:
+  blobs:
+  - hotfix-bug-1548973@mozilla.org-1.1.4-2
+  - tls13-rollout-bug1442042@mozilla.org-9.0
+  name: Superblob-b58e09da2d9cef28041a6f3ee883a13c74f17c30370036bc5872f119e9f65a2f
+  schema_version: 4000
+Superblob-c36606dd3a748dfcf30394af3019a6bbd17b822b3ab2107a4c4c5a64a3f9d7a8:
+  blobs:
+  - baidu-code-update@mozillaonline.com-2.66
+  - fxmonitor@mozilla.org-2.8
+  - webcompat@mozilla.org-3.0.1
+  name: Superblob-c36606dd3a748dfcf30394af3019a6bbd17b822b3ab2107a4c4c5a64a3f9d7a8
+  schema_version: 4000
+Superblob-c8e51cd3f8537c24a1dba5de5ac782d1a3811a8ec32f3746f7e7fa5f01c8e99e:
+  blobs:
+  - E10srollout-ff47-ff47-1.0b-1.0
+  - Loop-3.0.0
+  - Pocket-ff47-1.0.2
+  - Websensehelper-2.0
+  - baidu-code-update@mozillaonline.com-1.66
+  - google-code-correction@mozilla.org-0.9
+  - telemetry-coverage-bug1487578@mozilla.org-8.0
+  - timecop@mozilla.com-1.0
+  name: Superblob-c8e51cd3f8537c24a1dba5de5ac782d1a3811a8ec32f3746f7e7fa5f01c8e99e
+  schema_version: 4000
+Superblob-cc3d6b0e6014e7adc37ff19b7374210705f274a24f3bdaba8b42e465cb64593b:
+  blobs:
+  - hotfix-bug-1548973-mozextou@mozilla.org-1.1.3
+  - jaws-esr@mozilla.org-1.1
+  name: Superblob-cc3d6b0e6014e7adc37ff19b7374210705f274a24f3bdaba8b42e465cb64593b
+  schema_version: 4000
+Superblob-d162a2eb205d6a25effdb6309f43d29ac7caccc10264de4e56ccdc5a80029ce7:
+  blobs:
+  - clicktoplay-rollout@mozilla.org-1.4
+  - disable-crash-autosubmit@mozilla.org-2.1
+  - disable-js-shared-memory@mozilla.org-2.0
+  - e10srollout@mozilla.org-2.05
+  - followonsearch@mozilla.com-0.9.4
+  - hotfix-bug-1548973@mozilla.org-1.1.4-2
+  - onboarding@mozilla.org-0.1
+  - screenshots@mozilla.org-10.12.0
+  - timecop@mozilla.com-1.0
+  - tls13-middlebox-2.0.0
+  name: Superblob-d162a2eb205d6a25effdb6309f43d29ac7caccc10264de4e56ccdc5a80029ce7
+  schema_version: 4000
+Superblob-d3542d304f7f425858e8eadd35d67e366ef1b9a28971acd54a991a714094c0a7:
+  blobs:
+  - disable-js-shared-memory@mozilla.org-2.0
+  - disable-media-wmf-nv12@mozilla.org-1.1
+  - hotfix-bug-1548973@mozilla.org-1.1.4-2
+  name: Superblob-d3542d304f7f425858e8eadd35d67e366ef1b9a28971acd54a991a714094c0a7
+  schema_version: 4000
+Superblob-dbfcc4103f50692801cc5a916d22d1551953bfc8df027c88dc7306a77cae5035:
+  blobs:
+  - reset-search-defaults@mozilla.com-1.0.6
+  name: Superblob-dbfcc4103f50692801cc5a916d22d1551953bfc8df027c88dc7306a77cae5035
+  schema_version: 4000
+Superblob-e9f8ccc3007895a3e735fa22ec7e6ff8d92cbcaf26f5ea6454befdcb377793d2:
+  blobs:
+  - reset-search-defaults@mozilla.com-1.0.3
+  name: Superblob-e9f8ccc3007895a3e735fa22ec7e6ff8d92cbcaf26f5ea6454befdcb377793d2
+  schema_version: 4000
+Superblob-ef8707416ee92b2345d94c30225e9607d53c4f833d588485243aa0178ac84ef2:
+  blobs:
+  - E10srollout-ff48-ff48-49-1.3
+  - Loop-3.0.0
+  - Pocket-ff48-1.0.4
+  - Websensehelper-2.0
+  - google-code-correction@mozilla.org-0.9
+  - telemetry-coverage-bug1487578@mozilla.org-8.0
+  - timecop@mozilla.com-1.0
+  name: Superblob-ef8707416ee92b2345d94c30225e9607d53c4f833d588485243aa0178ac84ef2
+  schema_version: 4000
+Superblob-fb25333c65f213bb772a276e15499f68ca9e4922bcb00746bc139c95c329ab9d:
+  blobs:
+  - disable-crash-autosubmit@mozilla.org-2.1
+  - disable-js-shared-memory@mozilla.org-2.0
+  - disable-media-wmf-nv12@mozilla.org-1.1
+  - hotfix-bug-1548973@mozilla.org-1.1.4-2
+  name: Superblob-fb25333c65f213bb772a276e15499f68ca9e4922bcb00746bc139c95c329ab9d
+  schema_version: 4000
+SystemAddons-ff47b-rel1:
+  hashFunction: sha512
+  name: SystemAddons-ff47b-rel1
+  product: SystemAddons
+  schema_version: 1000
+  vendors:
+    e10srollout@mozilla.org:
+      platforms:
+        Darwin_x86-gcc3-u-i386-x86_64:
+          alias: default
+        Darwin_x86_64-gcc3-u-i386-x86_64:
+          alias: default
+        Linux_x86-gcc3:
+          alias: default
+        Linux_x86_64-gcc3:
+          alias: default
+        WINNT_x86-msvc:
+          alias: default
+        WINNT_x86-msvc-x64:
+          alias: default
+        WINNT_x86-msvc-x86:
+          alias: default
+        WINNT_x86_64-msvc:
+          alias: default
+        WINNT_x86_64-msvc-x64:
+          alias: default
+        default:
+          fileUrl: https://ftp.mozilla.org/pub/system-addons/e10srollout/e10srollout@mozilla.org-1.0-ff47.xpi
+          filesize: 6263
+          hashValue: 8db32dae8167cb0608429603de8130fded7a8e10a998b528cb957dc396e4a1a9c895a798b0d5cc7a022abe7967f37bd88ce8789a2e66bdf932b7622f9a82a93d
+      version: '1.0'
+    firefox@getpocket.com:
+      platforms:
+        Darwin_x86-gcc3-u-i386-x86_64:
+          alias: default
+        Darwin_x86_64-gcc3-u-i386-x86_64:
+          alias: default
+        Linux_x86-gcc3:
+          alias: default
+        Linux_x86_64-gcc3:
+          alias: default
+        WINNT_x86-msvc:
+          alias: default
+        WINNT_x86-msvc-x64:
+          alias: default
+        WINNT_x86-msvc-x86:
+          alias: default
+        WINNT_x86_64-msvc:
+          alias: default
+        WINNT_x86_64-msvc-x64:
+          alias: default
+        default:
+          fileUrl: https://ftp.mozilla.org/pub/system-addons/pocket/firefox@getpocket.com-1.0-ff47.xpi
+          filesize: 686083
+          hashValue: 064bad718fde0e938fd644f4af526c5f665a776dd718dec6676abf5b9a3a137d2759d75989b6ef19e9ce4e7cef723f04ce8d9a34c7664db85306ab7bfb37cb15
+      version: '1.0'
+    loop@mozilla.org:
+      platforms:
+        Darwin_x86-gcc3-u-i386-x86_64:
+          alias: default
+        Darwin_x86_64-gcc3-u-i386-x86_64:
+          alias: default
+        Linux_x86-gcc3:
+          alias: default
+        Linux_x86_64-gcc3:
+          alias: default
+        WINNT_x86-msvc:
+          alias: default
+        WINNT_x86-msvc-x64:
+          alias: default
+        WINNT_x86-msvc-x86:
+          alias: default
+        WINNT_x86_64-msvc:
+          alias: default
+        WINNT_x86_64-msvc-x64:
+          alias: default
+        default:
+          fileUrl: https://ftp.mozilla.org/pub/system-addons/hello/loop@mozilla.org-1.3.2-signed.xpi
+          filesize: 2043369
+          hashValue: a746d36761b03ac26de03e4d4a9d5ebde9749071552a07a07d01e009635a53467d09e9376a234369ad5b6e88a349dcdd01daf154e02a374d54dc125ff7c47b7a
+      version: 1.3.2
+SystemAddons-ff47b-rel1-Superblob:
+  blobs:
+  - Pocket-ff47-1.0
+  - Loop-1.3.2
+  - E10srollout-ff47-1.0
+  name: SystemAddons-ff47b-rel1-Superblob
+  schema_version: 4000
+SystemAddons-ff52b-diagnostics1.0:
+  addons:
+    diagnostics@mozilla.org:
+      platforms:
+        Darwin_x86-gcc3-u-i386-x86_64:
+          alias: default
+        Darwin_x86_64-gcc3-u-i386-x86_64:
+          alias: default
+        Linux_x86-gcc3:
+          alias: default
+        Linux_x86_64-gcc3:
+          alias: default
+        WINNT_x86-msvc:
+          alias: default
+        WINNT_x86-msvc-x64:
+          alias: default
+        WINNT_x86-msvc-x86:
+          alias: default
+        WINNT_x86_64-msvc:
+          alias: default
+        WINNT_x86_64-msvc-x64:
+          alias: default
+        default:
+          fileUrl: https://ftp.mozilla.org/pub/system-addons/diagnostics/diagnostics@mozilla.org-ff51-v1.0.xpi
+          filesize: 5527
+          hashValue: eeebe35c60f8526c2c695f04480f1354443f50927a7df6017dca565e9fea47f7bfba35da2d2c2a8898bf5fd652545a0804f4fdcf2b27b75f25ba3d51a8dd6673
+      version: '1.0'
+  hashFunction: sha512
+  name: SystemAddons-ff52b-diagnostics1.0
+  product: SystemAddons
+  schema_version: 5000
+SystemAddons-ff52b-diagnostics1.0-Superblob:
+  blobs:
+  - Diagnostics-1.0
+  name: SystemAddons-ff52b-diagnostics1.0-Superblob
+  schema_version: 4000
+SystemAddons-ff53b-shield-recipe-client-1.0.0:
+  addons:
+    shield-recipe-client@mozilla.org:
+      platforms:
+        Darwin_x86-gcc3-u-i386-x86_64:
+          alias: default
+        Darwin_x86_64-gcc3-u-i386-x86_64:
+          alias: default
+        Linux_x86-gcc3:
+          alias: default
+        Linux_x86_64-gcc3:
+          alias: default
+        WINNT_x86-msvc:
+          alias: default
+        WINNT_x86-msvc-x64:
+          alias: default
+        WINNT_x86-msvc-x86:
+          alias: default
+        WINNT_x86_64-msvc:
+          alias: default
+        WINNT_x86_64-msvc-x64:
+          alias: default
+        default:
+          fileUrl: https://ftp.mozilla.org/pub/system-addons/shield-recipe-client/shield-recipe-client@mozilla.org-1.0.0-signed.xpi
+          filesize: 44954
+          hashValue: b5c3458b504a6056a96eac8dbb5ce2470deacba9a8f0eda2eeb0cb35181f28c76e40cc494558cb3036b27864205654d9a932b948e3783701bfb52899e9449ac3
+      version: 1.0.0
+  hashFunction: sha512
+  name: SystemAddons-ff53b-shield-recipe-client-1.0.0
+  product: SystemAddons
+  schema_version: 5000
+SystemAddons-hello01-45:
+  hashFunction: sha512
+  name: SystemAddons-hello01-45
+  product: SystemAddons
+  schema_version: 1000
+  vendors:
+    loop@mozilla.org:
+      platforms:
+        Darwin_x86-gcc3-u-i386-x86_64:
+          alias: default
+        Darwin_x86_64-gcc3-u-i386-x86_64:
+          alias: default
+        Linux_x86-gcc3:
+          alias: default
+        Linux_x86_64-gcc3:
+          alias: default
+        WINNT_x86-msvc:
+          alias: default
+        WINNT_x86-msvc-x64:
+          alias: default
+        WINNT_x86-msvc-x86:
+          alias: default
+        WINNT_x86_64-msvc:
+          alias: default
+        WINNT_x86_64-msvc-x64:
+          alias: default
+        default:
+          fileUrl: https://ftp.mozilla.org/pub/system-addons/hello/loop@mozilla.org-0.1-ff45.xpi
+          filesize: 1304131
+          hashValue: e6710971b540d7bbe091ed6bda70fe9dc117a966afa50d386683a08f6a34f0cb7df1c03fe6a4634340ca9d822dde304f07b6db5b8c67e8ed2d7b2299fef0abe3
+      version: '0.1'
+SystemAddons-hello012:
+  hashFunction: sha512
+  name: SystemAddons-hello012
+  product: SystemAddons
+  schema_version: 1000
+  vendors:
+    loop@mozilla.org:
+      platforms:
+        Darwin_x86-gcc3-u-i386-x86_64:
+          alias: default
+        Darwin_x86_64-gcc3-u-i386-x86_64:
+          alias: default
+        Linux_x86-gcc3:
+          alias: default
+        Linux_x86_64-gcc3:
+          alias: default
+        WINNT_x86-msvc:
+          alias: default
+        WINNT_x86-msvc-x64:
+          alias: default
+        WINNT_x86-msvc-x86:
+          alias: default
+        WINNT_x86_64-msvc:
+          alias: default
+        WINNT_x86_64-msvc-x64:
+          alias: default
+        default:
+          fileUrl: https://ftp.mozilla.org/pub/system-addons/hello/loop@mozilla.org-0.1.2-null.xpi
+          filesize: 1304022
+          hashValue: 93c1959da8de2a0eeec228b95bb7fe41e7060eb1bb8fe34ede9c65009bc7b92c6723b2e8e42d4b4fceb47d40b481555137bb66c7b8597b21181b55dc3b982110
+      version: 0.1.2
+SystemAddons-no-update:
+  hashFunction: sha512
+  name: SystemAddons-no-update
+  product: SystemAddons
+  schema_version: 1000
+  vendors: {}
+SystemAddons-shield-recipe-client-1.0.0-Superblob:
+  blobs:
+  - Shield-recipe-client-1.0.0
+  name: SystemAddons-shield-recipe-client-1.0.0-Superblob
+  schema_version: 4000
+google-code-correction@mozilla.org-0.9:
+  addons:
+    google-code-correction@mozilla.org:
+      platforms:
+        Darwin_x86-gcc3:
+          alias: default
+        Darwin_x86-gcc3-u-i386-x86_64:
+          alias: default
+        Darwin_x86_64-gcc3:
+          alias: default
+        Darwin_x86_64-gcc3-u-i386-x86_64:
+          alias: default
+        Linux_x86-gcc3:
+          alias: default
+        Linux_x86_64-gcc3:
+          alias: default
+        WINNT_x86-msvc:
+          alias: default
+        WINNT_x86-msvc-x64:
+          alias: default
+        WINNT_x86-msvc-x86:
+          alias: default
+        WINNT_x86_64-msvc:
+          alias: default
+        WINNT_x86_64-msvc-x64:
+          alias: default
+        default:
+          fileUrl: https://ftp.mozilla.org/pub/system-addons/google-code-correction/google-code-correction@mozilla.org-0.9-signed.xpi
+          filesize: 6097
+          hashValue: 0d3ae0624b424861738d62a7ff26deecae54edcc16593496af0b0b030d04603a618cd80e8d3e3bb79d795727cf3eeea91c56692799c4a4f14a795d61d217b055
+      version: '0.9'
+  hashFunction: sha512
+  name: google-code-correction@mozilla.org-0.9
+  product: SystemAddons
+  schema_version: 5000
+searchvolmodelextra@mozilla.com-0.0.2:
+  addons:
+    searchvolmodelextra@mozilla.com:
+      platforms:
+        Darwin_x86-gcc3:
+          alias: default
+        Darwin_x86-gcc3-u-i386-x86_64:
+          alias: default
+        Darwin_x86_64-gcc3:
+          alias: default
+        Darwin_x86_64-gcc3-u-i386-x86_64:
+          alias: default
+        Linux_x86-gcc3:
+          alias: default
+        Linux_x86_64-gcc3:
+          alias: default
+        WINNT_x86-msvc:
+          alias: default
+        WINNT_x86-msvc-x64:
+          alias: default
+        WINNT_x86-msvc-x86:
+          alias: default
+        WINNT_x86_64-msvc:
+          alias: default
+        WINNT_x86_64-msvc-x64:
+          alias: default
+        default:
+          fileUrl: https://ftp.mozilla.org/pub/system-addons/searchvolmodelextra/searchvolmodelextra@mozilla.com-0.0.2-signed.xpi
+          filesize: 6137
+          hashValue: 001db4398b3e2f6b1db66301b9d78773f865d640a24036d91c9edeaa2f883ad8c45fcab104ca79d21fd278330170911dfbc77bc79880b3171e9fccedee234674
+      version: 0.0.2
+  hashFunction: sha512
+  name: searchvolmodelextra@mozilla.com-0.0.2
+  product: SystemAddons
+  schema_version: 5000
