@@ -6,3 +6,4 @@
   - At most we have 69 rules in a single channel, so adjusting priorities should hopefully be ok
   - This is probably easier to do if we have version globs, e.g. `version: 68.*` or `version: 68.1.*` rather than having to rely on `version: <69` or `version: <68.2.0`
   - What about special rules? Do we need to support them?
+  - I imagine we can completely refactor the -sysaddon channel(s) and make sure they look the way we want before we refactor the prod channel(s)
