@@ -27,3 +27,19 @@
   mapping: SystemAddons-no-update
   version: <60.0a1
   comment: Nightly 59.*
+- priority: 4990
+  rule_id: 17626
+  channel: nightly-sysaddon
+  mapping: SystemAddons-no-update
+  version: <61.0a1
+  comment: Nightly 60.*
+- priority: 4985
+  rule_id: 17629
+  channel: nightly-sysaddon
+  mapping: SystemAddons-no-update
+  version: <89.0a1
+- priority: 4980
+  rule_id: 17628
+  channel: nightly-sysaddon
+  mapping: SystemAddons-no-update
+  version: <92.0a1
