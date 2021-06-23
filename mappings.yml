@@ -40,6 +40,11 @@ Superblob-0f6910e3d56baeb923740a4037798fb454248630f569aa67187c8a2977974cc1:
   - jaws-esr@mozilla.org-1.1
   name: Superblob-0f6910e3d56baeb923740a4037798fb454248630f569aa67187c8a2977974cc1
   schema_version: 4000
+Superblob-100738938e4588a63e634e0814f2027b6d3777efafdaf8d078952d52c15e7c33:
+  blobs:
+  - reset-search-defaults@mozilla.com-2.0.0-3
+  name: Superblob-100738938e4588a63e634e0814f2027b6d3777efafdaf8d078952d52c15e7c33
+  schema_version: 4000
 Superblob-132153416ddd192104340edb45165bdb4fddabdbc5d45903ab33cb2cf0844c32:
   blobs:
   - Shield-recipe-client-1.0.0

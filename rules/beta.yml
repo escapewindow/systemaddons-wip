@@ -102,3 +102,17 @@
   blobs:
   - reset-search-defaults@mozilla.com-1.0.3
   comment: Updates for 86.*
+- priority: 65
+  rule_id: 17635
+  channel: beta
+  mapping: SystemAddons-no-update
+  version: <90.0
+  comment: Updates for 90.*
+- priority: 63
+  rule_id: 17634
+  channel: beta
+  mapping: Superblob-100738938e4588a63e634e0814f2027b6d3777efafdaf8d078952d52c15e7c33
+  version: <91.0
+  blobs:
+  - reset-search-defaults@mozilla.com-2.0.0-3
+  comment: Updates for 90.*
