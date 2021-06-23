@@ -73,14 +73,14 @@ async def async_main(config):
     ):
         sorted_rules.append(expand_rule(config, mappings, rule))
     for channel in set([r["channel"] for r in sorted_rules]):
-        with open(f"rules/{channel}.yml", "w") as fh:
+        with open(f"existing/rules/{channel}.yml", "w") as fh:
             fh.write(
                 yaml.dump(
                     [r for r in sorted_rules if r["channel"] == channel],
                     sort_keys=False,
                 )
             )
-    with open("mappings.yml", "w") as fh:
+    with open("existing/mappings.yml", "w") as fh:
         fh.write(yaml.dump(mappings))
 
 
