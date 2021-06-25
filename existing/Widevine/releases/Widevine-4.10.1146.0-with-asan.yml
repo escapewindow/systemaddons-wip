@@ -1,0 +1,40 @@
+hashFunction: sha512
+name: Widevine-4.10.1146.0-with-asan
+product: Widevine
+schema_version: 1000
+vendors:
+  gmp-widevinecdm:
+    platforms:
+      Darwin_x86_64-gcc3:
+        alias: Darwin_x86_64-gcc3-u-i386-x86_64
+      Darwin_x86_64-gcc3-u-i386-x86_64:
+        fileUrl: https://redirector.gvt1.com/edgedl/widevine-cdm/4.10.1146.0-mac-x64.zip
+        filesize: 3331068
+        hashValue: 3b318f39808c7f8e2cc23e79cbfa164d189a100241d3f706a094cd4a3b534026948add3ecc54e06a64b6db7439f44a65cfae275ed0006f0cee2aef2224a6e4a0
+      Linux_x86-gcc3:
+        fileUrl: https://redirector.gvt1.com/edgedl/widevine-cdm/4.10.1146.0-linux-ia32.zip
+        filesize: 3199840
+        hashValue: d8f440eca56b6a77bda8c10e84c840c9abe76be874fad97464456612845595518656a48a386c4ba647f9fd7a8011ce50720c8c0cd6d540e6cf16dccde7595abd
+      Linux_x86_64-gcc3:
+        fileUrl: https://redirector.gvt1.com/edgedl/widevine-cdm/4.10.1146.0-linux-x64.zip
+        filesize: 3057741
+        hashValue: 3ead88fe1ee8aa265176ad05552da7b3b97a900bd0d3c0d0255be5a6c59a2b8147f235d9c72bc30c8c21b3c90df4514ef8d9b6d940cbdba486a63a45724c6557
+      Linux_x86_64-gcc3-asan:
+        alias: Linux_x86_64-gcc3
+      WINNT_x86-msvc:
+        fileUrl: https://redirector.gvt1.com/edgedl/widevine-cdm/4.10.1146.0-win-ia32.zip
+        filesize: 3554840
+        hashValue: d00fb1ce1b7d359ac0f06480d83960fc9aae25f6933e736483c7e27f86ad70a2ca7bfe45027874d1b619d3b72944372d5a7fb124ade4978efdcaeff0cc6c415b
+      WINNT_x86-msvc-x64:
+        alias: WINNT_x86-msvc
+      WINNT_x86-msvc-x86:
+        alias: WINNT_x86-msvc
+      WINNT_x86_64-msvc:
+        fileUrl: https://redirector.gvt1.com/edgedl/widevine-cdm/4.10.1146.0-win-x64.zip
+        filesize: 3523651
+        hashValue: 6879b1a718f121eaca93864fa08dc29d5cd5adbdcfc3c3b7dd8cabea768ef4b2cc44b0d43bd04ce2768bea8039faf0a2ebc6d81247101abbe28efda253c89197
+      WINNT_x86_64-msvc-x64:
+        alias: WINNT_x86_64-msvc
+      WINNT_x86_64-msvc-x64-asan:
+        alias: WINNT_x86_64-msvc
+    version: 4.10.1146.0

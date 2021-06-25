@@ -1,0 +1,40 @@
+hashFunction: sha512
+name: Widevine-4.10.1440.18
+product: Widevine
+schema_version: 1000
+vendors:
+  gmp-widevinecdm:
+    platforms:
+      Darwin_x86_64-gcc3:
+        alias: Darwin_x86_64-gcc3-u-i386-x86_64
+      Darwin_x86_64-gcc3-u-i386-x86_64:
+        fileUrl: https://redirector.gvt1.com/edgedl/widevine-cdm/4.10.1440.18-mac-x64.zip
+        filesize: 3742894
+        hashValue: 15d83ad7274b8735351b9d221d84c2f42b87d6f112d4731c589cd28e039f48ee0cee9d5deef750941d3bda80e5ace316aecaea169b21fc45dc1a837edd452922
+      Linux_x86-gcc3:
+        fileUrl: https://redirector.gvt1.com/edgedl/widevine-cdm/4.10.1440.18-linux-ia32.zip
+        filesize: 3855473
+        hashValue: 5b9e0636b601fdeb919774b25e5d88978b71dec9a04e8491d781ef3a2e40f74dd7de9b45739f4adce4a4b1a1457388e467e90aa33de2aa205cb4add075baafdf
+      Linux_x86_64-gcc3:
+        fileUrl: https://redirector.gvt1.com/edgedl/widevine-cdm/4.10.1440.18-linux-x64.zip
+        filesize: 3540154
+        hashValue: 165de3f90fad0e3fe1ce2d6789e69608f4bd1c2cf3e59294df67a7c7e3ef07ec265b084e5034645391b12ce1b8c3cb82a4b6b2d1c6c8a0114c2affef5e6e923e
+      Linux_x86_64-gcc3-asan:
+        alias: Linux_x86_64-gcc3
+      WINNT_aarch64-msvc-aarch64:
+        alias: WINNT_x86-msvc
+      WINNT_x86-msvc:
+        fileUrl: https://redirector.gvt1.com/edgedl/widevine-cdm/4.10.1440.18-win-ia32.zip
+        filesize: 4980571
+        hashValue: 22bececf64820ba200fc9c05fdbec27fbe8c4cb744f265025927cd957651ca2bf2ed66825f9a70f3d516594857408ffe9307db406c5d0dcc029707a88f78eb2c
+      WINNT_x86-msvc-x64:
+        alias: WINNT_x86-msvc
+      WINNT_x86-msvc-x86:
+        alias: WINNT_x86-msvc
+      WINNT_x86_64-msvc:
+        fileUrl: https://redirector.gvt1.com/edgedl/widevine-cdm/4.10.1440.18-win-x64.zip
+        filesize: 4753555
+        hashValue: 361b4c10789ba1da4083cedd68c11e0e663de0cb06479a73997227c2121c5088db0d797c5f20bc648c4c84a65dad45f7d0d81f36c52a8a44e527412216cbff37
+      WINNT_x86_64-msvc-x64:
+        alias: WINNT_x86_64-msvc
+    version: 4.10.1440.18

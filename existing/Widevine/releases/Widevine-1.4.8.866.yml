@@ -1,0 +1,32 @@
+hashFunction: sha512
+name: Widevine-1.4.8.866
+product: Widevine
+schema_version: 1000
+vendors:
+  gmp-widevinecdm:
+    platforms:
+      Darwin_x86-gcc3:
+        alias: Darwin_x86-gcc3-u-i386-x86_64
+      Darwin_x86-gcc3-u-i386-x86_64:
+        fileUrl: https://clients2.googleusercontent.com/crx/blobs/QwAAAHF3InbmK-wFIemaY3I3BCNBg8r65TbaAwbDoXvQTFHyscauwpRzTgDtckVDJL7xSI-QPPsi4Ga_v-9gFX5Oa9AGlvYCddTDRpbQHextOpBiAMZSmuUQozcB8RrPw-te0h0bgcJTNuHu9g/
+        filesize: 2189136
+        hashValue: 21a85b88a5ca007faf44bbe9f854b9d02a980cedd07bfd586445cb32a749cb2704c9235ec7c1f942925989ee23ac23a6983c67195af1af551f360749b98e02b3
+      Darwin_x86_64-gcc3:
+        alias: Darwin_x86-gcc3-u-i386-x86_64
+      Darwin_x86_64-gcc3-u-i386-x86_64:
+        alias: Darwin_x86-gcc3-u-i386-x86_64
+      WINNT_x86-msvc:
+        fileUrl: https://clients2.googleusercontent.com/crx/blobs/QwAAAHF3InbmK-wFIemaY3I3BCOrQhs58MSM0PACaKZwziDKslDhLuYcy_uiEOziZrKSpdyKC2u0xWpTd8_mlQlb2TOoodI6B6uEyCjEHUIiCrE_AMZSmuUICZ9D46JdFolcNTWzSkVgupRLMQ/
+        filesize: 3984450
+        hashValue: 7a8f3066fb002d80d487322804cda488faa790c0246fdc20bf549b8bbb5dcebca7dd98a569482bf3c66bd8085b28b8e99b5d8f7d5423665e766bd9c4ed475c61
+      WINNT_x86-msvc-x64:
+        alias: WINNT_x86-msvc
+      WINNT_x86-msvc-x86:
+        alias: WINNT_x86-msvc
+      WINNT_x86_64-msvc:
+        fileUrl: https://clients2.googleusercontent.com/crx/blobs/QwAAAHF3InbmK-wFIemaY3I3BCNvR2rrX0K23b0p5zZ1qOLkmIGJvKmgmRfkCKAUDhVGGsjhvvC0i6KY-t7IphgJnrRaZR1a15eJ6xRF6F9qjEOHAMZSmuXskSZVj783rPph4Nibpn-frK1g9w/
+        filesize: 4022211
+        hashValue: 27f985d2f9dd7acd213d3650c2f684840d7f542af43bfe2c1185f526e7b89c21e1d0b481d12dcb45d00fb2e9897847f8b51d1e3e71f8896a0ffa84e073ac4de1
+      WINNT_x86_64-msvc-x64:
+        alias: WINNT_x86_64-msvc
+    version: 1.4.8.866

@@ -1,0 +1,36 @@
+hashFunction: sha512
+name: Widevine-1.4.8.970
+product: Widevine
+schema_version: 1000
+vendors:
+  gmp-widevinecdm:
+    platforms:
+      Darwin_x86_64-gcc3:
+        alias: Darwin_x86_64-gcc3-u-i386-x86_64
+      Darwin_x86_64-gcc3-u-i386-x86_64:
+        fileUrl: https://redirector.gvt1.com/edgedl/widevine-cdm/970-mac-x64.zip
+        filesize: 1681446
+        hashValue: e96daedccbb318ff4de2e2d8ffe928e0aaacec7794ca05893d37461ee11e52830c736128ecebe311e973c125ac46435ef011a82ca06f602a085bc6d43f5127c1
+      Linux_x86-gcc3:
+        fileUrl: https://redirector.gvt1.com/edgedl/widevine-cdm/970-linux-ia32.zip
+        filesize: 2296162
+        hashValue: 7f66257164909f5f41ffc2f18b832f7cbaada1db444b4a118df0a4018b4b177bbacd91d0df8b3d4e665448b96a8604485dd57e63bc28bccf638fbf7c9faa5ac5
+      Linux_x86_64-gcc3:
+        fileUrl: https://redirector.gvt1.com/edgedl/widevine-cdm/970-linux-x64.zip
+        filesize: 2210161
+        hashValue: 7a5e5b500264478bd860e6a490995d00c5b065891d7538352f7b930bd75b614738cd4e9058f717d1432cec076e1d5d4aa5bed080d3c8a92b928da203a207ba69
+      WINNT_x86-msvc:
+        fileUrl: https://redirector.gvt1.com/edgedl/widevine-cdm/970-win-ia32.zip
+        filesize: 2342279
+        hashValue: 5d658579d19e26038a0f5305395733774aa1663c46341c599f74e18c2a84edcc2c909ef752b818b3c7eaf49c1baf7e1b56f56b701fd379e644796830029aa48f
+      WINNT_x86-msvc-x64:
+        alias: WINNT_x86-msvc
+      WINNT_x86-msvc-x86:
+        alias: WINNT_x86-msvc
+      WINNT_x86_64-msvc:
+        fileUrl: https://redirector.gvt1.com/edgedl/widevine-cdm/970-win-x64.zip
+        filesize: 2346464
+        hashValue: 79a60aa7ff62cb0c222740d3cc5e10a5d392153bd3e4436162f35b7076ee6478206dd017a494692ded95804b8727236ac08715beb2564e3907a190b605d5ed75
+      WINNT_x86_64-msvc-x64:
+        alias: WINNT_x86_64-msvc
+    version: 1.4.8.970

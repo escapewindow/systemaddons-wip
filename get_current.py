@@ -22,6 +22,15 @@ SERVER_CONFIG = {
     },
 }
 
+PRODUCT_CONFIG = {
+    "SystemAddons": {
+        "single_rules_file": False,
+    },
+    "Widevine": {
+        "single_rules_file": True,
+    }
+}
+
 
 def expand_rule(config, mappings, unexpanded_rule):
     expanded_rule = {}
@@ -49,7 +58,7 @@ async def get_release(release_url, verify_ssl=True):
             return await response.json()
 
 
-async def async_main(config, product):
+async def populate_product(config, product):
     async with aiohttp.ClientSession() as session:
         async with session.get(
             config["rules_url"].format(product=product), verify_ssl=config["verify_ssl"]
@@ -76,24 +85,42 @@ async def async_main(config, product):
         reverse=True,
     ):
         sorted_rules.append(expand_rule(config, mappings, rule))
-    for channel in set([r["channel"] for r in sorted_rules]):
-        with open(f"existing/{product}/rules/{channel}.yml", "w") as fh:
-            fh.write(
-                yaml.dump(
-                    [r for r in sorted_rules if r["channel"] == channel],
-                    sort_keys=False,
-                )
-            )
+    dump_rules(product, sorted_rules)
     for release in sorted(mappings):
         with open(f"existing/{product}/releases/{release}.yml", "w") as fh:
             fh.write(yaml.dump(mappings[release]))
 
 
+def dump_rules(product, sorted_rules):
+    if PRODUCT_CONFIG[product]["single_rules_file"]:
+        with open(f"existing/{product}/rules.yml", "w") as fh:
+            fh.write(
+                yaml.dump([r for r in sorted_rules], sort_keys=False)
+            )
+    else:
+        for channel in set([r["channel"] for r in sorted_rules]):
+            with open(f"existing/{product}/rules/{channel}.yml", "w") as fh:
+                fh.write(
+                    yaml.dump(
+                        [r for r in sorted_rules if r["channel"] == channel],
+                        sort_keys=False,
+                    )
+                )
+
+
+async def async_main(config, products):
+    tasks = []
+    for product in products:
+        tasks.append(populate_product(config, product))
+    await asyncio.gather(*tasks)
+
+
 def main():
     # XXX argparse to allow for local vs staging vs prod?
     loop = asyncio.get_event_loop()
-    loop.run_until_complete(async_main(SERVER_CONFIG["production"], "SystemAddons"))
-    # loop.run_until_complete(async_main(SERVER_CONFIG["production"], "Widevine"))
+    loop.run_until_complete(
+        async_main(SERVER_CONFIG["production"], PRODUCT_CONFIG.keys())
+    )
 
 
 __name__ == "__main__" and main()
