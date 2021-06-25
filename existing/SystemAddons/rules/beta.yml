@@ -11,6 +11,7 @@
   channel: beta
   mapping: No-Update
   version: <54.0
+  backgroundRate: 10
   comment: System add-on updates to 53.* (beta)
 - priority: 100
   rule_id: 513
@@ -53,12 +54,14 @@
   channel: beta
   mapping: SystemAddons-no-update
   version: <56.0
+  backgroundRate: 10
   comment: System add-on updates to 55.* (beta)
 - priority: 97
   rule_id: 642
   channel: beta
   mapping: SystemAddons-no-update
   version: <57.0
+  backgroundRate: 5
   comment: System addons for beta 56.*
 - priority: 96
   rule_id: 693

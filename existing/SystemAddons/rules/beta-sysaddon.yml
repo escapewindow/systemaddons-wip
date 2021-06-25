@@ -45,12 +45,14 @@
   channel: beta-sysaddon
   mapping: SystemAddons-no-update
   version: <56.0
+  backgroundRate: 10
   comment: System add-on updates to 55.* (beta)
 - priority: 97
   rule_id: 635
   channel: beta-sysaddon
   mapping: SystemAddons-no-update
   version: <57.0
+  backgroundRate: 5
   comment: System addons for beta 56.*
 - priority: 96
   rule_id: 690

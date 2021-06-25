@@ -12,13 +12,13 @@ SERVER_CONFIG = {
         "server": "https://localhost:8010",
         "verify_ssl": False,
         "release_url": "https://localhost:8010/releases/{release}",
-        "rules_url": "https://localhost:8010/rules?product=SystemAddons",
+        "rules_url": "https://localhost:8010/rules?product={product}",
     },
     "production": {
         "server": "https://aus-api.mozilla.org",
         "verify_ssl": True,
         "release_url": "https://aus-api.mozilla.org/api/v1/releases/{release}",
-        "rules_url": "https://aus-api.mozilla.org/api/v1/rules?product=SystemAddons",
+        "rules_url": "https://aus-api.mozilla.org/api/v1/rules?product={product}",
     },
 }
 
@@ -32,7 +32,11 @@ def expand_rule(config, mappings, unexpanded_rule):
     if "blobs" in mappings[expanded_rule["mapping"]]:
         expanded_rule["blobs"] = mappings[expanded_rule["mapping"]]["blobs"][:]
     for key in sorted(unexpanded_rule.keys()):
-        if key in ("data_version", "update_type", "backgroundRate", "product"):
+        if (
+            (key == "backgroundRate" and unexpanded_rule[key] == 100)
+            or (key == "update_type" and unexpanded_rule[key] == "minor")
+            or key in ("product", "data_version")
+        ):
             continue
         if unexpanded_rule[key] is not None:
             expanded_rule[key] = unexpanded_rule[key]
@@ -45,10 +49,10 @@ async def get_release(release_url, verify_ssl=True):
             return await response.json()
 
 
-async def async_main(config):
+async def async_main(config, product):
     async with aiohttp.ClientSession() as session:
         async with session.get(
-            config["rules_url"], verify_ssl=config["verify_ssl"]
+            config["rules_url"].format(product=product), verify_ssl=config["verify_ssl"]
         ) as response:
             rules = await response.json()
     futures = []
@@ -73,7 +77,7 @@ async def async_main(config):
     ):
         sorted_rules.append(expand_rule(config, mappings, rule))
     for channel in set([r["channel"] for r in sorted_rules]):
-        with open(f"existing/rules/{channel}.yml", "w") as fh:
+        with open(f"existing/{product}/rules/{channel}.yml", "w") as fh:
             fh.write(
                 yaml.dump(
                     [r for r in sorted_rules if r["channel"] == channel],
@@ -81,14 +85,15 @@ async def async_main(config):
                 )
             )
     for release in sorted(mappings):
-        with open(f"existing/releases/{release}.yml", "w") as fh:
+        with open(f"existing/{product}/releases/{release}.yml", "w") as fh:
             fh.write(yaml.dump(mappings[release]))
 
 
 def main():
     # XXX argparse to allow for local vs staging vs prod?
     loop = asyncio.get_event_loop()
-    loop.run_until_complete(async_main(SERVER_CONFIG["production"]))
+    loop.run_until_complete(async_main(SERVER_CONFIG["production"], "SystemAddons"))
+    # loop.run_until_complete(async_main(SERVER_CONFIG["production"], "Widevine"))
 
 
 __name__ == "__main__" and main()
