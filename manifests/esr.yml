@@ -1,0 +1,11 @@
+---
+- esr
+  - versions: [68.0.*,68.1.*]
+    blobs:
+    - webcompat@mozilla.org-6.1.0
+  - version: 60.*
+    blobs:
+    - jaws-esr@mozilla.org-1.1
+  - version: 52.*
+    blobs:
+    - hotfix-bug-1548973@mozilla.org-1.1.4-2
