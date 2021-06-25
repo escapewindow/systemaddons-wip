@@ -1,0 +1,30 @@
+hashFunction: sha512
+name: SystemAddons-hello012
+product: SystemAddons
+schema_version: 1000
+vendors:
+  loop@mozilla.org:
+    platforms:
+      Darwin_x86-gcc3-u-i386-x86_64:
+        alias: default
+      Darwin_x86_64-gcc3-u-i386-x86_64:
+        alias: default
+      Linux_x86-gcc3:
+        alias: default
+      Linux_x86_64-gcc3:
+        alias: default
+      WINNT_x86-msvc:
+        alias: default
+      WINNT_x86-msvc-x64:
+        alias: default
+      WINNT_x86-msvc-x86:
+        alias: default
+      WINNT_x86_64-msvc:
+        alias: default
+      WINNT_x86_64-msvc-x64:
+        alias: default
+      default:
+        fileUrl: https://ftp.mozilla.org/pub/system-addons/hello/loop@mozilla.org-0.1.2-null.xpi
+        filesize: 1304022
+        hashValue: 93c1959da8de2a0eeec228b95bb7fe41e7060eb1bb8fe34ede9c65009bc7b92c6723b2e8e42d4b4fceb47d40b481555137bb66c7b8597b21181b55dc3b982110
+    version: 0.1.2

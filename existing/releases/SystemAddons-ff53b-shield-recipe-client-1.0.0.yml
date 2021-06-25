@@ -1,0 +1,30 @@
+addons:
+  shield-recipe-client@mozilla.org:
+    platforms:
+      Darwin_x86-gcc3-u-i386-x86_64:
+        alias: default
+      Darwin_x86_64-gcc3-u-i386-x86_64:
+        alias: default
+      Linux_x86-gcc3:
+        alias: default
+      Linux_x86_64-gcc3:
+        alias: default
+      WINNT_x86-msvc:
+        alias: default
+      WINNT_x86-msvc-x64:
+        alias: default
+      WINNT_x86-msvc-x86:
+        alias: default
+      WINNT_x86_64-msvc:
+        alias: default
+      WINNT_x86_64-msvc-x64:
+        alias: default
+      default:
+        fileUrl: https://ftp.mozilla.org/pub/system-addons/shield-recipe-client/shield-recipe-client@mozilla.org-1.0.0-signed.xpi
+        filesize: 44954
+        hashValue: b5c3458b504a6056a96eac8dbb5ce2470deacba9a8f0eda2eeb0cb35181f28c76e40cc494558cb3036b27864205654d9a932b948e3783701bfb52899e9449ac3
+    version: 1.0.0
+hashFunction: sha512
+name: SystemAddons-ff53b-shield-recipe-client-1.0.0
+product: SystemAddons
+schema_version: 5000

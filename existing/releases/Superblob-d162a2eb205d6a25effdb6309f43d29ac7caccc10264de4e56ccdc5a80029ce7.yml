@@ -1,0 +1,13 @@
+blobs:
+- clicktoplay-rollout@mozilla.org-1.4
+- disable-crash-autosubmit@mozilla.org-2.1
+- disable-js-shared-memory@mozilla.org-2.0
+- e10srollout@mozilla.org-2.05
+- followonsearch@mozilla.com-0.9.4
+- hotfix-bug-1548973@mozilla.org-1.1.4-2
+- onboarding@mozilla.org-0.1
+- screenshots@mozilla.org-10.12.0
+- timecop@mozilla.com-1.0
+- tls13-middlebox-2.0.0
+name: Superblob-d162a2eb205d6a25effdb6309f43d29ac7caccc10264de4e56ccdc5a80029ce7
+schema_version: 4000

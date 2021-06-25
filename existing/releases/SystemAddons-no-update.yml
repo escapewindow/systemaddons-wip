@@ -1,0 +1,5 @@
+hashFunction: sha512
+name: SystemAddons-no-update
+product: SystemAddons
+schema_version: 1000
+vendors: {}

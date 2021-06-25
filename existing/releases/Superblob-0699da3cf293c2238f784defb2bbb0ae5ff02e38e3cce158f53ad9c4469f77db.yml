@@ -1,0 +1,9 @@
+blobs:
+- Asyncrendering-2.0
+- Websensehelper-2.0
+- baidu-code-update@mozillaonline.com-1.66
+- google-code-correction@mozilla.org-0.9
+- telemetry-coverage-bug1487578@mozilla.org-8.0
+- timecop@mozilla.com-1.0
+name: Superblob-0699da3cf293c2238f784defb2bbb0ae5ff02e38e3cce158f53ad9c4469f77db
+schema_version: 4000

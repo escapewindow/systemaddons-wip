@@ -1,0 +1,34 @@
+addons:
+  google-code-correction@mozilla.org:
+    platforms:
+      Darwin_x86-gcc3:
+        alias: default
+      Darwin_x86-gcc3-u-i386-x86_64:
+        alias: default
+      Darwin_x86_64-gcc3:
+        alias: default
+      Darwin_x86_64-gcc3-u-i386-x86_64:
+        alias: default
+      Linux_x86-gcc3:
+        alias: default
+      Linux_x86_64-gcc3:
+        alias: default
+      WINNT_x86-msvc:
+        alias: default
+      WINNT_x86-msvc-x64:
+        alias: default
+      WINNT_x86-msvc-x86:
+        alias: default
+      WINNT_x86_64-msvc:
+        alias: default
+      WINNT_x86_64-msvc-x64:
+        alias: default
+      default:
+        fileUrl: https://ftp.mozilla.org/pub/system-addons/google-code-correction/google-code-correction@mozilla.org-0.9-signed.xpi
+        filesize: 6097
+        hashValue: 0d3ae0624b424861738d62a7ff26deecae54edcc16593496af0b0b030d04603a618cd80e8d3e3bb79d795727cf3eeea91c56692799c4a4f14a795d61d217b055
+    version: '0.9'
+hashFunction: sha512
+name: google-code-correction@mozilla.org-0.9
+product: SystemAddons
+schema_version: 5000

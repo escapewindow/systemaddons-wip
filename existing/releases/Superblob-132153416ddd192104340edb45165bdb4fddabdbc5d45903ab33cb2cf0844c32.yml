@@ -1,0 +1,9 @@
+blobs:
+- Shield-recipe-client-1.0.0
+- disable-crash-autosubmit@mozilla.org-2.1
+- e10srollout-1.85
+- followonsearch-0.9.1
+- hotfix-bug-1548973@mozilla.org-1.1.4-2
+- timecop@mozilla.com-1.0
+name: Superblob-132153416ddd192104340edb45165bdb4fddabdbc5d45903ab33cb2cf0844c32
+schema_version: 4000

@@ -1,0 +1,10 @@
+blobs:
+- E10srollout-ff47-ff47-1.0b-1.0
+- Loop-3.0.0
+- Pocket-ff47-1.0.2
+- Websensehelper-2.0
+- google-code-correction@mozilla.org-0.9
+- telemetry-coverage-bug1487578@mozilla.org-8.0
+- timecop@mozilla.com-1.0
+name: Superblob-40069c47a0125d5f051ae84e4059e0f04a779958640ac9a26df5d1202e4e5e62
+schema_version: 4000

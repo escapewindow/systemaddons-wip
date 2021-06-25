@@ -1,0 +1,11 @@
+blobs:
+- Aushelper-1.5
+- Diagnostics-1.0
+- Disablesha1rollout-1.3
+- E10srollout-1.12
+- Hsts-priming-1.0
+- google-code-correction@mozilla.org-0.9
+- telemetry-coverage-bug1487578@mozilla.org-8.0
+- timecop@mozilla.com-1.0
+name: Superblob-1507dda845e3d49b5576a9625c41a7af688ffff33937980e400c9f9890850cbf
+schema_version: 4000

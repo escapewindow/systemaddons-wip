@@ -1,0 +1,6 @@
+blobs:
+- fxmonitor@mozilla.org-2.8
+- hotfix-update-xpi-intermediate@mozilla.com-1.0.5
+- webcompat@mozilla.org-3.0.1
+name: Superblob-0c0c9c4617d142ea64e5380384c451ed5d95ba9b1f8de2307923924447923409
+schema_version: 4000

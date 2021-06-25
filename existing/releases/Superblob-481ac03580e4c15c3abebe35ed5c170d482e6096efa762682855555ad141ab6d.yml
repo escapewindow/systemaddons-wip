@@ -1,0 +1,7 @@
+blobs:
+- disable-crash-autosubmit@mozilla.org-2.1
+- disable-js-shared-memory@mozilla.org-2.0
+- disable-media-wmf-nv12@mozilla.org-1.1
+- searchvolmodelextra@mozilla.com-0.0.2
+name: Superblob-481ac03580e4c15c3abebe35ed5c170d482e6096efa762682855555ad141ab6d
+schema_version: 4000

@@ -1,0 +1,6 @@
+blobs:
+- disable-js-shared-memory@mozilla.org-2.0
+- disable-media-wmf-nv12@mozilla.org-1.1
+- hotfix-bug-1548973@mozilla.org-1.1.4-2
+name: Superblob-d3542d304f7f425858e8eadd35d67e366ef1b9a28971acd54a991a714094c0a7
+schema_version: 4000

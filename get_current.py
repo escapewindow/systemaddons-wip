@@ -80,8 +80,9 @@ async def async_main(config):
                     sort_keys=False,
                 )
             )
-    with open("existing/mappings.yml", "w") as fh:
-        fh.write(yaml.dump(mappings))
+    for release in sorted(mappings):
+        with open(f"existing/releases/{release}.yml", "w") as fh:
+            fh.write(yaml.dump(mappings[release]))
 
 
 def main():

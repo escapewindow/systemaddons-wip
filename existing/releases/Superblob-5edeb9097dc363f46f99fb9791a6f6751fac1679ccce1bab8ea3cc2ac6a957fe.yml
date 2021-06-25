@@ -1,0 +1,9 @@
+blobs:
+- disable-crash-autosubmit@mozilla.org-2.1
+- disable-js-shared-memory@mozilla.org-2.0
+- followonsearch@mozilla.com-0.9.6
+- searchvolmodelextra@mozilla.com-0.0.2
+- shield-recipe-client@mozilla.org-65.1
+- timecop@mozilla.com-1.0
+name: Superblob-5edeb9097dc363f46f99fb9791a6f6751fac1679ccce1bab8ea3cc2ac6a957fe
+schema_version: 4000

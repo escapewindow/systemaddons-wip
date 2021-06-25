@@ -1,0 +1,5 @@
+blobs:
+- hotfix-update-xpi-intermediate@mozilla.com-1.0.5
+- telemetry-coverage-bug1487578@mozilla.org-7.0
+name: Superblob-aade24461c0e906e0c96d57620370348450cd06785d90d299995eb1223afb2c0
+schema_version: 4000

@@ -1,0 +1,9 @@
+blobs:
+- Disable-cert-transparency-1.0
+- Disable-prefetch-1.0
+- E10srollout-1.12
+- disable-crash-autosubmit@mozilla.org-2.1
+- hotfix-bug-1548973@mozilla.org-1.1.4-2
+- timecop@mozilla.com-1.0
+name: Superblob-8861895d2bcbf3bc8348a49e2ca7e91a3760b5df8385b2f8e700e7adceb05c6d
+schema_version: 4000

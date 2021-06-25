@@ -1,0 +1,34 @@
+addons:
+  searchvolmodelextra@mozilla.com:
+    platforms:
+      Darwin_x86-gcc3:
+        alias: default
+      Darwin_x86-gcc3-u-i386-x86_64:
+        alias: default
+      Darwin_x86_64-gcc3:
+        alias: default
+      Darwin_x86_64-gcc3-u-i386-x86_64:
+        alias: default
+      Linux_x86-gcc3:
+        alias: default
+      Linux_x86_64-gcc3:
+        alias: default
+      WINNT_x86-msvc:
+        alias: default
+      WINNT_x86-msvc-x64:
+        alias: default
+      WINNT_x86-msvc-x86:
+        alias: default
+      WINNT_x86_64-msvc:
+        alias: default
+      WINNT_x86_64-msvc-x64:
+        alias: default
+      default:
+        fileUrl: https://ftp.mozilla.org/pub/system-addons/searchvolmodelextra/searchvolmodelextra@mozilla.com-0.0.2-signed.xpi
+        filesize: 6137
+        hashValue: 001db4398b3e2f6b1db66301b9d78773f865d640a24036d91c9edeaa2f883ad8c45fcab104ca79d21fd278330170911dfbc77bc79880b3171e9fccedee234674
+    version: 0.0.2
+hashFunction: sha512
+name: searchvolmodelextra@mozilla.com-0.0.2
+product: SystemAddons
+schema_version: 5000

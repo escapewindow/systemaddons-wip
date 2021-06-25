@@ -1,0 +1,6 @@
+blobs:
+- disable-js-shared-memory@mozilla.org-2.0
+- disable-media-wmf-nv12@mozilla.org-1.1
+- searchvolmodelextra@mozilla.com-0.0.2
+name: Superblob-954e9a534cdeabaf9f5e2c2f2b442d59d19e5df0490e00d439c9884afa1bbefc
+schema_version: 4000
