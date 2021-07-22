@@ -115,7 +115,7 @@
   rule_id: 17634
   channel: beta
   mapping: Superblob-100738938e4588a63e634e0814f2027b6d3777efafdaf8d078952d52c15e7c33
-  version: <91.0
+  version: <92.0
   blobs:
   - reset-search-defaults@mozilla.com-2.0.0-3
-  comment: Updates for 90.*
+  comment: Updates for 91.*
