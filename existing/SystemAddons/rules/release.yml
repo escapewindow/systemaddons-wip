@@ -653,8 +653,8 @@
 - priority: 580
   rule_id: 17571
   channel: release
-  mapping: Superblob-100738938e4588a63e634e0814f2027b6d3777efafdaf8d078952d52c15e7c33
+  mapping: Superblob-2e4fc93dc9e080bf4e9b5c41b36ba187346acecaf2cb963095d8e1805aa61a02
   version: <91.0
   blobs:
-  - reset-search-defaults@mozilla.com-2.0.0-3
+  - reset-search-defaults@mozilla.com-2.1.0
   comment: Updates for 85-90.*
