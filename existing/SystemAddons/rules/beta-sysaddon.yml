@@ -96,3 +96,10 @@
   blobs:
   - reset-search-defaults@mozilla.com-1.0.3
   comment: Updates for 86.*
+- priority: 65
+  rule_id: 17648
+  channel: beta-sysaddon
+  mapping: Superblob-abd6bb2a123b70ac37eee2b7815dfd197c0c5d18b195e8d7772bce9673d1ee46
+  version: 92.*
+  blobs:
+  - addons-search-experiment@mozilla.com-1.0.0
