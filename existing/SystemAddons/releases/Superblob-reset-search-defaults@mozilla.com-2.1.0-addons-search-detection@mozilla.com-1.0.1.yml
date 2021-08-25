@@ -1,0 +1,5 @@
+blobs:
+- reset-search-defaults@mozilla.com-2.1.0
+- addons-search-detection@mozilla.com-1.0.1
+name: Superblob-reset-search-defaults@mozilla.com-2.1.0-addons-search-detection@mozilla.com-1.0.1
+schema_version: 4000

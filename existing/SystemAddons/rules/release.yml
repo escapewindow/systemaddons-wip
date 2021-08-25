@@ -658,3 +658,12 @@
   blobs:
   - reset-search-defaults@mozilla.com-2.1.0
   comment: Updates for 85-90.*
+- priority: 560
+  rule_id: 17649
+  channel: release
+  mapping: Superblob-reset-search-defaults@mozilla.com-2.1.0-addons-search-detection@mozilla.com-1.0.1
+  version: <92.0
+  blobs:
+  - reset-search-defaults@mozilla.com-2.1.0
+  - addons-search-detection@mozilla.com-1.0.1
+  comment: Updates for 91.*
