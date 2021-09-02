@@ -4,6 +4,7 @@
 # TODO: retries
 
 import aiohttp
+import arrow
 import asyncio
 import yaml
 
@@ -113,6 +114,8 @@ async def async_main(config, products):
     for product in products:
         tasks.append(populate_product(config, product))
     await asyncio.gather(*tasks)
+    with open("last_timestamp.txt", "w") as fh:
+        fh.write(str(arrow.utcnow()))
 
 
 def main():

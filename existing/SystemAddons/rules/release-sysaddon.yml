@@ -664,11 +664,11 @@
 - priority: 580
   rule_id: 17570
   channel: release-sysaddon
-  mapping: Superblob-dbfcc4103f50692801cc5a916d22d1551953bfc8df027c88dc7306a77cae5035
-  version: <88.0
+  mapping: Superblob-2e4fc93dc9e080bf4e9b5c41b36ba187346acecaf2cb963095d8e1805aa61a02
+  version: <90.0
   blobs:
-  - reset-search-defaults@mozilla.com-1.0.6
-  comment: Updates for 87.*
+  - reset-search-defaults@mozilla.com-2.1.0
+  comment: Updates for 87-89
 - priority: 550
   rule_id: 17647
   channel: release-sysaddon
