@@ -662,8 +662,8 @@
   rule_id: 17649
   channel: release
   mapping: Superblob-reset-search-defaults@mozilla.com-2.1.0-addons-search-detection@mozilla.com-1.0.1
-  version: <92.0
+  version: <93.0
   blobs:
   - reset-search-defaults@mozilla.com-2.1.0
   - addons-search-detection@mozilla.com-1.0.1
-  comment: Updates for 91.*
+  comment: Updates for 90-92
