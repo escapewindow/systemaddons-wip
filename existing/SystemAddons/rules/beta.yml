@@ -122,9 +122,15 @@
 - priority: 62
   rule_id: 17653
   channel: beta
-  mapping: Superblob-reset-search-defaults@mozilla.com-2.1.0-addons-search-detection@mozilla.com-1.0.1
+  mapping: Superblob-29cac957c2c69cf160d0d72c2f30e0c7346f14c1fb172b447ad65bb8993c244f
   version: 93.*
   blobs:
+  - addons-search-detection@mozilla.com-1.0.1
+  - proxy-failover@mozilla.com-1.0.0
+  - reset-search-defaults@mozilla.com-2.1.0
+  fallbackBlobs:
   - reset-search-defaults@mozilla.com-2.1.0
   - addons-search-detection@mozilla.com-1.0.1
+  backgroundRate: 50
   comment: Updates for 93.*
+  fallbackMapping: Superblob-reset-search-defaults@mozilla.com-2.1.0-addons-search-detection@mozilla.com-1.0.1

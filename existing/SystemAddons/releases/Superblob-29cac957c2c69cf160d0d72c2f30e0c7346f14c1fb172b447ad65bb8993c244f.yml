@@ -1,0 +1,6 @@
+blobs:
+- addons-search-detection@mozilla.com-1.0.1
+- proxy-failover@mozilla.com-1.0.0
+- reset-search-defaults@mozilla.com-2.1.0
+name: Superblob-29cac957c2c69cf160d0d72c2f30e0c7346f14c1fb172b447ad65bb8993c244f
+schema_version: 4000
