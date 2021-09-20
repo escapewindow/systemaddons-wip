@@ -40,15 +40,15 @@ def expand_rule(config, mappings, unexpanded_rule):
         if val is not None:
             expanded_rule[key] = val
     if "blobs" in mappings[expanded_rule["mapping"]]:
-        expanded_rule["blobs"] = mappings[expanded_rule["mapping"]]["blobs"][:]
+        expanded_rule["blobs"] = sorted(mappings[expanded_rule["mapping"]]["blobs"])
     if (
         unexpanded_rule["backgroundRate"] != 100
         and "fallbackMapping" in unexpanded_rule
         and mappings.get(unexpanded_rule["fallbackMapping"], {}).get("blobs")
     ):
-        expanded_rule["fallbackBlobs"] = mappings[unexpanded_rule["fallbackMapping"]][
-            "blobs"
-        ][:]
+        expanded_rule["fallbackBlobs"] = sorted(
+            mappings[unexpanded_rule["fallbackMapping"]]["blobs"]
+        )
     for key in sorted(unexpanded_rule.keys()):
         if (
             (key == "backgroundRate" and unexpanded_rule[key] == 100)

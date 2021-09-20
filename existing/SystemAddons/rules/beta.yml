@@ -33,9 +33,9 @@
   mapping: SystemAddons-ff47b-rel1-Superblob
   version: <48.0
   blobs:
-  - Pocket-ff47-1.0
-  - Loop-1.3.2
   - E10srollout-ff47-1.0
+  - Loop-1.3.2
+  - Pocket-ff47-1.0
   comment: Hello offers to 47beta
 - priority: 100
   rule_id: 307
@@ -129,8 +129,8 @@
   - proxy-failover@mozilla.com-1.0.0
   - reset-search-defaults@mozilla.com-2.1.0
   fallbackBlobs:
-  - reset-search-defaults@mozilla.com-2.1.0
   - addons-search-detection@mozilla.com-1.0.1
+  - reset-search-defaults@mozilla.com-2.1.0
   backgroundRate: 50
   comment: Updates for 93.*
   fallbackMapping: Superblob-reset-search-defaults@mozilla.com-2.1.0-addons-search-detection@mozilla.com-1.0.1
