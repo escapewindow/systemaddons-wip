@@ -29,7 +29,7 @@ PRODUCT_CONFIG = {
     },
     "Widevine": {
         "single_rules_file": True,
-    }
+    },
 }
 
 
@@ -41,6 +41,14 @@ def expand_rule(config, mappings, unexpanded_rule):
             expanded_rule[key] = val
     if "blobs" in mappings[expanded_rule["mapping"]]:
         expanded_rule["blobs"] = mappings[expanded_rule["mapping"]]["blobs"][:]
+    if (
+        unexpanded_rule["backgroundRate"] != 100
+        and "fallbackMapping" in unexpanded_rule
+        and mappings.get(unexpanded_rule["fallbackMapping"], {}).get("blobs")
+    ):
+        expanded_rule["fallbackBlobs"] = mappings[unexpanded_rule["fallbackMapping"]][
+            "blobs"
+        ][:]
     for key in sorted(unexpanded_rule.keys()):
         if (
             (key == "backgroundRate" and unexpanded_rule[key] == 100)
@@ -67,7 +75,12 @@ async def populate_product(config, product):
             rules = await response.json()
     futures = []
     mappings = {}
-    for mapping in set([r["mapping"] for r in rules["rules"]]):
+    for mapping in set(
+        [r["mapping"] for r in rules["rules"]]
+        + [r.get("fallbackMapping") for r in rules["rules"]]
+    ):
+        if mapping is None:
+            continue
         release_url = config["release_url"].format(release=mapping)
         futures.append(
             asyncio.create_task(
@@ -95,9 +108,7 @@ async def populate_product(config, product):
 def dump_rules(product, sorted_rules):
     if PRODUCT_CONFIG[product]["single_rules_file"]:
         with open(f"existing/{product}/rules.yml", "w") as fh:
-            fh.write(
-                yaml.dump([r for r in sorted_rules], sort_keys=False)
-            )
+            fh.write(yaml.dump([r for r in sorted_rules], sort_keys=False))
     else:
         for channel in set([r["channel"] for r in sorted_rules]):
             with open(f"existing/{product}/rules/{channel}.yml", "w") as fh:
