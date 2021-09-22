@@ -128,9 +128,5 @@
   - addons-search-detection@mozilla.com-1.0.1
   - proxy-failover@mozilla.com-1.0.0
   - reset-search-defaults@mozilla.com-2.1.0
-  fallbackBlobs:
-  - addons-search-detection@mozilla.com-1.0.1
-  - reset-search-defaults@mozilla.com-2.1.0
-  backgroundRate: 50
   comment: Updates for 93.*
   fallbackMapping: Superblob-reset-search-defaults@mozilla.com-2.1.0-addons-search-detection@mozilla.com-1.0.1
