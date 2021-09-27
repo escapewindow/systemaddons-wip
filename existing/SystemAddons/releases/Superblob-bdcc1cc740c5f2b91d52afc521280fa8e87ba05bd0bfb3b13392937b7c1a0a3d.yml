@@ -1,0 +1,5 @@
+blobs:
+- proxy-failover@mozilla.com-1.0.0
+- reset-search-defaults@mozilla.com-2.1.0
+name: Superblob-bdcc1cc740c5f2b91d52afc521280fa8e87ba05bd0bfb3b13392937b7c1a0a3d
+schema_version: 4000

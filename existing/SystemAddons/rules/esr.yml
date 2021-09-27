@@ -46,3 +46,18 @@
   mapping: SystemAddons-no-update
   version: <69.0
   comment: Updates for ESR 68.*
+- priority: 8950
+  rule_id: 17659
+  channel: esr
+  mapping: proxy-failover@mozilla.com-1.0.0
+  version: 78.*
+  backgroundRate: 10
+  comment: ESR78.*
+  fallbackMapping: SystemAddons-no-update
+- priority: 8940
+  rule_id: 17658
+  channel: esr
+  mapping: proxy-failover@mozilla.com-1.0.0
+  backgroundRate: 10
+  comment: ESR 91.*
+  fallbackMapping: SystemAddons-no-update

@@ -651,19 +651,38 @@
   - reset-search-defaults@mozilla.com-1.0.6
   comment: Updates for 84.*
 - priority: 580
-  rule_id: 17571
+  rule_id: 17657
   channel: release
   mapping: Superblob-2e4fc93dc9e080bf4e9b5c41b36ba187346acecaf2cb963095d8e1805aa61a02
-  version: <90.0
+  version: <87.0
   blobs:
   - reset-search-defaults@mozilla.com-2.1.0
-  comment: Updates for 85-89.*
+  comment: Updates for 85-86.*
+- priority: 570
+  rule_id: 17571
+  channel: release
+  mapping: Superblob-bdcc1cc740c5f2b91d52afc521280fa8e87ba05bd0bfb3b13392937b7c1a0a3d
+  version: <90.0
+  blobs:
+  - proxy-failover@mozilla.com-1.0.0
+  - reset-search-defaults@mozilla.com-2.1.0
+  fallbackBlobs:
+  - reset-search-defaults@mozilla.com-2.1.0
+  backgroundRate: 10
+  comment: Updates for 87-89.*
+  fallbackMapping: Superblob-2e4fc93dc9e080bf4e9b5c41b36ba187346acecaf2cb963095d8e1805aa61a02
 - priority: 560
   rule_id: 17649
   channel: release
-  mapping: Superblob-reset-search-defaults@mozilla.com-2.1.0-addons-search-detection@mozilla.com-1.0.1
+  mapping: Superblob-29cac957c2c69cf160d0d72c2f30e0c7346f14c1fb172b447ad65bb8993c244f
   version: <93.0
   blobs:
   - addons-search-detection@mozilla.com-1.0.1
+  - proxy-failover@mozilla.com-1.0.0
   - reset-search-defaults@mozilla.com-2.1.0
+  fallbackBlobs:
+  - addons-search-detection@mozilla.com-1.0.1
+  - reset-search-defaults@mozilla.com-2.1.0
+  backgroundRate: 10
   comment: Updates for 90-92
+  fallbackMapping: Superblob-reset-search-defaults@mozilla.com-2.1.0-addons-search-detection@mozilla.com-1.0.1

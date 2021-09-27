@@ -1,0 +1,34 @@
+addons:
+  proxy-failover@mozilla.com:
+    platforms:
+      Darwin_x86-gcc3:
+        alias: default
+      Darwin_x86-gcc3-u-i386-x86_64:
+        alias: default
+      Darwin_x86_64-gcc3:
+        alias: default
+      Darwin_x86_64-gcc3-u-i386-x86_64:
+        alias: default
+      Linux_x86-gcc3:
+        alias: default
+      Linux_x86_64-gcc3:
+        alias: default
+      WINNT_x86-msvc:
+        alias: default
+      WINNT_x86-msvc-x64:
+        alias: default
+      WINNT_x86-msvc-x86:
+        alias: default
+      WINNT_x86_64-msvc:
+        alias: default
+      WINNT_x86_64-msvc-x64:
+        alias: default
+      default:
+        fileUrl: https://ftp.mozilla.org/pub/system-addons/proxy-failover/proxy-failover@mozilla.com-1.0.0-signed.xpi
+        filesize: 13768
+        hashValue: 7102f9e74e173287d71adbe3fb1e820ca69028174c38d6c01740599f1eba8484231def58bc771baadb20e1f5a46c88d2afa2469bdb9de456537c6b4d89f493ef
+    version: 1.0.0
+hashFunction: sha512
+name: proxy-failover@mozilla.com-1.0.0
+product: SystemAddons
+schema_version: 5000
