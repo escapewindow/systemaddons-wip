@@ -29,8 +29,6 @@
 - priority: 4900
   rule_id: 17654
   channel: nightly
-  mapping: Superblob-3406ff7e2c4367f9c0c3b2c0946416080fb50c0429db90b31c7c95b55a3725d6
+  mapping: proxy-failover@mozilla.com-1.0.0
   version: 94.*
-  blobs:
-  - proxy-failover@mozilla.com-1.0.0
   comment: Nightly 94.*
