@@ -668,7 +668,7 @@
   - reset-search-defaults@mozilla.com-2.1.0
   fallbackBlobs:
   - reset-search-defaults@mozilla.com-2.1.0
-  backgroundRate: 10
+  backgroundRate: 50
   comment: Updates for 87-89.*
   fallbackMapping: Superblob-2e4fc93dc9e080bf4e9b5c41b36ba187346acecaf2cb963095d8e1805aa61a02
 - priority: 560
@@ -683,6 +683,6 @@
   fallbackBlobs:
   - addons-search-detection@mozilla.com-1.0.1
   - reset-search-defaults@mozilla.com-2.1.0
-  backgroundRate: 10
+  backgroundRate: 50
   comment: Updates for 90-92
   fallbackMapping: Superblob-reset-search-defaults@mozilla.com-2.1.0-addons-search-detection@mozilla.com-1.0.1
