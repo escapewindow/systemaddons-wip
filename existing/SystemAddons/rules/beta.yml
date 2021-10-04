@@ -122,22 +122,22 @@
 - priority: 62
   rule_id: 17653
   channel: beta
-  mapping: Superblob-29cac957c2c69cf160d0d72c2f30e0c7346f14c1fb172b447ad65bb8993c244f
+  mapping: Superblob-158dfc7f91d4f39c18cb23adbba143af49550fcff6a80e1dc5f75c823a383300
   version: 93.*
   blobs:
   - addons-search-detection@mozilla.com-1.0.1
-  - proxy-failover@mozilla.com-1.0.0
+  - proxy-failover@mozilla.com-1.0.1
   - reset-search-defaults@mozilla.com-2.1.0
   comment: Updates for 93.*
   fallbackMapping: Superblob-reset-search-defaults@mozilla.com-2.1.0-addons-search-detection@mozilla.com-1.0.1
 - priority: 61
   rule_id: 17661
   channel: beta
-  mapping: Superblob-29cac957c2c69cf160d0d72c2f30e0c7346f14c1fb172b447ad65bb8993c244f
+  mapping: Superblob-158dfc7f91d4f39c18cb23adbba143af49550fcff6a80e1dc5f75c823a383300
   version: 94.*
   blobs:
   - addons-search-detection@mozilla.com-1.0.1
-  - proxy-failover@mozilla.com-1.0.0
+  - proxy-failover@mozilla.com-1.0.1
   - reset-search-defaults@mozilla.com-2.1.0
   comment: Updates for 94.*
   fallbackMapping: Superblob-reset-search-defaults@mozilla.com-2.1.0-addons-search-detection@mozilla.com-1.0.1
