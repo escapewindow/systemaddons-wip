@@ -51,13 +51,11 @@
   channel: esr
   mapping: proxy-failover@mozilla.com-1.0.0
   version: 78.*
-  backgroundRate: 50
   comment: ESR78.*
   fallbackMapping: SystemAddons-no-update
 - priority: 8940
   rule_id: 17658
   channel: esr
   mapping: proxy-failover@mozilla.com-1.0.0
-  backgroundRate: 50
   comment: ESR 91.*
   fallbackMapping: SystemAddons-no-update

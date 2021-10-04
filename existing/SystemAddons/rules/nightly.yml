@@ -32,3 +32,9 @@
   mapping: proxy-failover@mozilla.com-1.0.0
   version: 94.*
   comment: Nightly 94.*
+- priority: 4890
+  rule_id: 17660
+  channel: nightly
+  mapping: proxy-failover@mozilla.com-1.0.0
+  version: 95.*
+  comment: Nightly 95.*
