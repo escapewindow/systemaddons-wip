@@ -3,3 +3,4 @@ blobs:
 - jaws-esr@mozilla.org-1.1
 name: Superblob-cc3d6b0e6014e7adc37ff19b7374210705f274a24f3bdaba8b42e465cb64593b
 schema_version: 4000
+url: https://aus-api.mozilla.org/api/v1/releases/Superblob-cc3d6b0e6014e7adc37ff19b7374210705f274a24f3bdaba8b42e465cb64593b

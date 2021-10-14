@@ -2,3 +2,4 @@ blobs:
 - proxy-failover@mozilla.com-1.0.1
 name: Superblob-39aac6c3d7d55685612d1d6fa22be49e695ede97cf2ea199011d818e6d91f3ef
 schema_version: 4000
+url: https://aus-api.mozilla.org/api/v1/releases/Superblob-39aac6c3d7d55685612d1d6fa22be49e695ede97cf2ea199011d818e6d91f3ef

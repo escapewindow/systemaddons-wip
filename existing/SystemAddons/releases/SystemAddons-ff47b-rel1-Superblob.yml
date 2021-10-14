@@ -4,3 +4,4 @@ blobs:
 - E10srollout-ff47-1.0
 name: SystemAddons-ff47b-rel1-Superblob
 schema_version: 4000
+url: https://aus-api.mozilla.org/api/v1/releases/SystemAddons-ff47b-rel1-Superblob

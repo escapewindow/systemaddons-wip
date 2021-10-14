@@ -3,3 +3,4 @@ blobs:
 - telemetry-coverage-bug1487578@mozilla.org-7.0
 name: Superblob-37912b088ccf25c56cbad0738032c05a82657692b93c07eab67006206065087c
 schema_version: 4000
+url: https://aus-api.mozilla.org/api/v1/releases/Superblob-37912b088ccf25c56cbad0738032c05a82657692b93c07eab67006206065087c

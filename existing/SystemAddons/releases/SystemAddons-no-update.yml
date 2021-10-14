@@ -2,4 +2,5 @@ hashFunction: sha512
 name: SystemAddons-no-update
 product: SystemAddons
 schema_version: 1000
+url: https://aus-api.mozilla.org/api/v1/releases/SystemAddons-no-update
 vendors: {}

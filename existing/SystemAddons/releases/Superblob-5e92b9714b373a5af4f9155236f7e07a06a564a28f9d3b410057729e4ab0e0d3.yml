@@ -10,3 +10,4 @@ blobs:
 - timecop@mozilla.com-1.0
 name: Superblob-5e92b9714b373a5af4f9155236f7e07a06a564a28f9d3b410057729e4ab0e0d3
 schema_version: 4000
+url: https://aus-api.mozilla.org/api/v1/releases/Superblob-5e92b9714b373a5af4f9155236f7e07a06a564a28f9d3b410057729e4ab0e0d3

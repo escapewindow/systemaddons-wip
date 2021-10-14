@@ -2,3 +2,4 @@ blobs:
 - Diagnostics-1.0
 name: SystemAddons-ff52b-diagnostics1.0-Superblob
 schema_version: 4000
+url: https://aus-api.mozilla.org/api/v1/releases/SystemAddons-ff52b-diagnostics1.0-Superblob

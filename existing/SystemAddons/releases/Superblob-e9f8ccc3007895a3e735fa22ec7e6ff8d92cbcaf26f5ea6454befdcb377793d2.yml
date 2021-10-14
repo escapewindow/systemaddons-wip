@@ -2,3 +2,4 @@ blobs:
 - reset-search-defaults@mozilla.com-1.0.3
 name: Superblob-e9f8ccc3007895a3e735fa22ec7e6ff8d92cbcaf26f5ea6454befdcb377793d2
 schema_version: 4000
+url: https://aus-api.mozilla.org/api/v1/releases/Superblob-e9f8ccc3007895a3e735fa22ec7e6ff8d92cbcaf26f5ea6454befdcb377793d2

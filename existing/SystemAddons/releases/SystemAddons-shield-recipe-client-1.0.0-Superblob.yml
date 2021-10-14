@@ -2,3 +2,4 @@ blobs:
 - Shield-recipe-client-1.0.0
 name: SystemAddons-shield-recipe-client-1.0.0-Superblob
 schema_version: 4000
+url: https://aus-api.mozilla.org/api/v1/releases/SystemAddons-shield-recipe-client-1.0.0-Superblob

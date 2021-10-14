@@ -3,3 +3,4 @@ blobs:
 - addons-search-detection@mozilla.com-1.0.1
 name: Superblob-reset-search-defaults@mozilla.com-2.1.0-addons-search-detection@mozilla.com-1.0.1
 schema_version: 4000
+url: https://aus-api.mozilla.org/api/v1/releases/Superblob-reset-search-defaults@mozilla.com-2.1.0-addons-search-detection@mozilla.com-1.0.1

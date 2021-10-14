@@ -11,3 +11,4 @@ blobs:
 - tls13-middlebox-2.0.0
 name: Superblob-d162a2eb205d6a25effdb6309f43d29ac7caccc10264de4e56ccdc5a80029ce7
 schema_version: 4000
+url: https://aus-api.mozilla.org/api/v1/releases/Superblob-d162a2eb205d6a25effdb6309f43d29ac7caccc10264de4e56ccdc5a80029ce7

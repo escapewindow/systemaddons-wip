@@ -17,3 +17,4 @@ platforms:
     locales: {}
 product: None
 schema_version: 1
+url: https://aus-api.mozilla.org/api/v1/releases/No-Update

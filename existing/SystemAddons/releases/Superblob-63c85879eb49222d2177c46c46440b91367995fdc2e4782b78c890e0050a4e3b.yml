@@ -2,3 +2,4 @@ blobs:
 - tls13-version-fallback-rollout-bug1448176@mozilla.org-2.0
 name: Superblob-63c85879eb49222d2177c46c46440b91367995fdc2e4782b78c890e0050a4e3b
 schema_version: 4000
+url: https://aus-api.mozilla.org/api/v1/releases/Superblob-63c85879eb49222d2177c46c46440b91367995fdc2e4782b78c890e0050a4e3b

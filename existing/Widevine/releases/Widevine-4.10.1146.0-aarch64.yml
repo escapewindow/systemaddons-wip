@@ -2,6 +2,7 @@ hashFunction: sha512
 name: Widevine-4.10.1146.0-aarch64
 product: Widevine
 schema_version: 1000
+url: https://aus-api.mozilla.org/api/v1/releases/Widevine-4.10.1146.0-aarch64
 vendors:
   gmp-widevinecdm:
     platforms:

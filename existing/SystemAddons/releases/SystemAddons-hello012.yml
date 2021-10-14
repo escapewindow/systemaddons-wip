@@ -2,6 +2,7 @@ hashFunction: sha512
 name: SystemAddons-hello012
 product: SystemAddons
 schema_version: 1000
+url: https://aus-api.mozilla.org/api/v1/releases/SystemAddons-hello012
 vendors:
   loop@mozilla.org:
     platforms:

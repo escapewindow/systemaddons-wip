@@ -28,3 +28,4 @@ hashFunction: sha512
 name: SystemAddons-ff53b-shield-recipe-client-1.0.0
 product: SystemAddons
 schema_version: 5000
+url: https://aus-api.mozilla.org/api/v1/releases/SystemAddons-ff53b-shield-recipe-client-1.0.0

@@ -2,3 +2,4 @@ blobs:
 - disable-js-shared-memory@mozilla.org-2.0
 name: Superblob-698cc975f20140c911e62b7ed69cfd71c48cc1b587f679ecdd01328fd5fec0d1
 schema_version: 4000
+url: https://aus-api.mozilla.org/api/v1/releases/Superblob-698cc975f20140c911e62b7ed69cfd71c48cc1b587f679ecdd01328fd5fec0d1

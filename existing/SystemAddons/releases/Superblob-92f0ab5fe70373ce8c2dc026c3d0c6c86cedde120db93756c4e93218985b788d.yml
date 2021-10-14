@@ -2,3 +2,4 @@ blobs:
 - hotfix-bug-1548973@mozilla.org-1.1.4-2
 name: Superblob-92f0ab5fe70373ce8c2dc026c3d0c6c86cedde120db93756c4e93218985b788d
 schema_version: 4000
+url: https://aus-api.mozilla.org/api/v1/releases/Superblob-92f0ab5fe70373ce8c2dc026c3d0c6c86cedde120db93756c4e93218985b788d

@@ -32,3 +32,4 @@ hashFunction: sha512
 name: searchvolmodelextra@mozilla.com-0.0.2
 product: SystemAddons
 schema_version: 5000
+url: https://aus-api.mozilla.org/api/v1/releases/searchvolmodelextra@mozilla.com-0.0.2

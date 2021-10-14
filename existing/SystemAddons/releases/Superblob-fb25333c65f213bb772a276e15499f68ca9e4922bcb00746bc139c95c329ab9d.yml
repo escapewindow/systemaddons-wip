@@ -5,3 +5,4 @@ blobs:
 - hotfix-bug-1548973@mozilla.org-1.1.4-2
 name: Superblob-fb25333c65f213bb772a276e15499f68ca9e4922bcb00746bc139c95c329ab9d
 schema_version: 4000
+url: https://aus-api.mozilla.org/api/v1/releases/Superblob-fb25333c65f213bb772a276e15499f68ca9e4922bcb00746bc139c95c329ab9d

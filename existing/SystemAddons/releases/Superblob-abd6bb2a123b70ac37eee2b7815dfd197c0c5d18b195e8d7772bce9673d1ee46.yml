@@ -2,3 +2,4 @@ blobs:
 - addons-search-experiment@mozilla.com-1.0.0
 name: Superblob-abd6bb2a123b70ac37eee2b7815dfd197c0c5d18b195e8d7772bce9673d1ee46
 schema_version: 4000
+url: https://aus-api.mozilla.org/api/v1/releases/Superblob-abd6bb2a123b70ac37eee2b7815dfd197c0c5d18b195e8d7772bce9673d1ee46

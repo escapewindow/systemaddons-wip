@@ -4,6 +4,7 @@
 # TODO: retries
 
 import aiohttp
+from aiohttp.client_exceptions import ContentTypeError
 import arrow
 import asyncio
 import yaml
@@ -12,13 +13,15 @@ SERVER_CONFIG = {
     "local": {
         "server": "https://localhost:8010",
         "verify_ssl": False,
-        "release_url": "https://localhost:8010/releases/{release}",
+        "release_v1_url": "https://localhost:8010/releases/{release}",
+        "release_v2_url": "https://localhost:8010/releases/{release}/v2",
         "rules_url": "https://localhost:8010/rules?product={product}",
     },
     "production": {
         "server": "https://aus-api.mozilla.org",
         "verify_ssl": True,
-        "release_url": "https://aus-api.mozilla.org/api/v1/releases/{release}",
+        "release_v1_url": "https://aus-api.mozilla.org/api/v1/releases/{release}",
+        "release_v2_url": "https://aus-api.mozilla.org/api/v2/releases/{release}",
         "rules_url": "https://aus-api.mozilla.org/api/v1/rules?product={product}",
     },
 }
@@ -61,10 +64,25 @@ def expand_rule(config, mappings, unexpanded_rule):
     return expanded_rule
 
 
-async def get_release(release_url, verify_ssl=True):
+async def get_release(urls, verify_ssl=True):
+    responses = {}
+    url_ = None
     async with aiohttp.ClientSession() as session:
-        async with session.get(release_url, verify_ssl=verify_ssl) as response:
-            return await response.json()
+        for url in urls:
+            try:
+                async with session.get(url, verify_ssl=verify_ssl) as response:
+                    responses[url] = await response.json()
+                url_ = url
+            except ContentTypeError as exc:
+                # XXX 404 ?
+                pass
+    if len(responses) > 1:
+        raise Exception(f"Too many releases: {responses}")
+    if not len(responses):
+        raise Exception(f"No releases for {urls}")
+    resp = list(responses.values())[0]
+    resp["url"] = url_
+    return resp
 
 
 async def populate_product(config, product):
@@ -81,10 +99,11 @@ async def populate_product(config, product):
     ):
         if mapping is None:
             continue
-        release_url = config["release_url"].format(release=mapping)
+        release_v1_url = config["release_v1_url"].format(release=mapping)
+        release_v2_url = config["release_v2_url"].format(release=mapping)
         futures.append(
             asyncio.create_task(
-                get_release(release_url, verify_ssl=config["verify_ssl"])
+                get_release([release_v1_url, release_v2_url], verify_ssl=config["verify_ssl"])
             )
         )
     await asyncio.gather(*futures)

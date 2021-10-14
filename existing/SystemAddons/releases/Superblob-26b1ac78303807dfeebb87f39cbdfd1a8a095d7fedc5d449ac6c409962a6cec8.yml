@@ -2,3 +2,4 @@ blobs:
 - fxmonitor@mozilla.org-2.8
 name: Superblob-26b1ac78303807dfeebb87f39cbdfd1a8a095d7fedc5d449ac6c409962a6cec8
 schema_version: 4000
+url: https://aus-api.mozilla.org/api/v1/releases/Superblob-26b1ac78303807dfeebb87f39cbdfd1a8a095d7fedc5d449ac6c409962a6cec8
