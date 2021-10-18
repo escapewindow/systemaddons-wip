@@ -1,61 +1,14 @@
 - priority: 5000
-  rule_id: 617
-  channel: nightly-sysaddon
-  mapping: SystemAddons-no-update
-  version: <56.0
-  data_version: 1
+  mapping: Superblob-39aac6c3d7d55685612d1d6fa22be49e695ede97cf2ea199011d818e6d91f3ef
+  version: 94.*
+  blobs:
+  - proxy-failover@mozilla.com-1.0.1
+  comment: Nightly 94.*
   product: SystemAddons
-- priority: 4999
-  rule_id: 618
-  channel: nightly-sysaddon
-  mapping: SystemAddons-no-update
-  version: <57.0
-  comment: 56.*
-  data_version: 5
-  product: SystemAddons
-- priority: 4998
-  rule_id: 639
-  channel: nightly-sysaddon
-  mapping: SystemAddons-no-update
-  version: <58.0a1
-  comment: Nightly 57.*
-  data_version: 4
-  product: SystemAddons
-- priority: 4997
-  rule_id: 656
-  channel: nightly-sysaddon
-  mapping: SystemAddons-no-update
-  version: <59.0a1
-  comment: Nightly 58.*
-  data_version: 8
-  product: SystemAddons
-- priority: 4996
-  rule_id: 712
-  channel: nightly-sysaddon
-  mapping: SystemAddons-no-update
-  version: <60.0a1
-  comment: Nightly 59.*
-  data_version: 6
-  product: SystemAddons
-- priority: 4990
-  rule_id: 17626
-  channel: nightly-sysaddon
-  mapping: SystemAddons-no-update
-  version: <61.0a1
-  comment: Nightly 60.*
-  data_version: 4
-  product: SystemAddons
-- priority: 4985
-  rule_id: 17629
-  channel: nightly-sysaddon
-  mapping: SystemAddons-no-update
-  version: <89.0a1
-  data_version: 3
-  product: SystemAddons
-- priority: 4980
-  rule_id: 17628
-  channel: nightly-sysaddon
-  mapping: SystemAddons-no-update
-  version: <92.0a1
-  data_version: 8
+- priority: 4900
+  mapping: Superblob-39aac6c3d7d55685612d1d6fa22be49e695ede97cf2ea199011d818e6d91f3ef
+  version: 95.*
+  blobs:
+  - proxy-failover@mozilla.com-1.0.1
+  comment: Nightly 95.*
   product: SystemAddons
