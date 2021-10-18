@@ -1,0 +1,83 @@
+- priority: 9020
+  rule_id: 888
+  channel: esr
+  mapping: SystemAddons-no-update
+  version: <52.0
+  comment: Updates for ESR < 52.0
+  data_version: 1
+  product: SystemAddons
+- priority: 9010
+  rule_id: 887
+  channel: esr
+  mapping: Superblob-92f0ab5fe70373ce8c2dc026c3d0c6c86cedde120db93756c4e93218985b788d
+  version: <53.0
+  blobs:
+  - hotfix-bug-1548973@mozilla.org-1.1.4-2
+  comment: Updates for ESR 52.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9000
+  rule_id: 839
+  channel: esr
+  mapping: SystemAddons-no-update
+  version: <60.0
+  comment: Updates for ESR < 60.0
+  data_version: 1
+  product: SystemAddons
+- priority: 8990
+  rule_id: 840
+  channel: esr
+  mapping: Superblob-0f6910e3d56baeb923740a4037798fb454248630f569aa67187c8a2977974cc1
+  version: <61.0
+  blobs:
+  - jaws-esr@mozilla.org-1.1
+  comment: Updates for ESR 60.*
+  data_version: 1
+  product: SystemAddons
+- priority: 8980
+  rule_id: 933
+  channel: esr
+  mapping: SystemAddons-no-update
+  version: <68.0
+  comment: Updates for ESR < 68.0
+  data_version: 1
+  product: SystemAddons
+- priority: 8970
+  rule_id: 930
+  channel: esr
+  mapping: Superblob-6605aecc7d2d5a37def7e7f00c637d85d71cb4f820a5714e68836a3dbb062ebb
+  version: <68.2
+  blobs:
+  - webcompat@mozilla.org-6.1.0
+  comment: Updates for ESR < 68.2
+  data_version: 2
+  product: SystemAddons
+- priority: 8960
+  rule_id: 931
+  channel: esr
+  mapping: SystemAddons-no-update
+  version: <69.0
+  comment: Updates for ESR 68.*
+  data_version: 1
+  product: SystemAddons
+- priority: 8950
+  rule_id: 17659
+  channel: esr
+  mapping: Superblob-39aac6c3d7d55685612d1d6fa22be49e695ede97cf2ea199011d818e6d91f3ef
+  version: 78.*
+  blobs:
+  - proxy-failover@mozilla.com-1.0.1
+  comment: ESR78.*
+  data_version: 4
+  fallbackMapping: SystemAddons-no-update
+  product: SystemAddons
+- priority: 8940
+  rule_id: 17658
+  channel: esr
+  mapping: Superblob-39aac6c3d7d55685612d1d6fa22be49e695ede97cf2ea199011d818e6d91f3ef
+  blobs:
+  - proxy-failover@mozilla.com-1.0.1
+  comment: ESR 91.*
+  data_version: 4
+  fallbackMapping: SystemAddons-no-update
+  product: SystemAddons

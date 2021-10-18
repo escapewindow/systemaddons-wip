@@ -1,0 +1,726 @@
+--- release.yml	2021-10-18 14:08:09.000000000 -0600
++++ release-sysaddon.yml	2021-10-18 14:08:09.000000000 -0600
+@@ -1,817 +1,818 @@
+ - priority: 5000
+   mapping: SystemAddons-no-update
+   version: <59.0
+-  comment: No updates for "acer-001" < v59.0
++  comment: No updates for "acer-002" < v59.0
+-  distribution: acer-001
++  distribution: acer-002
+   product: SystemAddons
+ - priority: 5000
+   mapping: SystemAddons-no-update
+   version: <59.0
+-  comment: No updates for "acer-002" < v59.0
++  comment: No updates for "acer-001" < v59.0
+-  distribution: acer-002
++  distribution: acer-001
+   product: SystemAddons
+ - priority: 5000
+   mapping: SystemAddons-no-update
+   version: <56.0
+-  comment: No updates to mozilla119 <56.0
++  comment: No updates to mozilla122 <56.0
+-  distribution: mozilla119
++  distribution: mozilla122
+   product: SystemAddons
+ - priority: 5000
+   mapping: SystemAddons-no-update
+   version: <56.0
+-  comment: No updates to mozilla120 <56.0
++  comment: No updates to mozilla121 <56.0
+-  distribution: mozilla120
++  distribution: mozilla121
+   product: SystemAddons
+ - priority: 5000
+   mapping: SystemAddons-no-update
+   version: <56.0
+-  comment: No updates to mozilla121 <56.0
++  comment: No updates to mozilla120 <56.0
+-  distribution: mozilla121
++  distribution: mozilla120
+   product: SystemAddons
+ - priority: 5000
+   mapping: SystemAddons-no-update
+   version: <56.0
+-  comment: No updates to mozilla122 <56.0
++  comment: No updates to mozilla119 <56.0
+-  distribution: mozilla122
++  distribution: mozilla119
+   product: SystemAddons
+ - priority: 4999
+   mapping: Superblob-1736f63ea1f59bf10f0ac45c9336818a20f27a753c72070bdc507418971f19ef
+   version: <60.0
+   blobs:
+   - acer-locale-fix@mozilla.org-1.0
+   comment: Updates for "acer-002" v59.*
+   distribution: acer-002
+   product: SystemAddons
+ - priority: 4999
+   mapping: Superblob-1736f63ea1f59bf10f0ac45c9336818a20f27a753c72070bdc507418971f19ef
+   version: <60.0
+   blobs:
+   - acer-locale-fix@mozilla.org-1.0
+   comment: Updates for "acer-001" v59.*
+   distribution: acer-001
+   product: SystemAddons
+ - priority: 4999
+   mapping: Superblob-5edeb9097dc363f46f99fb9791a6f6751fac1679ccce1bab8ea3cc2ac6a957fe
+   version: <57.0
+   blobs:
+   - disable-crash-autosubmit@mozilla.org-2.1
+   - disable-js-shared-memory@mozilla.org-2.0
+   - followonsearch@mozilla.com-0.9.6
+   - searchvolmodelextra@mozilla.com-0.0.2
+   - shield-recipe-client@mozilla.org-65.1
+   - timecop@mozilla.com-1.0
+-  comment: 'Updates to distribution: "mozilla119" 56.*'
+-  distribution: mozilla119
++  comment: 'Updates to distribution: "mozilla122" 56.*'
++  distribution: mozilla122
+   product: SystemAddons
+ - priority: 4999
+   mapping: Superblob-5edeb9097dc363f46f99fb9791a6f6751fac1679ccce1bab8ea3cc2ac6a957fe
+   version: <57.0
+   blobs:
+   - disable-crash-autosubmit@mozilla.org-2.1
+   - disable-js-shared-memory@mozilla.org-2.0
+   - followonsearch@mozilla.com-0.9.6
+   - searchvolmodelextra@mozilla.com-0.0.2
+   - shield-recipe-client@mozilla.org-65.1
+   - timecop@mozilla.com-1.0
+-  comment: 'Updates to distribution: "mozilla120" 56.*'
+-  distribution: mozilla120
++  comment: 'Updates to distribution: "mozilla121" 56.*'
++  distribution: mozilla121
+   product: SystemAddons
+ - priority: 4999
+   mapping: Superblob-5edeb9097dc363f46f99fb9791a6f6751fac1679ccce1bab8ea3cc2ac6a957fe
+   version: <57.0
+   blobs:
+   - disable-crash-autosubmit@mozilla.org-2.1
+   - disable-js-shared-memory@mozilla.org-2.0
+   - followonsearch@mozilla.com-0.9.6
+   - searchvolmodelextra@mozilla.com-0.0.2
+   - shield-recipe-client@mozilla.org-65.1
+   - timecop@mozilla.com-1.0
+-  comment: 'Updates to distribution: "mozilla121" 56.*'
+-  distribution: mozilla121
++  comment: 'Updates to distribution: "mozilla120" 56.*'
++  distribution: mozilla120
+   product: SystemAddons
+ - priority: 4999
+   mapping: Superblob-5edeb9097dc363f46f99fb9791a6f6751fac1679ccce1bab8ea3cc2ac6a957fe
+   version: <57.0
+   blobs:
+   - disable-crash-autosubmit@mozilla.org-2.1
+   - disable-js-shared-memory@mozilla.org-2.0
+   - followonsearch@mozilla.com-0.9.6
+   - searchvolmodelextra@mozilla.com-0.0.2
+   - shield-recipe-client@mozilla.org-65.1
+   - timecop@mozilla.com-1.0
+-  comment: 'Updates to distribution: "mozilla122" 56.*'
+-  distribution: mozilla122
++  comment: 'Updates to distribution: "mozilla119" 56.*'
++  distribution: mozilla119
+   product: SystemAddons
+ - priority: 4998
+   mapping: Superblob-481ac03580e4c15c3abebe35ed5c170d482e6096efa762682855555ad141ab6d
+   version: <57.0.3
+   blobs:
+   - disable-crash-autosubmit@mozilla.org-2.1
+   - disable-js-shared-memory@mozilla.org-2.0
+   - disable-media-wmf-nv12@mozilla.org-1.1
+   - searchvolmodelextra@mozilla.com-0.0.2
+-  comment: 'Updates to distribution: "mozilla121" 57.* (<57.0.3)'
+-  distribution: mozilla121
++  comment: 'Updates to distribution: "mozilla122" 57.* (<57.0.3)'
++  distribution: mozilla122
+   product: SystemAddons
+ - priority: 4998
+   mapping: Superblob-481ac03580e4c15c3abebe35ed5c170d482e6096efa762682855555ad141ab6d
+   version: <57.0.3
+   blobs:
+   - disable-crash-autosubmit@mozilla.org-2.1
+   - disable-js-shared-memory@mozilla.org-2.0
+   - disable-media-wmf-nv12@mozilla.org-1.1
+   - searchvolmodelextra@mozilla.com-0.0.2
+-  comment: 'Updates to distribution: "mozilla122" 57.* (<57.0.3)'
+-  distribution: mozilla122
++  comment: 'Updates to distribution: "mozilla121" 57.* (<57.0.3)'
++  distribution: mozilla121
+   product: SystemAddons
+ - priority: 4998
+   mapping: Superblob-481ac03580e4c15c3abebe35ed5c170d482e6096efa762682855555ad141ab6d
+   version: <57.0.3
+   blobs:
+   - disable-crash-autosubmit@mozilla.org-2.1
+   - disable-js-shared-memory@mozilla.org-2.0
+   - disable-media-wmf-nv12@mozilla.org-1.1
+   - searchvolmodelextra@mozilla.com-0.0.2
+-  comment: 'Updates to distribution: "mozilla119" 57.* (<57.0.3)'
+-  distribution: mozilla119
++  comment: 'Updates to distribution: "mozilla120" 57.* (<57.0.3)'
++  distribution: mozilla120
+   product: SystemAddons
+ - priority: 4998
+   mapping: Superblob-481ac03580e4c15c3abebe35ed5c170d482e6096efa762682855555ad141ab6d
+   version: <57.0.3
+   blobs:
+   - disable-crash-autosubmit@mozilla.org-2.1
+   - disable-js-shared-memory@mozilla.org-2.0
+   - disable-media-wmf-nv12@mozilla.org-1.1
+   - searchvolmodelextra@mozilla.com-0.0.2
+-  comment: 'Updates to distribution: "mozilla120" 57.* (<57.0.3)'
+-  distribution: mozilla120
++  comment: 'Updates to distribution: "mozilla119" 57.* (<57.0.3)'
++  distribution: mozilla119
+   product: SystemAddons
+ - priority: 4997
+   mapping: Superblob-954e9a534cdeabaf9f5e2c2f2b442d59d19e5df0490e00d439c9884afa1bbefc
+   version: <58.0
+   blobs:
+   - disable-js-shared-memory@mozilla.org-2.0
+   - disable-media-wmf-nv12@mozilla.org-1.1
+   - searchvolmodelextra@mozilla.com-0.0.2
+-  comment: 'Updates to distribution: "mozilla119" 57.*'
++  comment: 'Updates for distribution: "mozilla122" 57.*'
+-  distribution: mozilla119
++  distribution: mozilla122
+   product: SystemAddons
+ - priority: 4997
+   mapping: Superblob-954e9a534cdeabaf9f5e2c2f2b442d59d19e5df0490e00d439c9884afa1bbefc
+   version: <58.0
+   blobs:
+   - disable-js-shared-memory@mozilla.org-2.0
+   - disable-media-wmf-nv12@mozilla.org-1.1
+   - searchvolmodelextra@mozilla.com-0.0.2
+-  comment: 'Updates for distribution: "mozilla120" 57.*'
++  comment: 'Updates for distribution: "mozilla121" 57.*'
+-  distribution: mozilla120
++  distribution: mozilla121
+   product: SystemAddons
+ - priority: 4997
+   mapping: Superblob-954e9a534cdeabaf9f5e2c2f2b442d59d19e5df0490e00d439c9884afa1bbefc
+   version: <58.0
+   blobs:
+   - disable-js-shared-memory@mozilla.org-2.0
+   - disable-media-wmf-nv12@mozilla.org-1.1
+   - searchvolmodelextra@mozilla.com-0.0.2
+-  comment: 'Updates for distribution: "mozilla121" 57.*'
++  comment: 'Updates for distribution: "mozilla120" 57.*'
+-  distribution: mozilla121
++  distribution: mozilla120
+   product: SystemAddons
+ - priority: 4997
+   mapping: Superblob-954e9a534cdeabaf9f5e2c2f2b442d59d19e5df0490e00d439c9884afa1bbefc
+   version: <58.0
+   blobs:
+   - disable-js-shared-memory@mozilla.org-2.0
+   - disable-media-wmf-nv12@mozilla.org-1.1
+   - searchvolmodelextra@mozilla.com-0.0.2
+-  comment: 'Updates for distribution: "mozilla122" 57.*'
++  comment: 'Updates for distribution: "mozilla119" 57.*'
+-  distribution: mozilla122
++  distribution: mozilla119
+   product: SystemAddons
+ - priority: 4996
+   mapping: searchvolmodelextra@mozilla.com-0.0.2
+   version: <59.0
+-  comment: 'Updates for distribution: "mozilla119" 58.*'
++  comment: 'Updates for distribution: "mozilla122" 58.*'
+-  distribution: mozilla119
++  distribution: mozilla122
+   product: SystemAddons
+ - priority: 4996
+   mapping: searchvolmodelextra@mozilla.com-0.0.2
+   version: <59.0
+-  comment: 'Updates for distribution: "mozilla120" 58.*'
++  comment: 'Updates for distribution: "mozilla121" 58.*'
+-  distribution: mozilla120
++  distribution: mozilla121
+   product: SystemAddons
+ - priority: 4996
+   mapping: searchvolmodelextra@mozilla.com-0.0.2
+   version: <59.0
+-  comment: 'Updates for distribution: "mozilla121" 58.*'
+-  distribution: mozilla121
++  comment: 'Updates for distribution: "mozilla120" 58.*'
++  distribution: mozilla120
+   product: SystemAddons
+ - priority: 4996
+   mapping: searchvolmodelextra@mozilla.com-0.0.2
+   version: <59.0
+-  comment: 'Updates for distribution: "mozilla122" 58.*'
++  comment: 'Updates for distribution: "mozilla119" 58.*'
+-  distribution: mozilla122
++  distribution: mozilla119
+   product: SystemAddons
+ - priority: 1005
+   mapping: SystemAddons-no-update
+   version: <44.0
+-  comment: No System Addons for <44.0. Partly to work around bug 1294395.
++  comment: Updates for <44.0
+   distribution: default
+   product: SystemAddons
+ - priority: 1002
+   mapping: Superblob-b155c44e6ff151e36e259108abd91153f9c0f389b34e2e084d4d86572cd53000
+   version: <45.0
+   blobs:
+   - Loop-3.1.0
+   - google-code-correction@mozilla.org-0.9
+   comment: Don't ship the outofdate addon to XP users (Bug 1293286)
+   distribution: default
+   osVersion: Windows_NT 5,Windows_NT 6.0
+   product: SystemAddons
+ - priority: 1000
+   mapping: Superblob-b155c44e6ff151e36e259108abd91153f9c0f389b34e2e084d4d86572cd53000
+   version: <45.0
+   blobs:
+   - Loop-3.1.0
+   - google-code-correction@mozilla.org-0.9
+   distribution: default
+   product: SystemAddons
+ - priority: 999
+-  mapping: Superblob-1645e71839948df71c03d7e3dc4b460354e928bfc97c2e8b6772bd97011eed6c
++  mapping: google-code-correction@mozilla.org-0.9
+   version: <45.0
+-  blobs:
+-  - google-code-correction@mozilla.org-0.9
+-  comment: Updates to 44.*
++  comment: Disable any offers to clients earlier than 45.0 (e.g. 45.0a*)
+   product: SystemAddons
+ - priority: 980
+-  mapping: Superblob-605c24051b161630036adb6f5532f9fa47d38865234f368ecb1f128dbe00f1bc
++  mapping: Superblob-2c6864e7922f83e2bd5460eecb06fc1e6ef3dea5dd953dcfcca4908a8761f1bb
+   version: <45.1
+   blobs:
+   - Loop-3.1.0
+-  - Malware-remediation-1.1
+-  - baidu-code-update@mozillaonline.com-1.66
+   - google-code-correction@mozilla.org-0.9
++  - telemetry-coverage-bug1487578@mozilla.org-8.0
+   comment: System add-on updates to 45.*
+   product: SystemAddons
+ - priority: 975
+-  mapping: Superblob-7f23c702a564390a200a3ddaadaaadf8541a1b894f44b553d03e6aeb9100c8da
++  mapping: Superblob-2f80cc3290e59ecad6e8f22cf6a8d58ad0a4851e6f7de2b32940d5eced2b418e
+   version: <47.0
+   blobs:
+   - E10srollout-ff46-1.0
+   - Loop-3.0.0
+-  - Malware-remediation-1.2
+   - Pocket-ff46-1.0
+-  - baidu-code-update@mozillaonline.com-1.66
+   - google-code-correction@mozilla.org-0.9
+   - telemetry-coverage-bug1487578@mozilla.org-8.0
+   - timecop@mozilla.com-1.0
+   comment: System Add-on updates to 46.*
+   product: SystemAddons
+ - priority: 970
+-  mapping: Superblob-c8e51cd3f8537c24a1dba5de5ac782d1a3811a8ec32f3746f7e7fa5f01c8e99e
++  mapping: Superblob-40069c47a0125d5f051ae84e4059e0f04a779958640ac9a26df5d1202e4e5e62
+   version: <48.0
+   blobs:
+   - E10srollout-ff47-ff47-1.0b-1.0
+   - Loop-3.0.0
+   - Pocket-ff47-1.0.2
+   - Websensehelper-2.0
+-  - baidu-code-update@mozillaonline.com-1.66
+   - google-code-correction@mozilla.org-0.9
+   - telemetry-coverage-bug1487578@mozilla.org-8.0
+   - timecop@mozilla.com-1.0
+   comment: System add-on updates for 47.*
+   product: SystemAddons
+ - priority: 965
+-  mapping: Superblob-8738c77a488b6cccd2c2b87adb99e68f6cf23cd807692201e34625f642312143
++  mapping: Superblob-ef8707416ee92b2345d94c30225e9607d53c4f833d588485243aa0178ac84ef2
+   version: <49.0
+   blobs:
+   - E10srollout-ff48-ff48-49-1.3
+   - Loop-3.0.0
+   - Pocket-ff48-1.0.4
+   - Websensehelper-2.0
+-  - baidu-code-update@mozillaonline.com-1.66
+   - google-code-correction@mozilla.org-0.9
+   - telemetry-coverage-bug1487578@mozilla.org-8.0
+   - timecop@mozilla.com-1.0
+-  comment: System add-on updates to 48.*
++  comment: System add-on updates to 48.*.
+   product: SystemAddons
+-- priority: 963
+-  mapping: Superblob-77665a8645a05ebc85a6526aec93337334b6c04a95510839e8427232b43edd57
+-  version: '49.0'
++- priority: 960
++  mapping: Superblob-97627148fbf14c7573bc6d52dbc494598a853807fbed81c8f738993fc0838975
++  version: 49.0.1
+   blobs:
+   - Asyncrendering-2.0
+   - D3d9fallback-1.0
+   - E10srollout-ff48-ff48-49-1.3
+   - Websensehelper-2.0
+-  - baidu-code-update@mozillaonline.com-1.66
+   - google-code-correction@mozilla.org-0.9
+   - telemetry-coverage-bug1487578@mozilla.org-8.0
+   - timecop@mozilla.com-1.0
+-  buildID: '20160916101415'
+-  comment: System add-on updates to 49.0
++  buildID: '20160922113459'
++  comment: System add-on updates to 49.0.1
+   product: SystemAddons
+-- priority: 963
+-  mapping: Superblob-77665a8645a05ebc85a6526aec93337334b6c04a95510839e8427232b43edd57
+-  version: 49.0.1
++- priority: 960
++  mapping: Superblob-97627148fbf14c7573bc6d52dbc494598a853807fbed81c8f738993fc0838975
++  version: '49.0'
+   blobs:
+   - Asyncrendering-2.0
+   - D3d9fallback-1.0
+   - E10srollout-ff48-ff48-49-1.3
+   - Websensehelper-2.0
+-  - baidu-code-update@mozillaonline.com-1.66
+   - google-code-correction@mozilla.org-0.9
+   - telemetry-coverage-bug1487578@mozilla.org-8.0
+   - timecop@mozilla.com-1.0
+-  buildID: '20160922113459'
+-  comment: System add-on updates to 49.0.1
++  buildID: '20160916101415'
++  comment: System add-on updates to 49.0
+   product: SystemAddons
+-- priority: 960
+-  mapping: Superblob-0699da3cf293c2238f784defb2bbb0ae5ff02e38e3cce158f53ad9c4469f77db
++- priority: 955
++  mapping: Superblob-339804aa420b9bb73bbfe40bbc0a12527bac9ec80e03bd4a319b783d5f158a19
+   version: <50.0
+   blobs:
+   - Asyncrendering-2.0
+   - Websensehelper-2.0
+-  - baidu-code-update@mozillaonline.com-1.66
+   - google-code-correction@mozilla.org-0.9
+   - telemetry-coverage-bug1487578@mozilla.org-8.0
+   - timecop@mozilla.com-1.0
+   comment: System add-on updates to 49.*
+   product: SystemAddons
+ - priority: 953
+-  mapping: Superblob-5a05f8893705bb20b2ffa30abce774a83d26e392c1a5d0d22c307bc6fd3087d2
++  mapping: Superblob-1fa9e1da398e319ad8bd92f7f2517cc751100ed4ce8ab8d65b26efdf0c6ecd09
+   version: <51.0
+   blobs:
+   - Aushelper-1.5
+-  - baidu-code-update@mozillaonline.com-1.66
+   - google-code-correction@mozilla.org-0.9
+   - telemetry-coverage-bug1487578@mozilla.org-8.0
+   - timecop@mozilla.com-1.0
+   comment: System add-on updates to 50.*
+   product: SystemAddons
+ - priority: 950
+-  mapping: Superblob-82f294102b7242788222db3ee985df0f887b4fdc3d69928d6b4340e9bd32f4da
++  mapping: Superblob-1507dda845e3d49b5576a9625c41a7af688ffff33937980e400c9f9890850cbf
+   version: <52.0
+   blobs:
+   - Aushelper-1.5
+   - Diagnostics-1.0
+   - Disablesha1rollout-1.3
+   - E10srollout-1.12
+   - Hsts-priming-1.0
+-  - baidu-code-update@mozillaonline.com-1.66
+   - google-code-correction@mozilla.org-0.9
+   - telemetry-coverage-bug1487578@mozilla.org-8.0
+   - timecop@mozilla.com-1.0
+   comment: System add-on updates to 51.*
+   product: SystemAddons
+ - priority: 940
+   mapping: Superblob-8861895d2bcbf3bc8348a49e2ca7e91a3760b5df8385b2f8e700e7adceb05c6d
+   version: <53.0
+   blobs:
+   - Disable-cert-transparency-1.0
+   - Disable-prefetch-1.0
+   - E10srollout-1.12
+   - disable-crash-autosubmit@mozilla.org-2.1
+   - hotfix-bug-1548973@mozilla.org-1.1.4-2
+   - timecop@mozilla.com-1.0
+   comment: System add-on updates to 52.*
+   product: SystemAddons
+ - priority: 930
+   mapping: Superblob-49719945629cd7ecc1cc42e9f55709a32658abacf4285e3da66aaefddb2df39a
+   version: <54.0
+   blobs:
+   - Followonsearch-0.8.0
+   - Shield-recipe-client-1.0.0
+   - disable-crash-autosubmit@mozilla.org-2.1
+   - hotfix-bug-1548973@mozilla.org-1.1.4-2
+   - timecop@mozilla.com-1.0
+   comment: System add-on updates to 53.*
+   product: SystemAddons
+ - priority: 920
+   mapping: Superblob-132153416ddd192104340edb45165bdb4fddabdbc5d45903ab33cb2cf0844c32
+   version: <55.0
+   blobs:
+   - Shield-recipe-client-1.0.0
+   - disable-crash-autosubmit@mozilla.org-2.1
+   - e10srollout-1.85
+   - followonsearch-0.9.1
+   - hotfix-bug-1548973@mozilla.org-1.1.4-2
+   - timecop@mozilla.com-1.0
+-  comment: SystemAddons for 54.*
++  comment: System add-on updates to 54.*
+   product: SystemAddons
+ - priority: 910
+-  mapping: Superblob-5e92b9714b373a5af4f9155236f7e07a06a564a28f9d3b410057729e4ab0e0d3
++  mapping: Superblob-d162a2eb205d6a25effdb6309f43d29ac7caccc10264de4e56ccdc5a80029ce7
+   version: <56.0
+   blobs:
+   - clicktoplay-rollout@mozilla.org-1.4
+   - disable-crash-autosubmit@mozilla.org-2.1
+   - disable-js-shared-memory@mozilla.org-2.0
+   - e10srollout@mozilla.org-2.05
+   - followonsearch@mozilla.com-0.9.4
+   - hotfix-bug-1548973@mozilla.org-1.1.4-2
+   - onboarding@mozilla.org-0.1
+   - screenshots@mozilla.org-10.12.0
+   - timecop@mozilla.com-1.0
++  - tls13-middlebox-2.0.0
+   comment: System add-on updates to 55.*
+   product: SystemAddons
+ - priority: 900
+   mapping: Superblob-5e65c137d657cb5e07ae1e336218006dabebacdbb0484976c4d29d8fe7b44023
+   version: <57.0
+   blobs:
+   - disable-crash-autosubmit@mozilla.org-2.1
+   - disable-js-shared-memory@mozilla.org-2.0
+   - followonsearch@mozilla.com-0.9.6
+   - hotfix-bug-1548973@mozilla.org-1.1.4-2
+   - shield-recipe-client@mozilla.org-65.1
+   - timecop@mozilla.com-1.0
+   comment: Updates for 56.*
+   product: SystemAddons
+ - priority: 895
+   mapping: Superblob-fb25333c65f213bb772a276e15499f68ca9e4922bcb00746bc139c95c329ab9d
+   version: <57.0.3
+   blobs:
+   - disable-crash-autosubmit@mozilla.org-2.1
+   - disable-js-shared-memory@mozilla.org-2.0
+   - disable-media-wmf-nv12@mozilla.org-1.1
+   - hotfix-bug-1548973@mozilla.org-1.1.4-2
+-  comment: Updates for 57.* (< 57.0.3)
++  comment: Updates for 57.* (<57.0.3)
+   product: SystemAddons
+ - priority: 890
+   mapping: Superblob-d3542d304f7f425858e8eadd35d67e366ef1b9a28971acd54a991a714094c0a7
+   version: <58.0
+   blobs:
+   - disable-js-shared-memory@mozilla.org-2.0
+   - disable-media-wmf-nv12@mozilla.org-1.1
+   - hotfix-bug-1548973@mozilla.org-1.1.4-2
+   comment: Updates for 57.*
+   product: SystemAddons
+ - priority: 880
+   mapping: Superblob-92f0ab5fe70373ce8c2dc026c3d0c6c86cedde120db93756c4e93218985b788d
+   version: <59.0
+   blobs:
+   - hotfix-bug-1548973@mozilla.org-1.1.4-2
+   comment: Updates for 58.*
+   product: SystemAddons
+ - priority: 870
+   mapping: Superblob-b58e09da2d9cef28041a6f3ee883a13c74f17c30370036bc5872f119e9f65a2f
+   version: <60.0
+   blobs:
+   - hotfix-bug-1548973@mozilla.org-1.1.4-2
+   - tls13-rollout-bug1442042@mozilla.org-9.0
+   comment: Updates for 59.*
+   product: SystemAddons
+ - priority: 860
+   mapping: Superblob-92f0ab5fe70373ce8c2dc026c3d0c6c86cedde120db93756c4e93218985b788d
+   version: <61.0
+   blobs:
+   - hotfix-bug-1548973@mozilla.org-1.1.4-2
+   comment: Updates for 60.*
+   product: SystemAddons
+ - priority: 850
+-  mapping: Superblob-37912b088ccf25c56cbad0738032c05a82657692b93c07eab67006206065087c
++  mapping: Superblob-aade24461c0e906e0c96d57620370348450cd06785d90d299995eb1223afb2c0
+   version: <62.0
+   blobs:
+-  - baidu-code-update@mozillaonline.com-2.66
++  - hotfix-update-xpi-intermediate@mozilla.com-1.0.5
+   - telemetry-coverage-bug1487578@mozilla.org-7.0
+   comment: Updates for 61.*
+   product: SystemAddons
+ - priority: 840
+-  mapping: Superblob-37912b088ccf25c56cbad0738032c05a82657692b93c07eab67006206065087c
++  mapping: Superblob-aade24461c0e906e0c96d57620370348450cd06785d90d299995eb1223afb2c0
+   version: <63.0
+   blobs:
+-  - baidu-code-update@mozillaonline.com-2.66
++  - hotfix-update-xpi-intermediate@mozilla.com-1.0.5
+   - telemetry-coverage-bug1487578@mozilla.org-7.0
+   comment: Updates for 62.*
+   product: SystemAddons
+ - priority: 830
+-  mapping: Superblob-4520d1d09d75ee643fc050f7d8787604ac693e3a4fd29c7a736a47fa4e75adb9
++  mapping: Superblob-b4d887834a792e8fe69ebe2dec29de86c211439aa1205045526dd923c1153f0d
+   version: <64.0
+   blobs:
+-  - baidu-code-update@mozillaonline.com-2.66
+   - fxmonitor@mozilla.org-2.8
++  - hotfix-update-xpi-intermediate@mozilla.com-1.0.5
+   comment: Updates for 63.*
+   product: SystemAddons
+ - priority: 820
+-  mapping: Superblob-4520d1d09d75ee643fc050f7d8787604ac693e3a4fd29c7a736a47fa4e75adb9
++  mapping: Superblob-b4d887834a792e8fe69ebe2dec29de86c211439aa1205045526dd923c1153f0d
+   version: <65.0
+   blobs:
+-  - baidu-code-update@mozillaonline.com-2.66
+   - fxmonitor@mozilla.org-2.8
++  - hotfix-update-xpi-intermediate@mozilla.com-1.0.5
+   comment: Updates for 64.*
+   product: SystemAddons
+ - priority: 810
+-  mapping: Superblob-c36606dd3a748dfcf30394af3019a6bbd17b822b3ab2107a4c4c5a64a3f9d7a8
++  mapping: Superblob-0c0c9c4617d142ea64e5380384c451ed5d95ba9b1f8de2307923924447923409
+   version: <66.0
+   blobs:
+-  - baidu-code-update@mozillaonline.com-2.66
+   - fxmonitor@mozilla.org-2.8
++  - hotfix-update-xpi-intermediate@mozilla.com-1.0.5
+   - webcompat@mozilla.org-3.0.1
+   comment: Updates for 65.*
+   product: SystemAddons
+-- priority: 800
++- priority: 805
+   mapping: Superblob-4520d1d09d75ee643fc050f7d8787604ac693e3a4fd29c7a736a47fa4e75adb9
+-  version: <67.0
++  version: <66.0.3
+   blobs:
+   - baidu-code-update@mozillaonline.com-2.66
+   - fxmonitor@mozilla.org-2.8
+-  comment: Updates for 66.*
++  comment: Updates for < 66.0.3
+   product: SystemAddons
++- priority: 800
++  mapping: Superblob-26b1ac78303807dfeebb87f39cbdfd1a8a095d7fedc5d449ac6c409962a6cec8
++  version: <67.0
++  blobs:
++  - fxmonitor@mozilla.org-2.8
++  comment: Updates for 66.*
++  product: SystemAddons
+ - priority: 790
+   mapping: SystemAddons-no-update
+   version: <68.0
+   comment: Updates for 67.*
+   product: SystemAddons
+ - priority: 780
+   mapping: Superblob-6605aecc7d2d5a37def7e7f00c637d85d71cb4f820a5714e68836a3dbb062ebb
+   version: <68.2
+   blobs:
+   - webcompat@mozilla.org-6.1.0
+   comment: Updates for < 68.2
+   product: SystemAddons
+ - priority: 775
+   mapping: SystemAddons-no-update
+   version: <69.0
+   comment: Updates for 68.*
+   product: SystemAddons
+ - priority: 770
+-  mapping: Superblob-6605aecc7d2d5a37def7e7f00c637d85d71cb4f820a5714e68836a3dbb062ebb
++  mapping: SystemAddons-no-update
+   version: <69.0.2
+-  blobs:
+-  - webcompat@mozilla.org-6.1.0
+   comment: Updates for < 69.0.2
+   product: SystemAddons
+ - priority: 760
+   mapping: SystemAddons-no-update
+   version: <70.0
+   comment: Updates for 69.*
+   product: SystemAddons
+ - priority: 750
+   mapping: SystemAddons-no-update
+   version: <71.0
+   comment: Updates for 70.*
+   product: SystemAddons
+ - priority: 740
+   mapping: SystemAddons-no-update
+   version: <72.0
+   comment: Updates for 71.*
+   product: SystemAddons
+ - priority: 650
+   mapping: SystemAddons-no-update
+   version: <81.0
+   comment: Updates for 80.*
+   product: SystemAddons
+ - priority: 640
+   mapping: Superblob-dbfcc4103f50692801cc5a916d22d1551953bfc8df027c88dc7306a77cae5035
+   version: <82.0
+   blobs:
+   - reset-search-defaults@mozilla.com-1.0.6
+   comment: Updates for 81.*
+   product: SystemAddons
+ - priority: 630
+   mapping: Superblob-dbfcc4103f50692801cc5a916d22d1551953bfc8df027c88dc7306a77cae5035
+   version: <83.0
+   blobs:
+   - reset-search-defaults@mozilla.com-1.0.6
+   comment: Updates for 82.*
+   product: SystemAddons
+ - priority: 620
+   mapping: Superblob-dbfcc4103f50692801cc5a916d22d1551953bfc8df027c88dc7306a77cae5035
+   version: <84.0
+   blobs:
+   - reset-search-defaults@mozilla.com-1.0.6
+   comment: Updates for 83.*
+   product: SystemAddons
+ - priority: 610
+   mapping: Superblob-dbfcc4103f50692801cc5a916d22d1551953bfc8df027c88dc7306a77cae5035
+   version: <85.0
+   blobs:
+   - reset-search-defaults@mozilla.com-1.0.6
+   comment: Updates for 84.*
+   product: SystemAddons
+-- priority: 580
+-  mapping: Superblob-2e4fc93dc9e080bf4e9b5c41b36ba187346acecaf2cb963095d8e1805aa61a02
++- priority: 600
++  mapping: Superblob-dbfcc4103f50692801cc5a916d22d1551953bfc8df027c88dc7306a77cae5035
++  version: <86.0
++  blobs:
++  - reset-search-defaults@mozilla.com-1.0.6
++  comment: Updates for 85.*
++  product: SystemAddons
++- priority: 590
++  mapping: Superblob-dbfcc4103f50692801cc5a916d22d1551953bfc8df027c88dc7306a77cae5035
+   version: <87.0
+   blobs:
+-  - reset-search-defaults@mozilla.com-2.1.0
+-  comment: Updates for 85-86.*
++  - reset-search-defaults@mozilla.com-1.0.6
++  comment: Updates for 86.*
+   product: SystemAddons
+-- priority: 570
+-  mapping: Superblob-46efa0f5b397ebd1d526296138fed1355a5e299d1a0f12e39bc1c1fcc369d403
++- priority: 580
++  mapping: Superblob-2e4fc93dc9e080bf4e9b5c41b36ba187346acecaf2cb963095d8e1805aa61a02
+   version: <90.0
+   blobs:
+-  - proxy-failover@mozilla.com-1.0.1
+   - reset-search-defaults@mozilla.com-2.1.0
+-  comment: Updates for 87-89.*
+-  fallbackMapping: Superblob-2e4fc93dc9e080bf4e9b5c41b36ba187346acecaf2cb963095d8e1805aa61a02
++  comment: Updates for 87-89
+   product: SystemAddons
+-- priority: 560
+-  mapping: Superblob-158dfc7f91d4f39c18cb23adbba143af49550fcff6a80e1dc5f75c823a383300
+-  version: <94.0
++- priority: 550
++  mapping: Superblob-abd6bb2a123b70ac37eee2b7815dfd197c0c5d18b195e8d7772bce9673d1ee46
++  version: 91.*
+   blobs:
+-  - addons-search-detection@mozilla.com-1.0.1
+-  - proxy-failover@mozilla.com-1.0.1
+-  - reset-search-defaults@mozilla.com-2.1.0
+-  comment: Updates for 90-93
+-  fallbackMapping: Superblob-reset-search-defaults@mozilla.com-2.1.0-addons-search-detection@mozilla.com-1.0.1
++  - addons-search-experiment@mozilla.com-1.0.0
+   product: SystemAddons
