@@ -4,42 +4,54 @@
   mapping: SystemAddons-no-update
   version: <59.0
   comment: No updates for "acer-001" < v59.0
+  data_version: 1
   distribution: acer-001
+  product: SystemAddons
 - priority: 5000
   rule_id: 802
   channel: release
   mapping: SystemAddons-no-update
   version: <59.0
   comment: No updates for "acer-002" < v59.0
+  data_version: 1
   distribution: acer-002
+  product: SystemAddons
 - priority: 5000
   rule_id: 759
   channel: release
   mapping: SystemAddons-no-update
   version: <56.0
   comment: No updates to mozilla119 <56.0
+  data_version: 1
   distribution: mozilla119
+  product: SystemAddons
 - priority: 5000
   rule_id: 758
   channel: release
   mapping: SystemAddons-no-update
   version: <56.0
   comment: No updates to mozilla120 <56.0
+  data_version: 1
   distribution: mozilla120
+  product: SystemAddons
 - priority: 5000
   rule_id: 757
   channel: release
   mapping: SystemAddons-no-update
   version: <56.0
   comment: No updates to mozilla121 <56.0
+  data_version: 1
   distribution: mozilla121
+  product: SystemAddons
 - priority: 5000
   rule_id: 756
   channel: release
   mapping: SystemAddons-no-update
   version: <56.0
   comment: No updates to mozilla122 <56.0
+  data_version: 1
   distribution: mozilla122
+  product: SystemAddons
 - priority: 4999
   rule_id: 801
   channel: release
@@ -48,7 +60,9 @@
   blobs:
   - acer-locale-fix@mozilla.org-1.0
   comment: Updates for "acer-002" v59.*
+  data_version: 1
   distribution: acer-002
+  product: SystemAddons
 - priority: 4999
   rule_id: 800
   channel: release
@@ -57,7 +71,9 @@
   blobs:
   - acer-locale-fix@mozilla.org-1.0
   comment: Updates for "acer-001" v59.*
+  data_version: 1
   distribution: acer-001
+  product: SystemAddons
 - priority: 4999
   rule_id: 766
   channel: release
@@ -71,7 +87,9 @@
   - shield-recipe-client@mozilla.org-65.1
   - timecop@mozilla.com-1.0
   comment: 'Updates to distribution: "mozilla119" 56.*'
+  data_version: 1
   distribution: mozilla119
+  product: SystemAddons
 - priority: 4999
   rule_id: 765
   channel: release
@@ -85,7 +103,9 @@
   - shield-recipe-client@mozilla.org-65.1
   - timecop@mozilla.com-1.0
   comment: 'Updates to distribution: "mozilla120" 56.*'
+  data_version: 1
   distribution: mozilla120
+  product: SystemAddons
 - priority: 4999
   rule_id: 764
   channel: release
@@ -99,7 +119,9 @@
   - shield-recipe-client@mozilla.org-65.1
   - timecop@mozilla.com-1.0
   comment: 'Updates to distribution: "mozilla121" 56.*'
+  data_version: 1
   distribution: mozilla121
+  product: SystemAddons
 - priority: 4999
   rule_id: 763
   channel: release
@@ -113,7 +135,9 @@
   - shield-recipe-client@mozilla.org-65.1
   - timecop@mozilla.com-1.0
   comment: 'Updates to distribution: "mozilla122" 56.*'
+  data_version: 1
   distribution: mozilla122
+  product: SystemAddons
 - priority: 4998
   rule_id: 772
   channel: release
@@ -125,7 +149,9 @@
   - disable-media-wmf-nv12@mozilla.org-1.1
   - searchvolmodelextra@mozilla.com-0.0.2
   comment: 'Updates to distribution: "mozilla121" 57.* (<57.0.3)'
+  data_version: 1
   distribution: mozilla121
+  product: SystemAddons
 - priority: 4998
   rule_id: 771
   channel: release
@@ -137,7 +163,9 @@
   - disable-media-wmf-nv12@mozilla.org-1.1
   - searchvolmodelextra@mozilla.com-0.0.2
   comment: 'Updates to distribution: "mozilla122" 57.* (<57.0.3)'
+  data_version: 1
   distribution: mozilla122
+  product: SystemAddons
 - priority: 4998
   rule_id: 762
   channel: release
@@ -149,7 +177,9 @@
   - disable-media-wmf-nv12@mozilla.org-1.1
   - searchvolmodelextra@mozilla.com-0.0.2
   comment: 'Updates to distribution: "mozilla119" 57.* (<57.0.3)'
+  data_version: 1
   distribution: mozilla119
+  product: SystemAddons
 - priority: 4998
   rule_id: 761
   channel: release
@@ -161,7 +191,9 @@
   - disable-media-wmf-nv12@mozilla.org-1.1
   - searchvolmodelextra@mozilla.com-0.0.2
   comment: 'Updates to distribution: "mozilla120" 57.* (<57.0.3)'
+  data_version: 1
   distribution: mozilla120
+  product: SystemAddons
 - priority: 4997
   rule_id: 770
   channel: release
@@ -172,7 +204,9 @@
   - disable-media-wmf-nv12@mozilla.org-1.1
   - searchvolmodelextra@mozilla.com-0.0.2
   comment: 'Updates to distribution: "mozilla119" 57.*'
+  data_version: 1
   distribution: mozilla119
+  product: SystemAddons
 - priority: 4997
   rule_id: 769
   channel: release
@@ -183,7 +217,9 @@
   - disable-media-wmf-nv12@mozilla.org-1.1
   - searchvolmodelextra@mozilla.com-0.0.2
   comment: 'Updates for distribution: "mozilla120" 57.*'
+  data_version: 1
   distribution: mozilla120
+  product: SystemAddons
 - priority: 4997
   rule_id: 768
   channel: release
@@ -194,7 +230,9 @@
   - disable-media-wmf-nv12@mozilla.org-1.1
   - searchvolmodelextra@mozilla.com-0.0.2
   comment: 'Updates for distribution: "mozilla121" 57.*'
+  data_version: 1
   distribution: mozilla121
+  product: SystemAddons
 - priority: 4997
   rule_id: 767
   channel: release
@@ -205,42 +243,54 @@
   - disable-media-wmf-nv12@mozilla.org-1.1
   - searchvolmodelextra@mozilla.com-0.0.2
   comment: 'Updates for distribution: "mozilla122" 57.*'
+  data_version: 1
   distribution: mozilla122
+  product: SystemAddons
 - priority: 4996
   rule_id: 775
   channel: release
   mapping: searchvolmodelextra@mozilla.com-0.0.2
   version: <59.0
   comment: 'Updates for distribution: "mozilla119" 58.*'
+  data_version: 1
   distribution: mozilla119
+  product: SystemAddons
 - priority: 4996
   rule_id: 774
   channel: release
   mapping: searchvolmodelextra@mozilla.com-0.0.2
   version: <59.0
   comment: 'Updates for distribution: "mozilla120" 58.*'
+  data_version: 1
   distribution: mozilla120
+  product: SystemAddons
 - priority: 4996
   rule_id: 773
   channel: release
   mapping: searchvolmodelextra@mozilla.com-0.0.2
   version: <59.0
   comment: 'Updates for distribution: "mozilla121" 58.*'
+  data_version: 1
   distribution: mozilla121
+  product: SystemAddons
 - priority: 4996
   rule_id: 760
   channel: release
   mapping: searchvolmodelextra@mozilla.com-0.0.2
   version: <59.0
   comment: 'Updates for distribution: "mozilla122" 58.*'
+  data_version: 1
   distribution: mozilla122
+  product: SystemAddons
 - priority: 1005
   rule_id: 395
   channel: release
   mapping: SystemAddons-no-update
   version: <44.0
   comment: No System Addons for <44.0. Partly to work around bug 1294395.
+  data_version: 9
   distribution: default
+  product: SystemAddons
 - priority: 1002
   rule_id: 393
   channel: release
@@ -250,8 +300,10 @@
   - Loop-3.1.0
   - google-code-correction@mozilla.org-0.9
   comment: Don't ship the outofdate addon to XP users (Bug 1293286)
+  data_version: 6
   distribution: default
   osVersion: Windows_NT 5,Windows_NT 6.0
+  product: SystemAddons
 - priority: 1000
   rule_id: 324
   channel: release
@@ -260,7 +312,9 @@
   blobs:
   - Loop-3.1.0
   - google-code-correction@mozilla.org-0.9
+  data_version: 10
   distribution: default
+  product: SystemAddons
 - priority: 999
   rule_id: 394
   channel: release
@@ -269,6 +323,8 @@
   blobs:
   - google-code-correction@mozilla.org-0.9
   comment: Updates to 44.*
+  data_version: 2
+  product: SystemAddons
 - priority: 980
   rule_id: 325
   channel: release
@@ -280,6 +336,8 @@
   - baidu-code-update@mozillaonline.com-1.66
   - google-code-correction@mozilla.org-0.9
   comment: System add-on updates to 45.*
+  data_version: 8
+  product: SystemAddons
 - priority: 975
   rule_id: 363
   channel: release
@@ -295,6 +353,8 @@
   - telemetry-coverage-bug1487578@mozilla.org-8.0
   - timecop@mozilla.com-1.0
   comment: System Add-on updates to 46.*
+  data_version: 8
+  product: SystemAddons
 - priority: 970
   rule_id: 371
   channel: release
@@ -310,6 +370,8 @@
   - telemetry-coverage-bug1487578@mozilla.org-8.0
   - timecop@mozilla.com-1.0
   comment: System add-on updates for 47.*
+  data_version: 10
+  product: SystemAddons
 - priority: 965
   rule_id: 399
   channel: release
@@ -325,6 +387,8 @@
   - telemetry-coverage-bug1487578@mozilla.org-8.0
   - timecop@mozilla.com-1.0
   comment: System add-on updates to 48.*
+  data_version: 13
+  product: SystemAddons
 - priority: 963
   rule_id: 438
   channel: release
@@ -341,6 +405,8 @@
   - timecop@mozilla.com-1.0
   buildID: '20160916101415'
   comment: System add-on updates to 49.0
+  data_version: 10
+  product: SystemAddons
 - priority: 963
   rule_id: 437
   channel: release
@@ -357,6 +423,8 @@
   - timecop@mozilla.com-1.0
   buildID: '20160922113459'
   comment: System add-on updates to 49.0.1
+  data_version: 10
+  product: SystemAddons
 - priority: 960
   rule_id: 427
   channel: release
@@ -370,6 +438,8 @@
   - telemetry-coverage-bug1487578@mozilla.org-8.0
   - timecop@mozilla.com-1.0
   comment: System add-on updates to 49.*
+  data_version: 9
+  product: SystemAddons
 - priority: 953
   rule_id: 508
   channel: release
@@ -382,6 +452,8 @@
   - telemetry-coverage-bug1487578@mozilla.org-8.0
   - timecop@mozilla.com-1.0
   comment: System add-on updates to 50.*
+  data_version: 7
+  product: SystemAddons
 - priority: 950
   rule_id: 509
   channel: release
@@ -398,6 +470,8 @@
   - telemetry-coverage-bug1487578@mozilla.org-8.0
   - timecop@mozilla.com-1.0
   comment: System add-on updates to 51.*
+  data_version: 14
+  product: SystemAddons
 - priority: 940
   rule_id: 551
   channel: release
@@ -411,6 +485,8 @@
   - hotfix-bug-1548973@mozilla.org-1.1.4-2
   - timecop@mozilla.com-1.0
   comment: System add-on updates to 52.*
+  data_version: 12
+  product: SystemAddons
 - priority: 930
   rule_id: 587
   channel: release
@@ -423,6 +499,8 @@
   - hotfix-bug-1548973@mozilla.org-1.1.4-2
   - timecop@mozilla.com-1.0
   comment: System add-on updates to 53.*
+  data_version: 15
+  product: SystemAddons
 - priority: 920
   rule_id: 599
   channel: release
@@ -436,6 +514,8 @@
   - hotfix-bug-1548973@mozilla.org-1.1.4-2
   - timecop@mozilla.com-1.0
   comment: SystemAddons for 54.*
+  data_version: 12
+  product: SystemAddons
 - priority: 910
   rule_id: 640
   channel: release
@@ -452,6 +532,8 @@
   - screenshots@mozilla.org-10.12.0
   - timecop@mozilla.com-1.0
   comment: System add-on updates to 55.*
+  data_version: 13
+  product: SystemAddons
 - priority: 900
   rule_id: 663
   channel: release
@@ -465,6 +547,8 @@
   - shield-recipe-client@mozilla.org-65.1
   - timecop@mozilla.com-1.0
   comment: Updates for 56.*
+  data_version: 11
+  product: SystemAddons
 - priority: 895
   rule_id: 722
   channel: release
@@ -476,6 +560,8 @@
   - disable-media-wmf-nv12@mozilla.org-1.1
   - hotfix-bug-1548973@mozilla.org-1.1.4-2
   comment: Updates for 57.* (< 57.0.3)
+  data_version: 5
+  product: SystemAddons
 - priority: 890
   rule_id: 689
   channel: release
@@ -486,6 +572,8 @@
   - disable-media-wmf-nv12@mozilla.org-1.1
   - hotfix-bug-1548973@mozilla.org-1.1.4-2
   comment: Updates for 57.*
+  data_version: 5
+  product: SystemAddons
 - priority: 880
   rule_id: 790
   channel: release
@@ -494,6 +582,8 @@
   blobs:
   - hotfix-bug-1548973@mozilla.org-1.1.4-2
   comment: Updates for 58.*
+  data_version: 4
+  product: SystemAddons
 - priority: 870
   rule_id: 789
   channel: release
@@ -503,6 +593,8 @@
   - hotfix-bug-1548973@mozilla.org-1.1.4-2
   - tls13-rollout-bug1442042@mozilla.org-9.0
   comment: Updates for 59.*
+  data_version: 9
+  product: SystemAddons
 - priority: 860
   rule_id: 812
   channel: release
@@ -511,6 +603,8 @@
   blobs:
   - hotfix-bug-1548973@mozilla.org-1.1.4-2
   comment: Updates for 60.*
+  data_version: 6
+  product: SystemAddons
 - priority: 850
   rule_id: 835
   channel: release
@@ -520,6 +614,8 @@
   - baidu-code-update@mozillaonline.com-2.66
   - telemetry-coverage-bug1487578@mozilla.org-7.0
   comment: Updates for 61.*
+  data_version: 3
+  product: SystemAddons
 - priority: 840
   rule_id: 836
   channel: release
@@ -529,6 +625,8 @@
   - baidu-code-update@mozillaonline.com-2.66
   - telemetry-coverage-bug1487578@mozilla.org-7.0
   comment: Updates for 62.*
+  data_version: 5
+  product: SystemAddons
 - priority: 830
   rule_id: 848
   channel: release
@@ -538,6 +636,8 @@
   - baidu-code-update@mozillaonline.com-2.66
   - fxmonitor@mozilla.org-2.8
   comment: Updates for 63.*
+  data_version: 3
+  product: SystemAddons
 - priority: 820
   rule_id: 852
   channel: release
@@ -547,6 +647,8 @@
   - baidu-code-update@mozillaonline.com-2.66
   - fxmonitor@mozilla.org-2.8
   comment: Updates for 64.*
+  data_version: 2
+  product: SystemAddons
 - priority: 810
   rule_id: 859
   channel: release
@@ -557,6 +659,8 @@
   - fxmonitor@mozilla.org-2.8
   - webcompat@mozilla.org-3.0.1
   comment: Updates for 65.*
+  data_version: 3
+  product: SystemAddons
 - priority: 800
   rule_id: 868
   channel: release
@@ -566,12 +670,16 @@
   - baidu-code-update@mozillaonline.com-2.66
   - fxmonitor@mozilla.org-2.8
   comment: Updates for 66.*
+  data_version: 2
+  product: SystemAddons
 - priority: 790
   rule_id: 908
   channel: release
   mapping: SystemAddons-no-update
   version: <68.0
   comment: Updates for 67.*
+  data_version: 1
+  product: SystemAddons
 - priority: 780
   rule_id: 907
   channel: release
@@ -580,12 +688,16 @@
   blobs:
   - webcompat@mozilla.org-6.1.0
   comment: Updates for < 68.2
+  data_version: 4
+  product: SystemAddons
 - priority: 775
   rule_id: 934
   channel: release
   mapping: SystemAddons-no-update
   version: <69.0
   comment: Updates for 68.*
+  data_version: 1
+  product: SystemAddons
 - priority: 770
   rule_id: 921
   channel: release
@@ -594,30 +706,40 @@
   blobs:
   - webcompat@mozilla.org-6.1.0
   comment: Updates for < 69.0.2
+  data_version: 5
+  product: SystemAddons
 - priority: 760
   rule_id: 936
   channel: release
   mapping: SystemAddons-no-update
   version: <70.0
   comment: Updates for 69.*
+  data_version: 3
+  product: SystemAddons
 - priority: 750
   rule_id: 947
   channel: release
   mapping: SystemAddons-no-update
   version: <71.0
   comment: Updates for 70.*
+  data_version: 2
+  product: SystemAddons
 - priority: 740
   rule_id: 946
   channel: release
   mapping: SystemAddons-no-update
   version: <72.0
   comment: Updates for 71.*
+  data_version: 2
+  product: SystemAddons
 - priority: 650
   rule_id: 17535
   channel: release
   mapping: SystemAddons-no-update
   version: <81.0
   comment: Updates for 80.*
+  data_version: 1
+  product: SystemAddons
 - priority: 640
   rule_id: 17536
   channel: release
@@ -626,6 +748,8 @@
   blobs:
   - reset-search-defaults@mozilla.com-1.0.6
   comment: Updates for 81.*
+  data_version: 3
+  product: SystemAddons
 - priority: 630
   rule_id: 17537
   channel: release
@@ -634,6 +758,8 @@
   blobs:
   - reset-search-defaults@mozilla.com-1.0.6
   comment: Updates for 82.*
+  data_version: 3
+  product: SystemAddons
 - priority: 620
   rule_id: 17538
   channel: release
@@ -642,6 +768,8 @@
   blobs:
   - reset-search-defaults@mozilla.com-1.0.6
   comment: Updates for 83.*
+  data_version: 3
+  product: SystemAddons
 - priority: 610
   rule_id: 17539
   channel: release
@@ -650,6 +778,8 @@
   blobs:
   - reset-search-defaults@mozilla.com-1.0.6
   comment: Updates for 84.*
+  data_version: 3
+  product: SystemAddons
 - priority: 580
   rule_id: 17657
   channel: release
@@ -658,6 +788,8 @@
   blobs:
   - reset-search-defaults@mozilla.com-2.1.0
   comment: Updates for 85-86.*
+  data_version: 1
+  product: SystemAddons
 - priority: 570
   rule_id: 17571
   channel: release
@@ -667,7 +799,9 @@
   - proxy-failover@mozilla.com-1.0.1
   - reset-search-defaults@mozilla.com-2.1.0
   comment: Updates for 87-89.*
+  data_version: 11
   fallbackMapping: Superblob-2e4fc93dc9e080bf4e9b5c41b36ba187346acecaf2cb963095d8e1805aa61a02
+  product: SystemAddons
 - priority: 560
   rule_id: 17649
   channel: release
@@ -678,4 +812,6 @@
   - proxy-failover@mozilla.com-1.0.1
   - reset-search-defaults@mozilla.com-2.1.0
   comment: Updates for 90-93
+  data_version: 8
   fallbackMapping: Superblob-reset-search-defaults@mozilla.com-2.1.0-addons-search-detection@mozilla.com-1.0.1
+  product: SystemAddons

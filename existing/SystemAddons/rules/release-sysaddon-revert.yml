@@ -4,9 +4,13 @@
   mapping: SystemAddons-no-update
   version: <45.0
   comment: Disable an offers to clients earlier that 45.0 (e.g. 45.0a*)
+  data_version: 2
+  product: SystemAddons
 - priority: 100
   rule_id: 321
   channel: release-sysaddon-revert
   mapping: SystemAddons-hello01-45
   version: <45.1
   comment: Testing for revision of the system add-on to the original version
+  data_version: 2
+  product: SystemAddons

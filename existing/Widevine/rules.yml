@@ -2,42 +2,58 @@
   rule_id: 17548
   mapping: GMP-No-Update
   comment: No widevine on 10.6 (Bug 1273214 c#3)
+  data_version: 2
   osVersion: Darwin 10
+  product: Widevine
 - priority: 1000
   rule_id: 17547
   mapping: GMP-No-Update
   comment: Block on win < Vista
+  data_version: 2
   osVersion: Windows_NT 5
+  product: Widevine
 - priority: 1000
   rule_id: 17546
   mapping: GMP-No-Update
   buildTarget: WINNT_x86_64-msvc-x64
   comment: Block on < win7 if x64
+  data_version: 2
   osVersion: Windows_NT 6.0
+  product: Widevine
 - priority: 990
   rule_id: 17549
   mapping: GMP-No-Update
   version: <47.0a1
   comment: No widevine on < Gecko 47
+  data_version: 2
+  product: Widevine
 - priority: 980
   rule_id: 17551
   mapping: Widevine-1.4.8.866
   version: <49.0a1
   comment: Firefox < 49.0a1 stays on .866 ( Bug 1287925 )
+  data_version: 2
+  product: Widevine
 - priority: 980
   rule_id: 17550
   mapping: Widevine-1.4.8.866
   comment: Keep OSX < 10.9 on Widevine .866 ( Bug 1287925)
+  data_version: 4
   osVersion: Darwin 11,Darwin 12
+  product: Widevine
 - priority: 970
   rule_id: 17552
   mapping: Widevine-1.4.8.903
   version: <56.0a1
+  data_version: 2
+  product: Widevine
 - priority: 960
   rule_id: 17553
   mapping: Widevine-1.4.8.970
   version: <57.0
   buildID: <20170831165232
+  data_version: 2
+  product: Widevine
 - priority: 950
   rule_id: 17554
   channel: nightly*
@@ -46,12 +62,16 @@
   buildID: <20170830220349
   comment: Widevine pre-signing watershed for nightly* - switch to "nightly*" channel
     when priorities >950 are all channels
+  data_version: 5
+  product: Widevine
 - priority: 940
   rule_id: 17584
   mapping: Widevine-1.4.8.1008
   version: <60.0
   comment: Bug 1479579 + 1525019 - Send 1.4.8.1008 to all users who don't have 60
     yet
+  data_version: 4
+  product: Widevine
 - priority: 930
   rule_id: 17586
   channel: esr*
@@ -59,6 +79,8 @@
   version: <60.5.0
   comment: Bug 1475260 + 1479579 + 1525019 - Update Widevine CDM to version 1.4.9.1088
     to avoid deactivation on all channels >=60 <64.0
+  data_version: 3
+  product: Widevine
 - priority: 920
   rule_id: 17555
   channel: esr*
@@ -66,13 +88,17 @@
   version: <60.8.0
   comment: ESR 60.5.0 users - bug 1514206 - Update rules to serve Widevine 4.10.1146.0
     to Windows users instead of 4.10.1196.0
+  data_version: 4
   osVersion: Windows_NT
+  product: Widevine
 - priority: 910
   rule_id: 17556
   channel: esr*
   mapping: Widevine-4.10.1196.0
   version: <60.8.0
   comment: ESR 60.5.0 users - bug 1503124 - serve Widevine 4.10.1196.0
+  data_version: 3
+  product: Widevine
 - priority: 900
   rule_id: 17557
   channel: esr*
@@ -80,6 +106,8 @@
   version: <60.9.0
   comment: 'ESR >=60.8.0 users - Bug 1518317 - Update rules to serve Widevine version
     4.10.1440.18 - comment #34'
+  data_version: 3
+  product: Widevine
 - priority: 890
   rule_id: 17558
   channel: esr*
@@ -87,6 +115,8 @@
   version: <68.0.0
   comment: ESR >=60.9.0 users - Bug 1566127 - Update rules to serve Widevine version
     4.10.1440.19 - c#16
+  data_version: 3
+  product: Widevine
 - priority: 880
   rule_id: 17559
   channel: esr*
@@ -94,6 +124,8 @@
   version: <68.1.0
   comment: 'ESR >=68.0.0 users - Bug 1518317 - Update rules to serve Widevine version
     4.10.1440.18 - comment #34 (and Bug 1566127 for starting the .19 at 68.1)'
+  data_version: 3
+  product: Widevine
 - priority: 870
   rule_id: 17560
   channel: esr*
@@ -101,66 +133,88 @@
   version: <68.5.0
   comment: ESR >=68.1.0 users - Bug 1566127 - Update rules to serve Widevine version
     4.10.1440.19 - c#16
+  data_version: 3
+  product: Widevine
 - priority: 860
   rule_id: 17595
   channel: esr*
   mapping: Widevine-4.10.1582.2
   version: <78.10.0
   comment: Bug 1677793 - Widevine 4.10.2209.1 only for esr78.10.0+
+  data_version: 1
+  product: Widevine
 - priority: 860
   rule_id: 17561
   channel: esr*
   mapping: Widevine-4.10.1582.2
   buildTarget: Linux_x86-gcc3
   comment: Bug 1677793 - no linux32 for Widevine 4.10.2209.1
+  data_version: 6
+  product: Widevine
 - priority: 850
   rule_id: 17590
   channel: esr*
   mapping: Widevine-4.10.2209.1
   comment: Bug 1677793 - Widevine 4.10.2209.1 for esr78.10.0+
+  data_version: 5
+  product: Widevine
 - priority: 500
   rule_id: 17563
   mapping: Widevine-1.4.9.1088
   version: <64.0
   comment: Bug 1475260 + 1479579 + 1525019 - Update Widevine CDM to version 1.4.9.1088
     to avoid deactivation on all channels >=60 <64.0
+  data_version: 6
+  product: Widevine
 - priority: 490
   rule_id: 17565
   mapping: Widevine-4.10.1146.0-with-asan
   version: <67.0a1
   comment: bug 1514206 - Update rules to serve Widevine 4.10.1146.0 to Windows <68
     users instead of 4.10.1196.0
+  data_version: 7
   osVersion: Windows_NT
+  product: Widevine
 - priority: 480
   rule_id: 17587
   mapping: Widevine-4.10.1146.0-aarch64
   version: <68.0
   comment: Bug 1534157 - Update Balrog rules to push x86 Widevine CDM to Firefox 67+
     on Windows on ARM64
+  data_version: 4
   osVersion: Windows_NT
+  product: Widevine
 - priority: 470
   rule_id: 17566
   mapping: Widevine-4.10.1196.0
   version: <68.0
   comment: bug 1503124 - serve Widevine 4.10.1196.0 to Firefox on all channels
+  data_version: 4
+  product: Widevine
 - priority: 460
   rule_id: 17567
   mapping: Widevine-4.10.1440.18
   version: <69.0
   comment: Bug 1518317 - Update rules to serve Widevine version 4.10.1440.18 - all
     users >=68.0
+  data_version: 4
+  product: Widevine
 - priority: 450
   rule_id: 17568
   mapping: Widevine-4.10.1440.19
   version: <73.0a1
   comment: Bug 1566127 - Update rules to serve Widevine version 4.10.1440.19 - all
     users >=69.0
+  data_version: 5
+  product: Widevine
 - priority: 440
   rule_id: 17580
   mapping: Widevine-4.10.1440.19
   version: <74.0a1
   buildID: <20191207092617
   comment: Bug 1596890 - keep 73.0a1 users pre 20191207092617 on 4.10.1440.19
+  data_version: 4
+  product: Widevine
 - priority: 430
   rule_id: 17594
   mapping: Widevine-4.10.1582.2-with-asan
@@ -168,12 +222,18 @@
   buildID: <20210329094311
   comment: Bug 1677793 - need at least buildid 20210327094311 to install Widevine
     4.10.2209.1. Bumping to 20210329 to avoid 88.0b4
+  data_version: 4
+  product: Widevine
 - priority: 430
   rule_id: 17588
   mapping: Widevine-4.10.1582.2-with-asan
   buildTarget: Linux_x86-gcc3
   comment: Bug 1677793 - no linux 32 support in Widevine 4.10.2209.1
+  data_version: 6
+  product: Widevine
 - priority: 420
   rule_id: 17581
   mapping: Widevine-4.10.2209.1
   comment: bug 1677793 - Roll out Widevine 4.10.2209.0
+  data_version: 12
+  product: Widevine

@@ -56,7 +56,6 @@ def expand_rule(config, mappings, unexpanded_rule):
         if (
             (key == "backgroundRate" and unexpanded_rule[key] == 100)
             or (key == "update_type" and unexpanded_rule[key] == "minor")
-            or key in ("product", "data_version")
         ):
             continue
         if unexpanded_rule[key] is not None:

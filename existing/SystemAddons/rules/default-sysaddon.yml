@@ -4,6 +4,8 @@
   mapping: SystemAddons-no-update
   version: <85.0a1
   comment: mtabara adding dry-run for reset-search-default-extension-2.0.0-build1.xpi
+  data_version: 2
+  product: SystemAddons
 - priority: 65
   rule_id: 17632
   channel: default-sysaddon
@@ -12,3 +14,5 @@
   blobs:
   - reset-search-defaults@mozilla.com-2.1.0
   comment: mtabara adding dry-run for reset-search-default-extension-2.1.0-build1.xpi
+  data_version: 7
+  product: SystemAddons
