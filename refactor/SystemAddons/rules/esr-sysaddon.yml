@@ -13,16 +13,11 @@
   comment: Updates for ESR 60.*
   product: SystemAddons
 - priority: 9980
-  mapping: SystemAddons-no-update
-  version: <68.0
-  comment: Updates for ESR < 68.0
-  product: SystemAddons
-- priority: 9970
   mapping: Superblob-6605aecc7d2d5a37def7e7f00c637d85d71cb4f820a5714e68836a3dbb062ebb
-  version: <68.2
+  version: 68.0,68.0.1,68.0.2,68.1.0
   blobs:
   - webcompat@mozilla.org-6.1.0
-  comment: Updates for ESR 68.{0,1,2}
+  comment: Updates for ESR 68.{0,1}
   product: SystemAddons
 - priority: 9960
   mapping: Superblob-39aac6c3d7d55685612d1d6fa22be49e695ede97cf2ea199011d818e6d91f3ef
