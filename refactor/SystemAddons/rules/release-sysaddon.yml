@@ -323,52 +323,92 @@
   product: SystemAddons
 - priority: 9670
   mapping: SystemAddons-no-update
+  version: 72.*
+  comment: Updates for 72.*
+  product: SystemAddons
+- priority: 9660
+  mapping: SystemAddons-no-update
+  version: 73.*
+  comment: Updates for 73.*
+  product: SystemAddons
+- priority: 9650
+  mapping: SystemAddons-no-update
+  version: 74.*
+  comment: Updates for 74.*
+  product: SystemAddons
+- priority: 9640
+  mapping: SystemAddons-no-update
+  version: 75.*
+  comment: Updates for 75.*
+  product: SystemAddons
+- priority: 9630
+  mapping: SystemAddons-no-update
+  version: 76.*
+  comment: Updates for 76.*
+  product: SystemAddons
+- priority: 9620
+  mapping: SystemAddons-no-update
+  version: 75.*
+  comment: Updates for 77.*
+  product: SystemAddons
+- priority: 9610
+  mapping: SystemAddons-no-update
+  version: 74.*
+  comment: Updates for 78.*
+  product: SystemAddons
+- priority: 9600
+  mapping: SystemAddons-no-update
+  version: 79.*
+  comment: Updates for 79.*
+  product: SystemAddons
+- priority: 9590
+  mapping: SystemAddons-no-update
   version: 80.*
   comment: Updates for 80.*
   product: SystemAddons
-- priority: 9660
+- priority: 9580
   mapping: Superblob-dbfcc4103f50692801cc5a916d22d1551953bfc8df027c88dc7306a77cae5035
   version: 81.*
   blobs:
   - reset-search-defaults@mozilla.com-1.0.6
   comment: Updates for 81.*
   product: SystemAddons
-- priority: 9650
+- priority: 9570
   mapping: Superblob-dbfcc4103f50692801cc5a916d22d1551953bfc8df027c88dc7306a77cae5035
   version: 82.*
   blobs:
   - reset-search-defaults@mozilla.com-1.0.6
   comment: Updates for 82.*
   product: SystemAddons
-- priority: 9640
+- priority: 9560
   mapping: Superblob-dbfcc4103f50692801cc5a916d22d1551953bfc8df027c88dc7306a77cae5035
   version: 83.*
   blobs:
   - reset-search-defaults@mozilla.com-1.0.6
   comment: Updates for 83.*
   product: SystemAddons
-- priority: 9630
+- priority: 9550
   mapping: Superblob-dbfcc4103f50692801cc5a916d22d1551953bfc8df027c88dc7306a77cae5035
   version: 84.*
   blobs:
   - reset-search-defaults@mozilla.com-1.0.6
   comment: Updates for 84.*
   product: SystemAddons
-- priority: 9620
+- priority: 9540
   mapping: Superblob-2e4fc93dc9e080bf4e9b5c41b36ba187346acecaf2cb963095d8e1805aa61a02
   version: 85.*
   blobs:
   - reset-search-defaults@mozilla.com-2.1.0
   comment: Updates for 85.*
   product: SystemAddons
-- priority: 9610
+- priority: 9530
   mapping: Superblob-2e4fc93dc9e080bf4e9b5c41b36ba187346acecaf2cb963095d8e1805aa61a02
   version: 86.*
   blobs:
   - reset-search-defaults@mozilla.com-2.1.0
   comment: Updates for 86.*
   product: SystemAddons
-- priority: 9600
+- priority: 9520
   mapping: Superblob-46efa0f5b397ebd1d526296138fed1355a5e299d1a0f12e39bc1c1fcc369d403
   version: 87.*
   blobs:
@@ -377,7 +417,7 @@
   comment: Updates for 87.*
   fallbackMapping: Superblob-2e4fc93dc9e080bf4e9b5c41b36ba187346acecaf2cb963095d8e1805aa61a02
   product: SystemAddons
-- priority: 9590
+- priority: 9510
   mapping: Superblob-46efa0f5b397ebd1d526296138fed1355a5e299d1a0f12e39bc1c1fcc369d403
   version: 88.*
   blobs:
@@ -386,7 +426,7 @@
   comment: Updates for 88.*
   fallbackMapping: Superblob-2e4fc93dc9e080bf4e9b5c41b36ba187346acecaf2cb963095d8e1805aa61a02
   product: SystemAddons
-- priority: 9580
+- priority: 9500
   mapping: Superblob-46efa0f5b397ebd1d526296138fed1355a5e299d1a0f12e39bc1c1fcc369d403
   version: 89.*
   blobs:
@@ -395,7 +435,7 @@
   comment: Updates for 89.*
   fallbackMapping: Superblob-2e4fc93dc9e080bf4e9b5c41b36ba187346acecaf2cb963095d8e1805aa61a02
   product: SystemAddons
-- priority: 9570
+- priority: 9490
   mapping: Superblob-158dfc7f91d4f39c18cb23adbba143af49550fcff6a80e1dc5f75c823a383300
   version: 90.*
   blobs:
@@ -405,7 +445,7 @@
   comment: Updates for 90.*
   fallbackMapping: Superblob-reset-search-defaults@mozilla.com-2.1.0-addons-search-detection@mozilla.com-1.0.1
   product: SystemAddons
-- priority: 9560
+- priority: 9480
   mapping: Superblob-158dfc7f91d4f39c18cb23adbba143af49550fcff6a80e1dc5f75c823a383300
   version: 91.*
   blobs:
@@ -415,7 +455,7 @@
   comment: Updates for 91.*
   fallbackMapping: Superblob-reset-search-defaults@mozilla.com-2.1.0-addons-search-detection@mozilla.com-1.0.1
   product: SystemAddons
-- priority: 9550
+- priority: 9470
   mapping: Superblob-158dfc7f91d4f39c18cb23adbba143af49550fcff6a80e1dc5f75c823a383300
   version: 92.*
   blobs:
@@ -425,7 +465,7 @@
   comment: Updates for 92.*
   fallbackMapping: Superblob-reset-search-defaults@mozilla.com-2.1.0-addons-search-detection@mozilla.com-1.0.1
   product: SystemAddons
-- priority: 9540
+- priority: 9460
   mapping: Superblob-158dfc7f91d4f39c18cb23adbba143af49550fcff6a80e1dc5f75c823a383300
   version: 93.*
   blobs:
