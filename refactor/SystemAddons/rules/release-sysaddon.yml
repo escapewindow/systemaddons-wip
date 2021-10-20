@@ -348,12 +348,12 @@
   product: SystemAddons
 - priority: 9620
   mapping: SystemAddons-no-update
-  version: 75.*
+  version: 77.*
   comment: Updates for 77.*
   product: SystemAddons
 - priority: 9610
   mapping: SystemAddons-no-update
-  version: 74.*
+  version: 78.*
   comment: Updates for 78.*
   product: SystemAddons
 - priority: 9600
