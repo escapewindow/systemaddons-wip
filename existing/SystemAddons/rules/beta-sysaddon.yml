@@ -1,137 +1,116 @@
-- priority: 100
-  rule_id: 552
-  channel: beta-sysaddon
-  mapping: SystemAddons-ff53b-shield-recipe-client-1.0.0
-  version: <54.0
-  comment: System add-on updates to 53.* (beta)
-  data_version: 6
-  product: SystemAddons
-- priority: 100
-  rule_id: 511
-  channel: beta-sysaddon
-  mapping: SystemAddons-ff52b-diagnostics1.0
-  version: <53.0
-  comment: System add-on updates to 52.* (beta)
-  data_version: 1
-  product: SystemAddons
-- priority: 100
-  rule_id: 510
-  channel: beta-sysaddon
-  mapping: SystemAddons-no-update
-  version: <52.0
-  comment: Disable updates to 51 & earlier for beta
-  data_version: 1
-  product: SystemAddons
-- priority: 100
-  rule_id: 343
-  channel: beta-sysaddon
-  mapping: SystemAddons-ff47b-rel1
-  version: <48.0
-  comment: Hello offers to 47beta
-  data_version: 1
-  product: SystemAddons
-- priority: 100
-  rule_id: 342
-  channel: beta-sysaddon
-  mapping: SystemAddons-no-update
-  version: <47.0
-  comment: Disable updates to 46 & earlier
-  data_version: 1
-  product: SystemAddons
-- priority: 100
+- priority: 1000
   rule_id: 306
   channel: beta-sysaddon
-  mapping: SystemAddons-hello012
-  version: '45.0'
-  buildID: '20160223142613'
-  data_version: 6
-  product: SystemAddons
-- priority: 99
-  rule_id: 613
-  channel: beta-sysaddon
-  mapping: SystemAddons-no-update
-  version: <55.0
-  comment: Don't ship updates to updates to < 55.0 (beta)
-  data_version: 2
-  product: SystemAddons
-- priority: 98
-  rule_id: 612
-  channel: beta-sysaddon
-  mapping: SystemAddons-no-update
-  version: <56.0
-  backgroundRate: 10
-  comment: System add-on updates to 55.* (beta)
-  data_version: 5
-  product: SystemAddons
-- priority: 97
-  rule_id: 635
-  channel: beta-sysaddon
-  mapping: SystemAddons-no-update
-  version: <57.0
-  backgroundRate: 5
-  comment: System addons for beta 56.*
-  data_version: 5
-  product: SystemAddons
-- priority: 96
-  rule_id: 690
-  channel: beta-sysaddon
-  mapping: SystemAddons-no-update
-  version: <58.0
-  comment: Updates for 57.*
-  data_version: 1
-  product: SystemAddons
-- priority: 95
-  rule_id: 691
-  channel: beta-sysaddon
-  mapping: Superblob-698cc975f20140c911e62b7ed69cfd71c48cc1b587f679ecdd01328fd5fec0d1
-  version: <59.0
+  mapping: SystemAddons-ff47b-rel1-Superblob
+  version: 47.*
   blobs:
-  - disable-js-shared-memory@mozilla.org-2.0
-  comment: Updates for 58.*
-  data_version: 4
-  product: SystemAddons
-- priority: 94
-  rule_id: 791
-  channel: beta-sysaddon
-  mapping: SystemAddons-no-update
-  version: <60.0
-  comment: Updates for beta 59.*
-  data_version: 2
-  product: SystemAddons
-- priority: 93
-  rule_id: 792
-  channel: beta-sysaddon
-  mapping: Superblob-63c85879eb49222d2177c46c46440b91367995fdc2e4782b78c890e0050a4e3b
-  version: <61.0
-  blobs:
-  - tls13-version-fallback-rollout-bug1448176@mozilla.org-2.0
-  comment: Updates for 60.*
-  data_version: 2
-  product: SystemAddons
-- priority: 69
-  rule_id: 17528
-  channel: beta-sysaddon
-  mapping: SystemAddons-no-update
-  version: <86.0
-  comment: Updates for 85.*
-  data_version: 3
-  product: SystemAddons
-- priority: 68
-  rule_id: 17529
-  channel: beta-sysaddon
-  mapping: Superblob-e9f8ccc3007895a3e735fa22ec7e6ff8d92cbcaf26f5ea6454befdcb377793d2
-  version: <87.0
-  blobs:
-  - reset-search-defaults@mozilla.com-1.0.3
-  comment: Updates for 86.*
+  - E10srollout-ff47-1.0
+  - Loop-1.3.2
+  - Pocket-ff47-1.0
+  comment: 47.* beta
   data_version: 7
   product: SystemAddons
-- priority: 65
-  rule_id: 17648
+- priority: 990
+  rule_id: 342
   channel: beta-sysaddon
-  mapping: Superblob-abd6bb2a123b70ac37eee2b7815dfd197c0c5d18b195e8d7772bce9673d1ee46
+  mapping: SystemAddons-ff52b-diagnostics1.0-Superblob
+  version: 52.*
+  blobs:
+  - Diagnostics-1.0
+  comment: 52.* beta
+  data_version: 2
+  product: SystemAddons
+- priority: 980
+  rule_id: 343
+  channel: beta-sysaddon
+  mapping: SystemAddons-shield-recipe-client-1.0.0-Superblob
+  version: 54.*
+  blobs:
+  - Shield-recipe-client-1.0.0
+  comment: 54.* beta
+  data_version: 2
+  product: SystemAddons
+- priority: 970
+  rule_id: 510
+  channel: beta-sysaddon
+  mapping: Superblob-698cc975f20140c911e62b7ed69cfd71c48cc1b587f679ecdd01328fd5fec0d1
+  version: 58.*
+  blobs:
+  - disable-js-shared-memory@mozilla.org-2.0
+  comment: 58.* beta
+  data_version: 2
+  product: SystemAddons
+- priority: 960
+  rule_id: 511
+  channel: beta-sysaddon
+  mapping: Superblob-63c85879eb49222d2177c46c46440b91367995fdc2e4782b78c890e0050a4e3b
+  version: 60.*
+  blobs:
+  - tls13-version-fallback-rollout-bug1448176@mozilla.org-2.0
+  comment: 60.* beta
+  data_version: 2
+  product: SystemAddons
+- priority: 950
+  rule_id: 552
+  channel: beta-sysaddon
+  mapping: Superblob-e9f8ccc3007895a3e735fa22ec7e6ff8d92cbcaf26f5ea6454befdcb377793d2
+  version: 86.*
+  blobs:
+  - reset-search-defaults@mozilla.com-1.0.3
+  comment: 86.* beta
+  data_version: 7
+  product: SystemAddons
+- priority: 940
+  rule_id: 613
+  channel: beta-sysaddon
+  mapping: Superblob-2e4fc93dc9e080bf4e9b5c41b36ba187346acecaf2cb963095d8e1805aa61a02
+  version: 90.*
+  blobs:
+  - reset-search-defaults@mozilla.com-2.1.0
+  comment: 90.* beta
+  data_version: 3
+  product: SystemAddons
+- priority: 930
+  rule_id: 612
+  channel: beta-sysaddon
+  mapping: Superblob-2e4fc93dc9e080bf4e9b5c41b36ba187346acecaf2cb963095d8e1805aa61a02
+  version: 91.*
+  blobs:
+  - reset-search-defaults@mozilla.com-2.1.0
+  comment: 91.* beta
+  data_version: 6
+  product: SystemAddons
+- priority: 920
+  rule_id: 635
+  channel: beta-sysaddon
+  mapping: Superblob-2e4fc93dc9e080bf4e9b5c41b36ba187346acecaf2cb963095d8e1805aa61a02
   version: 92.*
   blobs:
-  - addons-search-experiment@mozilla.com-1.0.0
+  - reset-search-defaults@mozilla.com-2.1.0
+  comment: 92.* beta
+  data_version: 6
+  product: SystemAddons
+- priority: 910
+  rule_id: 690
+  channel: beta-sysaddon
+  mapping: Superblob-158dfc7f91d4f39c18cb23adbba143af49550fcff6a80e1dc5f75c823a383300
+  version: 93.*
+  blobs:
+  - addons-search-detection@mozilla.com-1.0.1
+  - proxy-failover@mozilla.com-1.0.1
+  - reset-search-defaults@mozilla.com-2.1.0
+  comment: 93.* beta
   data_version: 2
+  product: SystemAddons
+- priority: 900
+  rule_id: 691
+  channel: beta-sysaddon
+  mapping: Superblob-158dfc7f91d4f39c18cb23adbba143af49550fcff6a80e1dc5f75c823a383300
+  version: 94.*
+  blobs:
+  - addons-search-detection@mozilla.com-1.0.1
+  - proxy-failover@mozilla.com-1.0.1
+  - reset-search-defaults@mozilla.com-2.1.0
+  comment: 94.* beta
+  data_version: 5
   product: SystemAddons
