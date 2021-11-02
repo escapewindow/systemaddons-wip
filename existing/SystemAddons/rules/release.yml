@@ -815,3 +815,14 @@
   data_version: 8
   fallbackMapping: Superblob-reset-search-defaults@mozilla.com-2.1.0-addons-search-detection@mozilla.com-1.0.1
   product: SystemAddons
+- priority: 550
+  rule_id: 17677
+  channel: release
+  mapping: Superblob-285a7e2544a1bfec2b1cb8a1308348e34ef4a3c924ead7891b83e13a906fabb7
+  version: 94.*
+  blobs:
+  - addons-search-detection@mozilla.com-1.0.1
+  - reset-search-defaults@mozilla.com-2.1.0
+  comment: Release 94.*
+  data_version: 1
+  product: SystemAddons
