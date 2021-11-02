@@ -632,3 +632,14 @@
   comment: Updates for 93.*
   data_version: 2
   product: SystemAddons
+- priority: 9450
+  rule_id: 17676
+  channel: release-sysaddon
+  mapping: Superblob-285a7e2544a1bfec2b1cb8a1308348e34ef4a3c924ead7891b83e13a906fabb7
+  version: 94.*
+  blobs:
+  - addons-search-detection@mozilla.com-1.0.1
+  - reset-search-defaults@mozilla.com-2.1.0
+  comment: Release 94.*
+  data_version: 2
+  product: SystemAddons
