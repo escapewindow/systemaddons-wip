@@ -1,0 +1,6 @@
+blobs:
+- addons-search-detection@mozilla.com-1.0.1
+- reset-search-defaults@mozilla.com-2.1.0
+name: Superblob-285a7e2544a1bfec2b1cb8a1308348e34ef4a3c924ead7891b83e13a906fabb7
+schema_version: 4000
+url: https://aus-api.mozilla.org/api/v1/releases/Superblob-285a7e2544a1bfec2b1cb8a1308348e34ef4a3c924ead7891b83e13a906fabb7
