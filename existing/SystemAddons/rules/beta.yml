@@ -167,6 +167,14 @@
   fallbackMapping: Superblob-reset-search-defaults@mozilla.com-2.1.0-addons-search-detection@mozilla.com-1.0.1
   product: SystemAddons
 - priority: 61
+  rule_id: 17681
+  channel: beta
+  mapping: reset-search-defaults@mozilla.com-2.1.0
+  version: 95.*
+  comment: Beta 95.*
+  data_version: 1
+  product: SystemAddons
+- priority: 61
   rule_id: 17661
   channel: beta
   mapping: Superblob-158dfc7f91d4f39c18cb23adbba143af49550fcff6a80e1dc5f75c823a383300

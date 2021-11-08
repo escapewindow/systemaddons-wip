@@ -233,10 +233,10 @@
   product: Widevine
 - priority: 421
   rule_id: 17678
-  channel: nightlytest
+  channel: nightly*
   mapping: Widevine-4.10.2391.0
   comment: Bug 1737662 - roll out Widevine 4.10.2391.0
-  data_version: 1
+  data_version: 2
   product: Widevine
 - priority: 420
   rule_id: 17581

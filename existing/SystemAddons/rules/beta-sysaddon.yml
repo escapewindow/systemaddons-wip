@@ -114,3 +114,11 @@
   comment: 94.* beta
   data_version: 6
   product: SystemAddons
+- priority: 8900
+  rule_id: 17680
+  channel: beta-sysaddon
+  mapping: reset-search-defaults@mozilla.com-2.1.0
+  version: 95.*
+  comment: Beta 95.*
+  data_version: 1
+  product: SystemAddons

@@ -38,4 +38,6 @@ vendors:
         hashValue: 81b2329d38a9370afc490db805a05c4b506b113ebd00f4e488bca97fd96267d92cb477e3a635880464ca66ed32f448e46ad3645f6af072547b5f09100db2bf74
       WINNT_x86_64-msvc-x64:
         alias: WINNT_x86_64-msvc
+      WINNT_x86_64-msvc-x64-asan:
+        alias: WINNT_x86_64-msvc
     version: 4.10.2391.0
