@@ -1,3 +1,127 @@
+- priority: 10000
+  rule_id: 17690
+  channel: beta
+  mapping: SystemAddons-ff47b-rel1-Superblob
+  version: 47.*
+  blobs:
+  - E10srollout-ff47-1.0
+  - Loop-1.3.2
+  - Pocket-ff47-1.0
+  comment: Beta 47.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9900
+  rule_id: 17689
+  channel: beta
+  mapping: SystemAddons-ff52b-diagnostics1.0-Superblob
+  version: 52.*
+  blobs:
+  - Diagnostics-1.0
+  comment: Beta 52.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9800
+  rule_id: 17688
+  channel: beta
+  mapping: SystemAddons-shield-recipe-client-1.0.0-Superblob
+  version: 54.*
+  blobs:
+  - Shield-recipe-client-1.0.0
+  comment: Beta 54.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9700
+  rule_id: 17687
+  channel: beta
+  mapping: Superblob-698cc975f20140c911e62b7ed69cfd71c48cc1b587f679ecdd01328fd5fec0d1
+  version: 58.*
+  blobs:
+  - disable-js-shared-memory@mozilla.org-2.0
+  comment: Beta 58.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9600
+  rule_id: 17686
+  channel: beta
+  mapping: Superblob-63c85879eb49222d2177c46c46440b91367995fdc2e4782b78c890e0050a4e3b
+  version: 60.*
+  blobs:
+  - tls13-version-fallback-rollout-bug1448176@mozilla.org-2.0
+  comment: Beta 60.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9500
+  rule_id: 17684
+  channel: beta
+  mapping: Superblob-e9f8ccc3007895a3e735fa22ec7e6ff8d92cbcaf26f5ea6454befdcb377793d2
+  version: 86.*
+  blobs:
+  - reset-search-defaults@mozilla.com-1.0.3
+  comment: Beta 86.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9400
+  rule_id: 17685
+  channel: beta
+  mapping: Superblob-2e4fc93dc9e080bf4e9b5c41b36ba187346acecaf2cb963095d8e1805aa61a02
+  version: 90.*
+  blobs:
+  - reset-search-defaults@mozilla.com-2.1.0
+  comment: Beta 90.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9300
+  rule_id: 17683
+  channel: beta
+  mapping: Superblob-2e4fc93dc9e080bf4e9b5c41b36ba187346acecaf2cb963095d8e1805aa61a02
+  version: 91.*
+  blobs:
+  - reset-search-defaults@mozilla.com-2.1.0
+  comment: Beta 91.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9200
+  rule_id: 17682
+  channel: beta
+  mapping: Superblob-2e4fc93dc9e080bf4e9b5c41b36ba187346acecaf2cb963095d8e1805aa61a02
+  version: 92.*
+  blobs:
+  - reset-search-defaults@mozilla.com-2.1.0
+  comment: Beta 92.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9100
+  rule_id: 17692
+  channel: beta
+  mapping: Superblob-158dfc7f91d4f39c18cb23adbba143af49550fcff6a80e1dc5f75c823a383300
+  version: 93.*
+  blobs:
+  - addons-search-detection@mozilla.com-1.0.1
+  - proxy-failover@mozilla.com-1.0.1
+  - reset-search-defaults@mozilla.com-2.1.0
+  comment: Beta 93.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9000
+  rule_id: 17691
+  channel: beta
+  mapping: Superblob-158dfc7f91d4f39c18cb23adbba143af49550fcff6a80e1dc5f75c823a383300
+  version: 94.*
+  blobs:
+  - addons-search-detection@mozilla.com-1.0.1
+  - proxy-failover@mozilla.com-1.0.1
+  - reset-search-defaults@mozilla.com-2.1.0
+  comment: Beta 94.*
+  data_version: 1
+  product: SystemAddons
+- priority: 8900
+  rule_id: 17693
+  channel: beta
+  mapping: reset-search-defaults@mozilla.com-2.1.0
+  version: 95.*
+  comment: Beta 95.*
+  data_version: 1
+  product: SystemAddons
 - priority: 100
   rule_id: 579
   channel: beta
