@@ -1,0 +1,35 @@
+addons:
+  reset-search-defaults@mozilla.com:
+    platforms:
+      Darwin_x86-gcc3:
+        alias: default
+      Darwin_x86-gcc3-u-i386-x86_64:
+        alias: default
+      Darwin_x86_64-gcc3:
+        alias: default
+      Darwin_x86_64-gcc3-u-i386-x86_64:
+        alias: default
+      Linux_x86-gcc3:
+        alias: default
+      Linux_x86_64-gcc3:
+        alias: default
+      WINNT_x86-msvc:
+        alias: default
+      WINNT_x86-msvc-x64:
+        alias: default
+      WINNT_x86-msvc-x86:
+        alias: default
+      WINNT_x86_64-msvc:
+        alias: default
+      WINNT_x86_64-msvc-x64:
+        alias: default
+      default:
+        fileUrl: https://ftp.mozilla.org/pub/system-addons/reset-search-defaults/reset-search-defaults@mozilla.com-2.1.0-signed.xpi
+        filesize: 15666
+        hashValue: 4c2eaefe5964ebec8ab1668eee307409dfca911b5f476f59733a48558f0b3be6aaf9fa04e1199d21d0ca9146e6aacf80d0d5cfcc7ec376db2bddbbbea2ee6b99
+    version: 2.1.0
+hashFunction: sha512
+name: reset-search-defaults@mozilla.com-2.1.0
+product: SystemAddons
+schema_version: 5000
+url: https://aus-api.mozilla.org/api/v1/releases/reset-search-defaults@mozilla.com-2.1.0
