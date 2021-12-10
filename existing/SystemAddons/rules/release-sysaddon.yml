@@ -643,3 +643,11 @@
   comment: Release 94.*
   data_version: 2
   product: SystemAddons
+- priority: 9440
+  rule_id: 17704
+  channel: release-sysaddon
+  mapping: webcompat@mozilla.org-28.0.1buildid20211210.021657
+  version: 95.*
+  comment: Release 95.*
+  data_version: 1
+  product: SystemAddons

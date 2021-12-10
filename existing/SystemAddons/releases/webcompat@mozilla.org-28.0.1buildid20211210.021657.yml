@@ -1,0 +1,35 @@
+addons:
+  webcompat@mozilla.org:
+    platforms:
+      Darwin_x86-gcc3:
+        alias: default
+      Darwin_x86-gcc3-u-i386-x86_64:
+        alias: default
+      Darwin_x86_64-gcc3:
+        alias: default
+      Darwin_x86_64-gcc3-u-i386-x86_64:
+        alias: default
+      Linux_x86-gcc3:
+        alias: default
+      Linux_x86_64-gcc3:
+        alias: default
+      WINNT_x86-msvc:
+        alias: default
+      WINNT_x86-msvc-x64:
+        alias: default
+      WINNT_x86-msvc-x86:
+        alias: default
+      WINNT_x86_64-msvc:
+        alias: default
+      WINNT_x86_64-msvc-x64:
+        alias: default
+      default:
+        fileUrl: https://ftp.mozilla.org/pub/system-addons/webcompat/webcompat@mozilla.org-28.0.1buildid20211210.021657-signed.xpi
+        filesize: 131911
+        hashValue: dfa0a7a4243fafa401ee376d6bd5b876b949c679ffdc86d2004d2b507cbe9197441d278efc095c042c4715a297a86f9a42c5a14d56c779c6fc70cfe6d1b18cdb
+    version: 28.0.1buildid20211210.021657
+hashFunction: sha512
+name: webcompat@mozilla.org-28.0.1buildid20211210.021657
+product: SystemAddons
+schema_version: 5000
+url: https://aus-api.mozilla.org/api/v1/releases/webcompat@mozilla.org-28.0.1buildid20211210.021657

@@ -826,3 +826,11 @@
   comment: Release 94.*
   data_version: 1
   product: SystemAddons
+- priority: 540
+  rule_id: 17703
+  channel: release
+  mapping: reset-search-defaults@mozilla.com-2.1.0
+  version: 95.*
+  comment: Release 95.*
+  data_version: 1
+  product: SystemAddons
