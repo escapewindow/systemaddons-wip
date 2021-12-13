@@ -1,0 +1,6 @@
+blobs:
+- reset-search-defaults@mozilla.com-2.1.0
+- webcompat@mozilla.org-28.0.1buildid20211210.021657
+name: Superblob-cedaef7416575f275cb326fff5b38496325bb830cb3102f4d2d6aaf5cf51c4b2
+schema_version: 4000
+url: https://aus-api.mozilla.org/api/v1/releases/Superblob-cedaef7416575f275cb326fff5b38496325bb830cb3102f4d2d6aaf5cf51c4b2

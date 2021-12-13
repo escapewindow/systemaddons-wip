@@ -1,3 +1,659 @@
+- priority: 10000
+  rule_id: 17705
+  channel: release
+  mapping: Superblob-b155c44e6ff151e36e259108abd91153f9c0f389b34e2e084d4d86572cd53000
+  version: 44.*
+  blobs:
+  - Loop-3.1.0
+  - google-code-correction@mozilla.org-0.9
+  comment: Updates to 44.* `default` distribution
+  data_version: 1
+  distribution: default
+  product: SystemAddons
+- priority: 9990
+  rule_id: 17707
+  channel: release
+  mapping: Superblob-1645e71839948df71c03d7e3dc4b460354e928bfc97c2e8b6772bd97011eed6c
+  version: 44.*
+  blobs:
+  - google-code-correction@mozilla.org-0.9
+  comment: Release 44.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9980
+  rule_id: 17706
+  channel: release
+  mapping: Superblob-605c24051b161630036adb6f5532f9fa47d38865234f368ecb1f128dbe00f1bc
+  version: 45.*
+  blobs:
+  - Loop-3.1.0
+  - Malware-remediation-1.1
+  - baidu-code-update@mozillaonline.com-1.66
+  - google-code-correction@mozilla.org-0.9
+  comment: Release 45.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9970
+  rule_id: 17708
+  channel: release
+  mapping: Superblob-7f23c702a564390a200a3ddaadaaadf8541a1b894f44b553d03e6aeb9100c8da
+  version: 46.*
+  blobs:
+  - E10srollout-ff46-1.0
+  - Loop-3.0.0
+  - Malware-remediation-1.2
+  - Pocket-ff46-1.0
+  - baidu-code-update@mozillaonline.com-1.66
+  - google-code-correction@mozilla.org-0.9
+  - telemetry-coverage-bug1487578@mozilla.org-8.0
+  - timecop@mozilla.com-1.0
+  comment: Release 46.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9960
+  rule_id: 17715
+  channel: release
+  mapping: Superblob-c8e51cd3f8537c24a1dba5de5ac782d1a3811a8ec32f3746f7e7fa5f01c8e99e
+  version: 47.*
+  blobs:
+  - E10srollout-ff47-ff47-1.0b-1.0
+  - Loop-3.0.0
+  - Pocket-ff47-1.0.2
+  - Websensehelper-2.0
+  - baidu-code-update@mozillaonline.com-1.66
+  - google-code-correction@mozilla.org-0.9
+  - telemetry-coverage-bug1487578@mozilla.org-8.0
+  - timecop@mozilla.com-1.0
+  comment: Release 47.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9950
+  rule_id: 17714
+  channel: release
+  mapping: Superblob-8738c77a488b6cccd2c2b87adb99e68f6cf23cd807692201e34625f642312143
+  version: 48.*
+  blobs:
+  - E10srollout-ff48-ff48-49-1.3
+  - Loop-3.0.0
+  - Pocket-ff48-1.0.4
+  - Websensehelper-2.0
+  - baidu-code-update@mozillaonline.com-1.66
+  - google-code-correction@mozilla.org-0.9
+  - telemetry-coverage-bug1487578@mozilla.org-8.0
+  - timecop@mozilla.com-1.0
+  comment: Release 48.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9940
+  rule_id: 17713
+  channel: release
+  mapping: Superblob-77665a8645a05ebc85a6526aec93337334b6c04a95510839e8427232b43edd57
+  version: '49.0'
+  blobs:
+  - Asyncrendering-2.0
+  - D3d9fallback-1.0
+  - E10srollout-ff48-ff48-49-1.3
+  - Websensehelper-2.0
+  - baidu-code-update@mozillaonline.com-1.66
+  - google-code-correction@mozilla.org-0.9
+  - telemetry-coverage-bug1487578@mozilla.org-8.0
+  - timecop@mozilla.com-1.0
+  buildID: '20160916101415'
+  comment: System add-on updates to 49.0
+  data_version: 1
+  product: SystemAddons
+- priority: 9930
+  rule_id: 17712
+  channel: release
+  mapping: Superblob-77665a8645a05ebc85a6526aec93337334b6c04a95510839e8427232b43edd57
+  version: 49.0.1
+  blobs:
+  - Asyncrendering-2.0
+  - D3d9fallback-1.0
+  - E10srollout-ff48-ff48-49-1.3
+  - Websensehelper-2.0
+  - baidu-code-update@mozillaonline.com-1.66
+  - google-code-correction@mozilla.org-0.9
+  - telemetry-coverage-bug1487578@mozilla.org-8.0
+  - timecop@mozilla.com-1.0
+  buildID: '20160922113459'
+  comment: System add-on updates to 49.0.1
+  data_version: 1
+  product: SystemAddons
+- priority: 9920
+  rule_id: 17711
+  channel: release
+  mapping: Superblob-0699da3cf293c2238f784defb2bbb0ae5ff02e38e3cce158f53ad9c4469f77db
+  version: 49.*
+  blobs:
+  - Asyncrendering-2.0
+  - Websensehelper-2.0
+  - baidu-code-update@mozillaonline.com-1.66
+  - google-code-correction@mozilla.org-0.9
+  - telemetry-coverage-bug1487578@mozilla.org-8.0
+  - timecop@mozilla.com-1.0
+  comment: Release 49.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9910
+  rule_id: 17710
+  channel: release
+  mapping: Superblob-5a05f8893705bb20b2ffa30abce774a83d26e392c1a5d0d22c307bc6fd3087d2
+  version: 50.*
+  blobs:
+  - Aushelper-1.5
+  - baidu-code-update@mozillaonline.com-1.66
+  - google-code-correction@mozilla.org-0.9
+  - telemetry-coverage-bug1487578@mozilla.org-8.0
+  - timecop@mozilla.com-1.0
+  comment: Release 50.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9900
+  rule_id: 17709
+  channel: release
+  mapping: Superblob-82f294102b7242788222db3ee985df0f887b4fdc3d69928d6b4340e9bd32f4da
+  version: 51.*
+  blobs:
+  - Aushelper-1.5
+  - Diagnostics-1.0
+  - Disablesha1rollout-1.3
+  - E10srollout-1.12
+  - Hsts-priming-1.0
+  - baidu-code-update@mozillaonline.com-1.66
+  - google-code-correction@mozilla.org-0.9
+  - telemetry-coverage-bug1487578@mozilla.org-8.0
+  - timecop@mozilla.com-1.0
+  comment: Release 51.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9890
+  rule_id: 17717
+  channel: release
+  mapping: Superblob-8861895d2bcbf3bc8348a49e2ca7e91a3760b5df8385b2f8e700e7adceb05c6d
+  version: 52.*
+  blobs:
+  - Disable-cert-transparency-1.0
+  - Disable-prefetch-1.0
+  - E10srollout-1.12
+  - disable-crash-autosubmit@mozilla.org-2.1
+  - hotfix-bug-1548973@mozilla.org-1.1.4-2
+  - timecop@mozilla.com-1.0
+  comment: Release 52.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9880
+  rule_id: 17716
+  channel: release
+  mapping: Superblob-49719945629cd7ecc1cc42e9f55709a32658abacf4285e3da66aaefddb2df39a
+  version: 53.*
+  blobs:
+  - Followonsearch-0.8.0
+  - Shield-recipe-client-1.0.0
+  - disable-crash-autosubmit@mozilla.org-2.1
+  - hotfix-bug-1548973@mozilla.org-1.1.4-2
+  - timecop@mozilla.com-1.0
+  comment: Release 53.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9870
+  rule_id: 17718
+  channel: release
+  mapping: Superblob-132153416ddd192104340edb45165bdb4fddabdbc5d45903ab33cb2cf0844c32
+  version: 54.*
+  blobs:
+  - Shield-recipe-client-1.0.0
+  - disable-crash-autosubmit@mozilla.org-2.1
+  - e10srollout-1.85
+  - followonsearch-0.9.1
+  - hotfix-bug-1548973@mozilla.org-1.1.4-2
+  - timecop@mozilla.com-1.0
+  comment: Release 54.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9860
+  rule_id: 17724
+  channel: release
+  mapping: Superblob-5e92b9714b373a5af4f9155236f7e07a06a564a28f9d3b410057729e4ab0e0d3
+  version: 55.*
+  blobs:
+  - clicktoplay-rollout@mozilla.org-1.4
+  - disable-crash-autosubmit@mozilla.org-2.1
+  - disable-js-shared-memory@mozilla.org-2.0
+  - e10srollout@mozilla.org-2.05
+  - followonsearch@mozilla.com-0.9.4
+  - hotfix-bug-1548973@mozilla.org-1.1.4-2
+  - onboarding@mozilla.org-0.1
+  - screenshots@mozilla.org-10.12.0
+  - timecop@mozilla.com-1.0
+  comment: Release 55.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9850
+  rule_id: 17723
+  channel: release
+  mapping: Superblob-5e65c137d657cb5e07ae1e336218006dabebacdbb0484976c4d29d8fe7b44023
+  version: 56.*
+  blobs:
+  - disable-crash-autosubmit@mozilla.org-2.1
+  - disable-js-shared-memory@mozilla.org-2.0
+  - followonsearch@mozilla.com-0.9.6
+  - hotfix-bug-1548973@mozilla.org-1.1.4-2
+  - shield-recipe-client@mozilla.org-65.1
+  - timecop@mozilla.com-1.0
+  comment: Release 56.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9840
+  rule_id: 17722
+  channel: release
+  mapping: Superblob-fb25333c65f213bb772a276e15499f68ca9e4922bcb00746bc139c95c329ab9d
+  version: 57.0,57.0.1,57.0.2
+  blobs:
+  - disable-crash-autosubmit@mozilla.org-2.1
+  - disable-js-shared-memory@mozilla.org-2.0
+  - disable-media-wmf-nv12@mozilla.org-1.1
+  - hotfix-bug-1548973@mozilla.org-1.1.4-2
+  comment: Release 57.* (< 57.0.3)
+  data_version: 1
+  product: SystemAddons
+- priority: 9830
+  rule_id: 17721
+  channel: release
+  mapping: Superblob-d3542d304f7f425858e8eadd35d67e366ef1b9a28971acd54a991a714094c0a7
+  version: 57.*
+  blobs:
+  - disable-js-shared-memory@mozilla.org-2.0
+  - disable-media-wmf-nv12@mozilla.org-1.1
+  - hotfix-bug-1548973@mozilla.org-1.1.4-2
+  comment: Release 57.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9820
+  rule_id: 17720
+  channel: release
+  mapping: Superblob-92f0ab5fe70373ce8c2dc026c3d0c6c86cedde120db93756c4e93218985b788d
+  version: 58.*
+  blobs:
+  - hotfix-bug-1548973@mozilla.org-1.1.4-2
+  comment: Release 58.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9810
+  rule_id: 17719
+  channel: release
+  mapping: Superblob-b58e09da2d9cef28041a6f3ee883a13c74f17c30370036bc5872f119e9f65a2f
+  version: 59.*
+  blobs:
+  - hotfix-bug-1548973@mozilla.org-1.1.4-2
+  - tls13-rollout-bug1442042@mozilla.org-9.0
+  comment: Release 59.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9800
+  rule_id: 17728
+  channel: release
+  mapping: Superblob-92f0ab5fe70373ce8c2dc026c3d0c6c86cedde120db93756c4e93218985b788d
+  version: 60.*
+  blobs:
+  - hotfix-bug-1548973@mozilla.org-1.1.4-2
+  comment: Release 60.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9790
+  rule_id: 17727
+  channel: release
+  mapping: Superblob-37912b088ccf25c56cbad0738032c05a82657692b93c07eab67006206065087c
+  version: 61.*
+  blobs:
+  - baidu-code-update@mozillaonline.com-2.66
+  - telemetry-coverage-bug1487578@mozilla.org-7.0
+  comment: Release 61.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9780
+  rule_id: 17726
+  channel: release
+  mapping: Superblob-37912b088ccf25c56cbad0738032c05a82657692b93c07eab67006206065087c
+  version: 62.*
+  blobs:
+  - baidu-code-update@mozillaonline.com-2.66
+  - telemetry-coverage-bug1487578@mozilla.org-7.0
+  comment: Release 62.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9770
+  rule_id: 17725
+  channel: release
+  mapping: Superblob-4520d1d09d75ee643fc050f7d8787604ac693e3a4fd29c7a736a47fa4e75adb9
+  version: 63.*
+  blobs:
+  - baidu-code-update@mozillaonline.com-2.66
+  - fxmonitor@mozilla.org-2.8
+  comment: Release 63.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9760
+  rule_id: 17730
+  channel: release
+  mapping: Superblob-4520d1d09d75ee643fc050f7d8787604ac693e3a4fd29c7a736a47fa4e75adb9
+  version: 64.*
+  blobs:
+  - baidu-code-update@mozillaonline.com-2.66
+  - fxmonitor@mozilla.org-2.8
+  comment: Release 64.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9750
+  rule_id: 17729
+  channel: release
+  mapping: Superblob-c36606dd3a748dfcf30394af3019a6bbd17b822b3ab2107a4c4c5a64a3f9d7a8
+  version: 65.*
+  blobs:
+  - baidu-code-update@mozillaonline.com-2.66
+  - fxmonitor@mozilla.org-2.8
+  - webcompat@mozilla.org-3.0.1
+  comment: Release 65.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9740
+  rule_id: 17732
+  channel: release
+  mapping: Superblob-4520d1d09d75ee643fc050f7d8787604ac693e3a4fd29c7a736a47fa4e75adb9
+  version: 66.*
+  blobs:
+  - baidu-code-update@mozillaonline.com-2.66
+  - fxmonitor@mozilla.org-2.8
+  comment: Release 66.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9730
+  rule_id: 17731
+  channel: release
+  mapping: SystemAddons-no-update
+  version: 67.*
+  comment: Release 67.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9720
+  rule_id: 17733
+  channel: release
+  mapping: Superblob-6605aecc7d2d5a37def7e7f00c637d85d71cb4f820a5714e68836a3dbb062ebb
+  version: 68.*
+  blobs:
+  - webcompat@mozilla.org-6.1.0
+  comment: Release 68.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9710
+  rule_id: 17736
+  channel: release
+  mapping: Superblob-6605aecc7d2d5a37def7e7f00c637d85d71cb4f820a5714e68836a3dbb062ebb
+  version: 69.0,69.0.1
+  blobs:
+  - webcompat@mozilla.org-6.1.0
+  comment: Release 69.0{,.1}
+  data_version: 1
+  product: SystemAddons
+- priority: 9700
+  rule_id: 17734
+  channel: release
+  mapping: SystemAddons-no-update
+  version: 69.*
+  comment: Release 69.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9690
+  rule_id: 17735
+  channel: release
+  mapping: SystemAddons-no-update
+  version: 70.*
+  comment: Release 70.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9680
+  rule_id: 17738
+  channel: release
+  mapping: SystemAddons-no-update
+  version: 71.*
+  comment: Release 71.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9670
+  rule_id: 17737
+  channel: release
+  mapping: SystemAddons-no-update
+  version: 72.*
+  comment: Release 72.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9660
+  rule_id: 17740
+  channel: release
+  mapping: SystemAddons-no-update
+  version: 73.*
+  comment: Release 73.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9650
+  rule_id: 17739
+  channel: release
+  mapping: SystemAddons-no-update
+  version: 74.*
+  comment: Release 74.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9640
+  rule_id: 17741
+  channel: release
+  mapping: SystemAddons-no-update
+  version: 75.*
+  comment: Release 75.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9630
+  rule_id: 17743
+  channel: release
+  mapping: SystemAddons-no-update
+  version: 76.*
+  comment: Release 76.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9620
+  rule_id: 17742
+  channel: release
+  mapping: SystemAddons-no-update
+  version: 77.*
+  comment: Release 77.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9610
+  rule_id: 17747
+  channel: release
+  mapping: SystemAddons-no-update
+  version: 78.*
+  comment: Release 78.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9600
+  rule_id: 17746
+  channel: release
+  mapping: SystemAddons-no-update
+  version: 79.*
+  comment: Release 79.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9590
+  rule_id: 17745
+  channel: release
+  mapping: SystemAddons-no-update
+  version: 80.*
+  comment: Release 80.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9580
+  rule_id: 17744
+  channel: release
+  mapping: Superblob-dbfcc4103f50692801cc5a916d22d1551953bfc8df027c88dc7306a77cae5035
+  version: 81.*
+  blobs:
+  - reset-search-defaults@mozilla.com-1.0.6
+  comment: Release 81.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9570
+  rule_id: 17751
+  channel: release
+  mapping: Superblob-dbfcc4103f50692801cc5a916d22d1551953bfc8df027c88dc7306a77cae5035
+  version: 82.*
+  blobs:
+  - reset-search-defaults@mozilla.com-1.0.6
+  comment: Release 82.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9560
+  rule_id: 17750
+  channel: release
+  mapping: Superblob-dbfcc4103f50692801cc5a916d22d1551953bfc8df027c88dc7306a77cae5035
+  version: 83.*
+  blobs:
+  - reset-search-defaults@mozilla.com-1.0.6
+  comment: Release 83.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9550
+  rule_id: 17749
+  channel: release
+  mapping: Superblob-dbfcc4103f50692801cc5a916d22d1551953bfc8df027c88dc7306a77cae5035
+  version: 84.*
+  blobs:
+  - reset-search-defaults@mozilla.com-1.0.6
+  comment: Release 84.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9540
+  rule_id: 17748
+  channel: release
+  mapping: Superblob-2e4fc93dc9e080bf4e9b5c41b36ba187346acecaf2cb963095d8e1805aa61a02
+  version: 85.*
+  blobs:
+  - reset-search-defaults@mozilla.com-2.1.0
+  comment: Release 85.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9530
+  rule_id: 17752
+  channel: release
+  mapping: Superblob-2e4fc93dc9e080bf4e9b5c41b36ba187346acecaf2cb963095d8e1805aa61a02
+  version: 86.*
+  blobs:
+  - reset-search-defaults@mozilla.com-2.1.0
+  comment: Release 86.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9520
+  rule_id: 17758
+  channel: release
+  mapping: Superblob-46efa0f5b397ebd1d526296138fed1355a5e299d1a0f12e39bc1c1fcc369d403
+  version: 87.*
+  blobs:
+  - proxy-failover@mozilla.com-1.0.1
+  - reset-search-defaults@mozilla.com-2.1.0
+  comment: Release 87.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9510
+  rule_id: 17757
+  channel: release
+  mapping: Superblob-46efa0f5b397ebd1d526296138fed1355a5e299d1a0f12e39bc1c1fcc369d403
+  version: 88.*
+  blobs:
+  - proxy-failover@mozilla.com-1.0.1
+  - reset-search-defaults@mozilla.com-2.1.0
+  comment: Release 88.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9500
+  rule_id: 17756
+  channel: release
+  mapping: Superblob-46efa0f5b397ebd1d526296138fed1355a5e299d1a0f12e39bc1c1fcc369d403
+  version: 89.*
+  blobs:
+  - proxy-failover@mozilla.com-1.0.1
+  - reset-search-defaults@mozilla.com-2.1.0
+  comment: Release 89.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9490
+  rule_id: 17755
+  channel: release
+  mapping: Superblob-158dfc7f91d4f39c18cb23adbba143af49550fcff6a80e1dc5f75c823a383300
+  version: 90.*
+  blobs:
+  - addons-search-detection@mozilla.com-1.0.1
+  - proxy-failover@mozilla.com-1.0.1
+  - reset-search-defaults@mozilla.com-2.1.0
+  comment: Release 90.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9480
+  rule_id: 17754
+  channel: release
+  mapping: Superblob-158dfc7f91d4f39c18cb23adbba143af49550fcff6a80e1dc5f75c823a383300
+  version: 91.*
+  blobs:
+  - addons-search-detection@mozilla.com-1.0.1
+  - proxy-failover@mozilla.com-1.0.1
+  - reset-search-defaults@mozilla.com-2.1.0
+  comment: Release 91.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9470
+  rule_id: 17753
+  channel: release
+  mapping: Superblob-158dfc7f91d4f39c18cb23adbba143af49550fcff6a80e1dc5f75c823a383300
+  version: 92.*
+  blobs:
+  - addons-search-detection@mozilla.com-1.0.1
+  - proxy-failover@mozilla.com-1.0.1
+  - reset-search-defaults@mozilla.com-2.1.0
+  comment: Release 92.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9460
+  rule_id: 17760
+  channel: release
+  mapping: Superblob-158dfc7f91d4f39c18cb23adbba143af49550fcff6a80e1dc5f75c823a383300
+  version: 93.*
+  blobs:
+  - addons-search-detection@mozilla.com-1.0.1
+  - proxy-failover@mozilla.com-1.0.1
+  - reset-search-defaults@mozilla.com-2.1.0
+  comment: Release 93.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9450
+  rule_id: 17759
+  channel: release
+  mapping: Superblob-285a7e2544a1bfec2b1cb8a1308348e34ef4a3c924ead7891b83e13a906fabb7
+  version: 94.*
+  blobs:
+  - addons-search-detection@mozilla.com-1.0.1
+  - reset-search-defaults@mozilla.com-2.1.0
+  comment: Release 94.*
+  data_version: 1
+  product: SystemAddons
+- priority: 9440
+  rule_id: 17761
+  channel: release
+  mapping: Superblob-cedaef7416575f275cb326fff5b38496325bb830cb3102f4d2d6aaf5cf51c4b2
+  version: 95.*
+  blobs:
+  - reset-search-defaults@mozilla.com-2.1.0
+  - webcompat@mozilla.org-28.0.1buildid20211210.021657
+  comment: Release 95.*
+  data_version: 2
+  product: SystemAddons
 - priority: 5000
   rule_id: 803
   channel: release
