@@ -1,11 +1,10 @@
 - priority: 9520
   rule_id: 17679
   channel: aurora
-  mapping: Superblob-46efa0f5b397ebd1d526296138fed1355a5e299d1a0f12e39bc1c1fcc369d403
+  mapping: Superblob-39aac6c3d7d55685612d1d6fa22be49e695ede97cf2ea199011d818e6d91f3ef
   version: 87.*
   blobs:
   - proxy-failover@mozilla.com-1.0.1
-  - reset-search-defaults@mozilla.com-2.1.0
   comment: Release 87.*
-  data_version: 1
+  data_version: 2
   product: SystemAddons

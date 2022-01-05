@@ -534,114 +534,102 @@
 - priority: 9540
   rule_id: 810
   channel: release-sysaddon
-  mapping: Superblob-2e4fc93dc9e080bf4e9b5c41b36ba187346acecaf2cb963095d8e1805aa61a02
+  mapping: SystemAddons-no-update
   version: 85.*
-  blobs:
-  - reset-search-defaults@mozilla.com-2.1.0
   comment: Updates for 85.*
-  data_version: 15
+  data_version: 16
   product: SystemAddons
 - priority: 9530
   rule_id: 825
   channel: release-sysaddon
-  mapping: Superblob-2e4fc93dc9e080bf4e9b5c41b36ba187346acecaf2cb963095d8e1805aa61a02
+  mapping: SystemAddons-no-update
   version: 86.*
-  blobs:
-  - reset-search-defaults@mozilla.com-2.1.0
   comment: Updates for 86.*
-  data_version: 11
+  data_version: 12
   product: SystemAddons
 - priority: 9520
   rule_id: 833
   channel: release-sysaddon
-  mapping: Superblob-46efa0f5b397ebd1d526296138fed1355a5e299d1a0f12e39bc1c1fcc369d403
+  mapping: Superblob-39aac6c3d7d55685612d1d6fa22be49e695ede97cf2ea199011d818e6d91f3ef
   version: 87.*
   blobs:
   - proxy-failover@mozilla.com-1.0.1
-  - reset-search-defaults@mozilla.com-2.1.0
   comment: Updates for 87.*
-  data_version: 12
+  data_version: 13
   product: SystemAddons
 - priority: 9510
   rule_id: 847
   channel: release-sysaddon
-  mapping: Superblob-46efa0f5b397ebd1d526296138fed1355a5e299d1a0f12e39bc1c1fcc369d403
+  mapping: Superblob-39aac6c3d7d55685612d1d6fa22be49e695ede97cf2ea199011d818e6d91f3ef
   version: 88.*
   blobs:
   - proxy-failover@mozilla.com-1.0.1
-  - reset-search-defaults@mozilla.com-2.1.0
   comment: Updates for 88.*
-  data_version: 7
+  data_version: 8
   product: SystemAddons
 - priority: 9500
   rule_id: 851
   channel: release-sysaddon
-  mapping: Superblob-46efa0f5b397ebd1d526296138fed1355a5e299d1a0f12e39bc1c1fcc369d403
+  mapping: Superblob-39aac6c3d7d55685612d1d6fa22be49e695ede97cf2ea199011d818e6d91f3ef
   version: 89.*
   blobs:
   - proxy-failover@mozilla.com-1.0.1
-  - reset-search-defaults@mozilla.com-2.1.0
   comment: Updates for 89.*
-  data_version: 7
+  data_version: 8
   product: SystemAddons
 - priority: 9490
   rule_id: 856
   channel: release-sysaddon
-  mapping: Superblob-158dfc7f91d4f39c18cb23adbba143af49550fcff6a80e1dc5f75c823a383300
+  mapping: Superblob-52589172f95c1ba988e7488923027252a5c2ccf59863b7fc64f27d4cfb114c1f
   version: 90.*
   blobs:
   - addons-search-detection@mozilla.com-1.0.1
   - proxy-failover@mozilla.com-1.0.1
-  - reset-search-defaults@mozilla.com-2.1.0
   comment: Updates for 90.*
-  data_version: 7
+  data_version: 8
   product: SystemAddons
 - priority: 9480
   rule_id: 875
   channel: release-sysaddon
-  mapping: Superblob-158dfc7f91d4f39c18cb23adbba143af49550fcff6a80e1dc5f75c823a383300
+  mapping: Superblob-52589172f95c1ba988e7488923027252a5c2ccf59863b7fc64f27d4cfb114c1f
   version: 91.*
   blobs:
   - addons-search-detection@mozilla.com-1.0.1
   - proxy-failover@mozilla.com-1.0.1
-  - reset-search-defaults@mozilla.com-2.1.0
   comment: Updates for 91.*
-  data_version: 3
+  data_version: 4
   product: SystemAddons
 - priority: 9470
   rule_id: 866
   channel: release-sysaddon
-  mapping: Superblob-158dfc7f91d4f39c18cb23adbba143af49550fcff6a80e1dc5f75c823a383300
+  mapping: Superblob-52589172f95c1ba988e7488923027252a5c2ccf59863b7fc64f27d4cfb114c1f
   version: 92.*
   blobs:
   - addons-search-detection@mozilla.com-1.0.1
   - proxy-failover@mozilla.com-1.0.1
-  - reset-search-defaults@mozilla.com-2.1.0
   comment: Updates for 92.*
-  data_version: 4
+  data_version: 5
   product: SystemAddons
 - priority: 9460
   rule_id: 901
   channel: release-sysaddon
-  mapping: Superblob-158dfc7f91d4f39c18cb23adbba143af49550fcff6a80e1dc5f75c823a383300
+  mapping: Superblob-52589172f95c1ba988e7488923027252a5c2ccf59863b7fc64f27d4cfb114c1f
   version: 93.*
   blobs:
   - addons-search-detection@mozilla.com-1.0.1
   - proxy-failover@mozilla.com-1.0.1
-  - reset-search-defaults@mozilla.com-2.1.0
   comment: Updates for 93.*
-  data_version: 2
+  data_version: 3
   product: SystemAddons
 - priority: 9450
   rule_id: 17676
   channel: release-sysaddon
-  mapping: Superblob-285a7e2544a1bfec2b1cb8a1308348e34ef4a3c924ead7891b83e13a906fabb7
+  mapping: Superblob-5aea34cc46604cc27b0d010abf23385fdf75c3bd7f59f4ee16cd17dc542c4da7
   version: 94.*
   blobs:
   - addons-search-detection@mozilla.com-1.0.1
-  - reset-search-defaults@mozilla.com-2.1.0
   comment: Release 94.*
-  data_version: 2
+  data_version: 3
   product: SystemAddons
 - priority: 9440
   rule_id: 17704

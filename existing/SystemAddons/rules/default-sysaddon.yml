@@ -9,10 +9,8 @@
 - priority: 65
   rule_id: 17632
   channel: default-sysaddon
-  mapping: Superblob-2e4fc93dc9e080bf4e9b5c41b36ba187346acecaf2cb963095d8e1805aa61a02
+  mapping: SystemAddons-no-update
   version: <91.0a1
-  blobs:
-  - reset-search-defaults@mozilla.com-2.1.0
   comment: mtabara adding dry-run for reset-search-default-extension-2.1.0-build1.xpi
-  data_version: 7
+  data_version: 8
   product: SystemAddons

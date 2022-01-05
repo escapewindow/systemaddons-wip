@@ -1,0 +1,6 @@
+blobs:
+- addons-search-detection@mozilla.com-1.0.1
+- proxy-failover@mozilla.com-1.0.1
+name: Superblob-52589172f95c1ba988e7488923027252a5c2ccf59863b7fc64f27d4cfb114c1f
+schema_version: 4000
+url: https://aus-api.mozilla.org/api/v1/releases/Superblob-52589172f95c1ba988e7488923027252a5c2ccf59863b7fc64f27d4cfb114c1f
