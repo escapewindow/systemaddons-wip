@@ -125,8 +125,8 @@
 - priority: 8800
   rule_id: 17702
   channel: beta
-  mapping: reset-search-defaults@mozilla.com-2.1.0
+  mapping: SystemAddons-no-update
   version: 96.*
   comment: Beta 96.*
-  data_version: 1
+  data_version: 2
   product: SystemAddons

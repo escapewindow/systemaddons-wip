@@ -646,13 +646,12 @@
 - priority: 9440
   rule_id: 17761
   channel: release
-  mapping: Superblob-cedaef7416575f275cb326fff5b38496325bb830cb3102f4d2d6aaf5cf51c4b2
+  mapping: Superblob-087b2bf2d716cbeda6d777d8beed86f975de259bdff2234cf4546faab62dfaf0
   version: 95.*
   blobs:
-  - reset-search-defaults@mozilla.com-2.1.0
   - webcompat@mozilla.org-28.0.1buildid20211210.021657
   comment: Release 95.*
-  data_version: 2
+  data_version: 3
   product: SystemAddons
 - priority: 5000
   rule_id: 803
