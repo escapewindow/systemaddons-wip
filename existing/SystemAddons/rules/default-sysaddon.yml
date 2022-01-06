@@ -6,11 +6,3 @@
   comment: mtabara adding dry-run for reset-search-default-extension-2.0.0-build1.xpi
   data_version: 2
   product: SystemAddons
-- priority: 65
-  rule_id: 17632
-  channel: default-sysaddon
-  mapping: SystemAddons-no-update
-  version: <91.0a1
-  comment: mtabara adding dry-run for reset-search-default-extension-2.1.0-build1.xpi
-  data_version: 8
-  product: SystemAddons
