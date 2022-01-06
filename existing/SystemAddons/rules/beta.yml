@@ -53,12 +53,10 @@
 - priority: 9500
   rule_id: 17684
   channel: beta
-  mapping: Superblob-e9f8ccc3007895a3e735fa22ec7e6ff8d92cbcaf26f5ea6454befdcb377793d2
+  mapping: SystemAddons-no-update
   version: 86.*
-  blobs:
-  - reset-search-defaults@mozilla.com-1.0.3
   comment: Beta 86.*
-  data_version: 1
+  data_version: 2
   product: SystemAddons
 - priority: 9400
   rule_id: 17685
