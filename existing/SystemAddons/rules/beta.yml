@@ -63,64 +63,56 @@
 - priority: 9400
   rule_id: 17685
   channel: beta
-  mapping: Superblob-2e4fc93dc9e080bf4e9b5c41b36ba187346acecaf2cb963095d8e1805aa61a02
+  mapping: SystemAddons-no-update
   version: 90.*
-  blobs:
-  - reset-search-defaults@mozilla.com-2.1.0
   comment: Beta 90.*
-  data_version: 1
+  data_version: 2
   product: SystemAddons
 - priority: 9300
   rule_id: 17683
   channel: beta
-  mapping: Superblob-2e4fc93dc9e080bf4e9b5c41b36ba187346acecaf2cb963095d8e1805aa61a02
+  mapping: SystemAddons-no-update
   version: 91.*
-  blobs:
-  - reset-search-defaults@mozilla.com-2.1.0
   comment: Beta 91.*
-  data_version: 1
+  data_version: 2
   product: SystemAddons
 - priority: 9200
   rule_id: 17682
   channel: beta
-  mapping: Superblob-2e4fc93dc9e080bf4e9b5c41b36ba187346acecaf2cb963095d8e1805aa61a02
+  mapping: SystemAddons-no-update
   version: 92.*
-  blobs:
-  - reset-search-defaults@mozilla.com-2.1.0
   comment: Beta 92.*
-  data_version: 1
+  data_version: 2
   product: SystemAddons
 - priority: 9100
   rule_id: 17692
   channel: beta
-  mapping: Superblob-158dfc7f91d4f39c18cb23adbba143af49550fcff6a80e1dc5f75c823a383300
+  mapping: Superblob-52589172f95c1ba988e7488923027252a5c2ccf59863b7fc64f27d4cfb114c1f
   version: 93.*
   blobs:
   - addons-search-detection@mozilla.com-1.0.1
   - proxy-failover@mozilla.com-1.0.1
-  - reset-search-defaults@mozilla.com-2.1.0
   comment: Beta 93.*
-  data_version: 1
+  data_version: 2
   product: SystemAddons
 - priority: 9000
   rule_id: 17691
   channel: beta
-  mapping: Superblob-158dfc7f91d4f39c18cb23adbba143af49550fcff6a80e1dc5f75c823a383300
+  mapping: Superblob-52589172f95c1ba988e7488923027252a5c2ccf59863b7fc64f27d4cfb114c1f
   version: 94.*
   blobs:
   - addons-search-detection@mozilla.com-1.0.1
   - proxy-failover@mozilla.com-1.0.1
-  - reset-search-defaults@mozilla.com-2.1.0
   comment: Beta 94.*
-  data_version: 1
+  data_version: 2
   product: SystemAddons
 - priority: 8900
   rule_id: 17693
   channel: beta
-  mapping: reset-search-defaults@mozilla.com-2.1.0
+  mapping: SystemAddons-no-update
   version: 95.*
   comment: Beta 95.*
-  data_version: 1
+  data_version: 2
   product: SystemAddons
 - priority: 8800
   rule_id: 17702
