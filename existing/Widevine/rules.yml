@@ -231,6 +231,27 @@
   comment: Bug 1677793 - no linux 32 support in Widevine 4.10.2209.1
   data_version: 6
   product: Widevine
+- priority: 425
+  rule_id: 17766
+  channel: nightlytest
+  mapping: Widevine-4.10.2449.0
+  comment: Bug 1758423 - Widevine 4.10.2449.0 nightlytest
+  data_version: 2
+  product: Widevine
+- priority: 423
+  rule_id: 17769
+  channel: beta
+  mapping: Widevine-4.10.2449.0
+  comment: Bug 1758423 - Widevine 4.10.2449.0 beta
+  data_version: 1
+  product: Widevine
+- priority: 422
+  rule_id: 17767
+  channel: nightly*
+  mapping: Widevine-4.10.2449.0
+  comment: Bug 1758423 - Widevine 4.10.2449.0 nightly
+  data_version: 3
+  product: Widevine
 - priority: 420
   rule_id: 17581
   mapping: Widevine-4.10.2391.0
