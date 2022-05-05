@@ -631,3 +631,10 @@
   comment: Release 95.*
   data_version: 1
   product: SystemAddons
+- priority: 9380
+  rule_id: 17771
+  channel: release-sysaddon
+  mapping: webcompat-release-hotfix-100.2.1-build1
+  version: 100.*
+  data_version: 1
+  product: SystemAddons
