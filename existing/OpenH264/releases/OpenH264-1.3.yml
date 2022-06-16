@@ -1,0 +1,41 @@
+hashFunction: sha512
+name: OpenH264-1.3
+product: OpenH264
+schema_version: 1000
+url: https://aus-api.mozilla.org/api/v1/releases/OpenH264-1.3
+vendors:
+  gmp-gmpopenh264:
+    platforms:
+      Android_arm-eabi-gcc3:
+        fileUrl: http://ciscobinary.openh264.org/openh264-android-v1.3.zip
+        filesize: 544347
+        hashValue: c0b5f9e816c6dadac4f01411ca9ba3d5af58e586516845e3bd31ba80866654a16176b64a2d79537dfcf6a8f1d936faaffec31099b0a76f7f34671b576609f433
+      Darwin_x86-gcc3:
+        alias: Darwin_x86-gcc3-u-i386-x86_64
+      Darwin_x86-gcc3-u-i386-x86_64:
+        fileUrl: http://ciscobinary.openh264.org/openh264-macosx32-v1.3.zip
+        filesize: 320729
+        hashValue: dc0840688aba00e2b84055de22aa2338a60013ef0b84a26f67deca1c570e818f66502cb267236c5d2ba7ea24772cab4f9423f5fdf14f0061f52a79d18850a58e
+      Darwin_x86_64-gcc3:
+        alias: Darwin_x86_64-gcc3-u-i386-x86_64
+      Darwin_x86_64-gcc3-u-i386-x86_64:
+        fileUrl: http://ciscobinary.openh264.org/openh264-macosx64-v1.3.zip
+        filesize: 327400
+        hashValue: 63f9f85353b5486f366be7361a9445496a8e10f9689b4b12c7aec115d67d444e3141852f39560347a41881343f74a7ab86e11435729b9e64823e8c7dbd6a3e58
+      Linux_x86-gcc3:
+        fileUrl: http://ciscobinary.openh264.org/openh264-linux32-v1.3.zip
+        filesize: 435175
+        hashValue: 13315e1181b1b0bce05027556f66885b23b37aa4f9c34a0e9e86c0a36abbeaedd830586e2f639e8973120b07d9c847dd41478806224bafd6726693b6b631c883
+      Linux_x86_64-gcc3:
+        fileUrl: http://ciscobinary.openh264.org/openh264-linux64-v1.3.zip
+        filesize: 439174
+        hashValue: 16fd6ba7994348bf94e9dc238344da8815517469e176582eb6d1235a3711b3c3f2766ffd2e9d1cac5a6d60e70d7fedf9d0473df71fb5128fb654ed1ce8b9fa73
+      WINNT_x86-msvc:
+        fileUrl: http://ciscobinary.openh264.org/openh264-win32-v1.3.zip
+        filesize: 303940
+        hashValue: cc4d553377412599090b9387f621a066ca61ce96b2a4a5c3f4f28834ce22f6777eb7aae12b3074365edd4e415ba495bd7a012021b7e217b52f557a90d8d07d57
+      WINNT_x86_64-msvc:
+        fileUrl: http://ciscobinary.openh264.org/openh264-win64-v1.3.zip
+        filesize: 341414
+        hashValue: b01f7c3310cd4f693a3514c9674c2fe474b0fcff6f1367fb0ac94c60403801668bbd7cf58ed05efdcd0d9c2c5d17ab9462d82c25bdb39e21f95707ed7f820871
+    version: '1.3'

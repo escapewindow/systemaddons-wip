@@ -1,0 +1,33 @@
+hashFunction: sha512
+name: OpenH264-1.1
+product: OpenH264
+schema_version: 1000
+url: https://aus-api.mozilla.org/api/v1/releases/OpenH264-1.1
+vendors:
+  gmp-gmpopenh264:
+    platforms:
+      Darwin_x86-gcc3:
+        alias: Darwin_x86-gcc3-u-i386-x86_64
+      Darwin_x86-gcc3-u-i386-x86_64:
+        fileUrl: http://ciscobinary.openh264.org/openh264-macosx32-v1.1-Firefox33.zip
+        filesize: '276526'
+        hashValue: 52450eb26827e2084df3b9db1e9bc1b00d937fffdb438af070f5057878687793c1b07ac06a797901a5914a0968c825a7fd1925653511387130732027dd0803e4
+      Darwin_x86_64-gcc3:
+        alias: Darwin_x86_64-gcc3-u-i386-x86_64
+      Darwin_x86_64-gcc3-u-i386-x86_64:
+        fileUrl: http://ciscobinary.openh264.org/openh264-macosx64-v1.1-Firefox33.zip
+        filesize: '282454'
+        hashValue: 525fb4851f12cc4be9c798add4414f180441eabcf71768b29394bdc5413ba5ae79bfda5f803965be61fd2b18f8eb7dd733273ed42e34ff01de31f2c8ace9df35
+      Linux_x86-gcc3:
+        fileUrl: http://ciscobinary.openh264.org/openh264-linux32-v1.1-Firefox33.zip
+        filesize: '380918'
+        hashValue: ef401c8c80f98e2df8942e601ccefb41ba701753ac3b28ca8bfa1830780c27a5a17f488ba689427500555753e332a0849aac82e93ef9178c85b06f6f2d44438f
+      Linux_x86_64-gcc3:
+        fileUrl: http://ciscobinary.openh264.org/openh264-linux64-v1.1-Firefox33.zip
+        filesize: '385889'
+        hashValue: 737e49f25aace93d470f1a781c69c3cdd0c9db21afe62221fb171d38a31d8a2b55af01a69cd00e7352e7a34aa450b6b85729509f81582379394785b37997a423
+      WINNT_x86-msvc:
+        fileUrl: http://ciscobinary.openh264.org/openh264-win32-v1.1-Firefox33.zip
+        filesize: '269943'
+        hashValue: e12ae17e53649353665adfd6bafe7da2ae8f16e460e567fda99b1a221d5ddda9f1ba054876f1e1deb654ffcf1ee0f9cdae1f84bbaf02e163778fafaef6fd62c8
+    version: '1.1'

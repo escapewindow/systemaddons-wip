@@ -33,6 +33,9 @@ PRODUCT_CONFIG = {
     "Widevine": {
         "single_rules_file": True,
     },
+    "OpenH264": {
+        "single_rules_file": True,
+    },
 }
 
 

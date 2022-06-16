@@ -1,0 +1,6 @@
+hashFunction: sha512
+name: GMP-No-Update
+product: GMP
+schema_version: 1000
+url: https://aus-api.mozilla.org/api/v1/releases/GMP-No-Update
+vendors: {}

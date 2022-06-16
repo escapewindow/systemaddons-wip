@@ -1,0 +1,47 @@
+hashFunction: sha512
+name: OpenH264-1.7.1
+product: OpenH264
+schema_version: 1000
+url: https://aus-api.mozilla.org/api/v1/releases/OpenH264-1.7.1
+vendors:
+  gmp-gmpopenh264:
+    platforms:
+      Android_aarch64-gcc3:
+        fileUrl: http://ciscobinary.openh264.org/openh264-android-aarch64-6c2e7008f8bbe2ff90100972f97071eb87ec37cb.zip
+        filesize: 1328470
+        hashValue: c5b6b1a9690fa2653599fe12d89f16ba951acc0fbe6600d2b065113be1172cf527b100cd62ea526bc52078de872604193e0e6d35ba0b41b54e3b5478c7803093
+      Android_arm-eabi-gcc3:
+        fileUrl: http://ciscobinary.openh264.org/openh264-android-arm-6c2e7008f8bbe2ff90100972f97071eb87ec37cb.zip
+        filesize: 1243594
+        hashValue: 64d5b731c7137d4d778f07d77d61399690f17470ac4731bc8061cd45edfcc809f94870687df2561708c56fddcce7f928c7e1b1523729e1e6ec741fb08bdd6a9c
+      Android_x86-gcc3:
+        fileUrl: http://ciscobinary.openh264.org/openh264-android-x86-6c2e7008f8bbe2ff90100972f97071eb87ec37cb.zip
+        filesize: 1419606
+        hashValue: 5783f1daefae8d1269fe6291cc4c1b22fa714bb3ba1ef3889895fa3fbcf2454831a53bbefce2f58bbe3173f352d6bc5fea7dd4d8283ac4f75a386565047d3fa1
+      Darwin_x86_64-gcc3:
+        fileUrl: http://ciscobinary.openh264.org/openh264-macosx64-6c2e7008f8bbe2ff90100972f97071eb87ec37cb.zip
+        filesize: 403751
+        hashValue: d7fb3b14cdc6f63d8e2c943afee9798c0d4f1e4c2cc8cf64be60ebb51e7fd44643da219c653ea3134cf455045a20bf2271ad34398f716007fe61c6d397e14c84
+      Linux_x86-gcc3:
+        fileUrl: http://ciscobinary.openh264.org/openh264-linux32-6c2e7008f8bbe2ff90100972f97071eb87ec37cb.zip
+        filesize: 525258
+        hashValue: bf567d3b02688863f32d40067eba3f7047029346b5dd744b2a2a6d00b78684e39f6f67c200bdde6334b84714607837f0d248d39bb44e9515e75102507415ac6f
+      Linux_x86_64-gcc3:
+        fileUrl: http://ciscobinary.openh264.org/openh264-linux64-6c2e7008f8bbe2ff90100972f97071eb87ec37cb.zip
+        filesize: 525838
+        hashValue: 26aff72c3d546e2a759f01c6e7329f32d2ec3993d3b2da937614d792cdc1a20e222e39cb8055bfad1b958081e4ec5209071ee5bdee855c876e32dda56d7d0bee
+      WINNT_x86-msvc:
+        fileUrl: http://ciscobinary.openh264.org/openh264-win32-6c2e7008f8bbe2ff90100972f97071eb87ec37cb.zip
+        filesize: 389427
+        hashValue: 8fedd61c631feba20b2a20eede9697bd7b2cdad874ad4dcbbe1664cbabbe52bd75940bf3364848eaf4476263a0e33d1275d8dd3d7d6a97f2a217cd59b2a338df
+      WINNT_x86-msvc-x64:
+        alias: WINNT_x86-msvc
+      WINNT_x86-msvc-x86:
+        alias: WINNT_x86-msvc
+      WINNT_x86_64-msvc:
+        fileUrl: http://ciscobinary.openh264.org/openh264-win64-6c2e7008f8bbe2ff90100972f97071eb87ec37cb.zip
+        filesize: 444375
+        hashValue: ceda21c6d2010dff9716eac11afccf15ff4eecaefc4da57400db77568bc613f41facad5faec2c9416796695909f1cb84e65e00abb57410ad51852268df2b69aa
+      WINNT_x86_64-msvc-x64:
+        alias: WINNT_x86_64-msvc
+    version: 1.7.1

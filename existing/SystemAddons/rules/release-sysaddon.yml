@@ -636,5 +636,5 @@
   channel: release-sysaddon
   mapping: webcompat-release-hotfix-100.2.1-build1
   version: 100.*
-  data_version: 1
+  data_version: 7
   product: SystemAddons

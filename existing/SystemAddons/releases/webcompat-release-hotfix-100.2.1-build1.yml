@@ -1,0 +1,35 @@
+addons:
+  webcompat@mozilla.org:
+    platforms:
+      Darwin_x86-gcc3:
+        alias: default
+      Darwin_x86-gcc3-u-i386-x86_64:
+        alias: default
+      Darwin_x86_64-gcc3:
+        alias: default
+      Darwin_x86_64-gcc3-u-i386-x86_64:
+        alias: default
+      Linux_x86-gcc3:
+        alias: default
+      Linux_x86_64-gcc3:
+        alias: default
+      WINNT_x86-msvc:
+        alias: default
+      WINNT_x86-msvc-x64:
+        alias: default
+      WINNT_x86-msvc-x86:
+        alias: default
+      WINNT_x86_64-msvc:
+        alias: default
+      WINNT_x86_64-msvc-x64:
+        alias: default
+      default:
+        fileUrl: https://ftp.mozilla.org/pub/system-addons/webcompat-release-hotfix/webcompat-release-hotfix-100.2.1-build1/webcompat.xpi
+        filesize: 144286
+        hashValue: 73bb480bb514815f0b95eea7a659396371f9e767247ac82f6499e098818d88e8cca9bb6515d1a2a3310a3e0dea877d20ab36ce6d53b3bdba3f5b6906717d07cf
+    version: 100.2.1buildid20220504.194401
+hashFunction: sha512
+name: webcompat-release-hotfix-100.2.1-build1
+product: SystemAddons
+schema_version: 5000
+url: https://aus-api.mozilla.org/api/v1/releases/webcompat-release-hotfix-100.2.1-build1
