@@ -34,28 +34,6 @@
   version: <67.0a1
   data_version: 2
   product: OpenH264
-- priority: 159
-  rule_id: 938
-  channel: esr*
-  mapping: OpenH264-1.8.1-all
-  version: <68.2
-  comment: 1.8.1 ( + all supported platforms) -- https://bugzilla.mozilla.org/show_bug.cgi?id=1587537#c11
-  data_version: 1
-  product: OpenH264
-- priority: 158
-  rule_id: 937
-  channel: esr*
-  mapping: OpenH264-1.8.1.2
-  comment: Bug 1774221 - ship dummy 1.8.1.2 update with mac signing/notarization
-  data_version: 2
-  product: OpenH264
-- priority: 154
-  rule_id: 864
-  mapping: OpenH264-1.8.1-all
-  version: <70.0a1
-  comment: 1.8.1 ( + all supported platforms)
-  data_version: 15
-  product: OpenH264
 - priority: 150
   rule_id: 939
   mapping: OpenH264-1.8.1.2
